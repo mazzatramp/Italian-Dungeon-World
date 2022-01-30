@@ -1,0 +1,24 @@
+markdown_extensions:
+  - tables
+
+site_name: Dungeon World
+
+nav:
+  - Il Gioco:
+    - Come giocare: gioco/come_giocare.md
+    - Danni e morte: gioco/danni.md
+    - Magia: gioco/magia.md
+    - Gregari: gioco/gregari.md
+    - La Vita da Avventuriero: gioco/vita_da_avventuriero.md
+    - Equipaggiamento: gioco/equipaggiamento.md
+    - Oggetti magici: gioco/oggetti_magici.md
+  - Personaggi:
+    - Creazione del Personaggio: pgs/creazione.md
+    - Classi: pgs/classi.md
+    - Allineamento: pgs/allineamento.md
+    - Evoluzione: pgs/evoluzione.md
+  - Game Master:
+    - Introduzione al Ruolo: gm/intro.md
+    - Affronare la Prima Sessione: gm/prima_sessione.md
+    - Gestire i Fronti: gm/fronti.md
+    - Il Mondo: gm/mondo.md
