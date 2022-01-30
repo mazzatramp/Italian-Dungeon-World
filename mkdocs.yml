@@ -1,7 +1,16 @@
+theme:
+  name: material
+  features:
+    - navigation.top
+    - navigation.tabs
+    - toc.integrate
+  language: it
+
 markdown_extensions:
   - tables
 
 site_name: Dungeon World
+repo_url: https://github.com/mazzaf01/Italian-Dungeon-World
 
 nav:
   - Il Gioco:
@@ -14,7 +23,6 @@ nav:
     - Oggetti magici: gioco/oggetti_magici.md
   - Personaggi:
     - Creazione del Personaggio: pgs/creazione.md
-    - Classi: pgs/classi.md
     - Allineamento: pgs/allineamento.md
     - Evoluzione: pgs/evoluzione.md
   - Game Master:
@@ -22,3 +30,9 @@ nav:
     - Affronare la Prima Sessione: gm/prima_sessione.md
     - Gestire i Fronti: gm/fronti.md
     - Il Mondo: gm/mondo.md
+  - Classi:
+    - Classi Base: classi/classi_base.md
+    - Barbaro: classi/barbaro.md
+    - Bardo: classi/bardo.md
+    - Chierico: classi/chierico.md
+    - Guerriero: classi/guerriero.md

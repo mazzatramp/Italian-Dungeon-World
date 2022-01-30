@@ -97,8 +97,3 @@ Senza di te, sarebbero persi. Fai strada tra il sangue e l’oscurità, grampass
 
 [Libretto in web](./classi/ramingo.md)  
 [Libretto in pdf]()
-
-<hr>
-
-# Classi Aggiuntive
-
