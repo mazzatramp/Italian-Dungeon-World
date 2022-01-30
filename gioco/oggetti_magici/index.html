@@ -1,177 +1,1069 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        
-        
-        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.9">
+    
+    
+      
         <title>Oggetti magici - Dungeon World</title>
-        <link href="../../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
-
-        <script src="../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
-    </head>
-
-    <body>
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href="../..">Dungeon World</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="dropdown active">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Il Gioco <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../come_giocare/" class="dropdown-item">Come giocare</a>
-</li>
-                                    
-<li>
-    <a href="../danni/" class="dropdown-item">Danni e morte</a>
-</li>
-                                    
-<li>
-    <a href="../magia/" class="dropdown-item">Magia</a>
-</li>
-                                    
-<li>
-    <a href="../gregari/" class="dropdown-item">Gregari</a>
-</li>
-                                    
-<li>
-    <a href="../vita_da_avventuriero/" class="dropdown-item">La Vita da Avventuriero</a>
-</li>
-                                    
-<li>
-    <a href="../equipaggiamento/" class="dropdown-item">Equipaggiamento</a>
-</li>
-                                    
-<li>
-    <a href="./" class="dropdown-item active">Oggetti magici</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Personaggi <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../pgs/creazione/" class="dropdown-item">Creazione del Personaggio</a>
-</li>
-                                    
-<li>
-    <a href="../../pgs/classi/" class="dropdown-item">Classi</a>
-</li>
-                                    
-<li>
-    <a href="../../pgs/allineamento/" class="dropdown-item">Allineamento</a>
-</li>
-                                    
-<li>
-    <a href="../../pgs/evoluzione/" class="dropdown-item">Evoluzione</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Game Master <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../gm/intro/" class="dropdown-item">Introduzione al Ruolo</a>
-</li>
-                                    
-<li>
-    <a href="../../gm/prima_sessione/" class="dropdown-item">Affronare la Prima Sessione</a>
-</li>
-                                    
-<li>
-    <a href="../../gm/fronti/" class="dropdown-item">Gestire i Fronti</a>
-</li>
-                                    
-<li>
-    <a href="../../gm/mondo/" class="dropdown-item">Il Mondo</a>
-</li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="../equipaggiamento/" class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../../pgs/creazione/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
-            <span class="fa fa-angle-down"></span>
-        </button>
-    </div>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2b4465f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
-        <ul class="nav flex-column">
-            
-            <li class="nav-item" data-level="1"><a href="#oggetti-magici" class="nav-link">Oggetti Magici</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#a-b" class="nav-link">A-B</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#c-e" class="nav-link">C-E</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#f-l" class="nav-link">F-L</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#m-p" class="nav-link">M-P</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#r-t" class="nav-link">R-T</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-        </ul>
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#oggetti-magici" class="md-skip">
+          Vai al contenuto
+        </a>
+      
     </div>
-</div></div>
-                    <div class="col-md-9" role="main">
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="../.." title="Dungeon World" class="md-header__button md-logo" aria-label="Dungeon World" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Dungeon World
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Oggetti magici
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Cancella" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mazzaf01/Italian-Dungeon-World/" title="Apri repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../come_giocare/" class="md-tabs__link md-tabs__link--active">
+        Il Gioco
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../pgs/creazione/" class="md-tabs__link">
+        Personaggi
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../gm/intro/" class="md-tabs__link">
+        Game Master
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../classi/classi_base/" class="md-tabs__link">
+        Classi
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Dungeon World" class="md-nav__button md-logo" aria-label="Dungeon World" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Dungeon World
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mazzaf01/Italian-Dungeon-World/" title="Apri repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Il Gioco
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Il Gioco" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Il Gioco
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../come_giocare/" class="md-nav__link">
+        Come giocare
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../danni/" class="md-nav__link">
+        Danni e morte
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../magia/" class="md-nav__link">
+        Magia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gregari/" class="md-nav__link">
+        Gregari
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vita_da_avventuriero/" class="md-nav__link">
+        La Vita da Avventuriero
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../equipaggiamento/" class="md-nav__link">
+        Equipaggiamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Oggetti magici
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Oggetti magici
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a-b" class="md-nav__link">
+    A-B
+  </a>
+  
+    <nav class="md-nav" aria-label="A-B">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#argo-thaan" class="md-nav__link">
+    Argo-Thaan
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armatura-di-timunn" class="md-nav__link">
+    Armatura di Timunn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anatra-di-sartar" class="md-nav__link">
+    Anatra di Sartar
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ascia-del-re-conquistatore" class="md-nav__link">
+    Ascia del Re Conquistatore
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#barbiglio-del-cancello-nero" class="md-nav__link">
+    Barbiglio del Cancello Nero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bastone-inamovibile" class="md-nav__link">
+    Bastone Inamovibile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#borsa-del-contenimento" class="md-nav__link">
+    Borsa del Contenimento
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c-e" class="md-nav__link">
+    C-E
+  </a>
+  
+    <nav class="md-nav" aria-label="C-E">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cera-dellestorsione-auricolare" class="md-nav__link">
+    Cera dell’Estorsione Auricolare
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chiave-del-nottambulo" class="md-nav__link">
+    Chiave del Nottambulo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#il-codice-del-fiasco" class="md-nav__link">
+    Il Codice del Fiasco
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controllenti" class="md-nav__link">
+    Controllenti
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cornucopia-del-capitan-bligh" class="md-nav__link">
+    Cornucopia del Capitan Bligh
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#corda-arguta" class="md-nav__link">
+    Corda Arguta
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#leco" class="md-nav__link">
+    L’Eco
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erbe-consacrate" class="md-nav__link">
+    Erbe Consacrate
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#f-l" class="md-nav__link">
+    F-L
+  </a>
+  
+    <nav class="md-nav" aria-label="F-L">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fiaschetta-del-respiro" class="md-nav__link">
+    Fiaschetta del Respiro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#falcione-del-turbamento" class="md-nav__link">
+    Falcione del Turbamento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follia-sospesa-nel-vento-le-ali-di-cera-un-grande-errore" class="md-nav__link">
+    Follia Sospesa nel Vento, Le Ali di Cera, Un Grande Errore
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frecce-dellacheronte" class="md-nav__link">
+    Frecce dell’Acheronte
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guanti-di-vellius" class="md-nav__link">
+    Guanti di Vellius
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lacrime-di-annalise" class="md-nav__link">
+    Lacrime di Annalise
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lente-delle-epoche" class="md-nav__link">
+    Lente delle Epoche
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#libro-infinito" class="md-nav__link">
+    Libro Infinito
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#m-p" class="md-nav__link">
+    M-P
+  </a>
+  
+    <nav class="md-nav" aria-label="M-P">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mappa-dellultima-pattuglia" class="md-nav__link">
+    Mappa dell’Ultima Pattuglia
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-mano-argentata" class="md-nav__link">
+    La Mano Argentata
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-manovra-di-kumeh" class="md-nav__link">
+    La Manovra di Ku’meh
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manto-delle-stelle-silenti" class="md-nav__link">
+    Manto delle Stelle Silenti
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moneta-dei-ricordi" class="md-nav__link">
+    Moneta dei Ricordi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#olio-del-flagello-di-demoni" class="md-nav__link">
+    Olio del Flagello di Demoni
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pietra-della-lungimiranza" class="md-nav__link">
+    Pietra della Lungimiranza
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pergamena-comune" class="md-nav__link">
+    Pergamena Comune
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#r-t" class="md-nav__link">
+    R-T
+  </a>
+  
+    <nav class="md-nav" aria-label="R-T">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reliquia-del-compianto" class="md-nav__link">
+    Reliquia del Compianto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-ruota-infuocata" class="md-nav__link">
+    La Ruota Infuocata
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scudo-di-magnetite" class="md-nav__link">
+    Scudo di Magnetite
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spada-bigralace-altresi-detta-spada-vorpal" class="md-nav__link">
+    Spada Bigralace, altresì detta Spada Vorpal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-spira-di-carcosa" class="md-nav__link">
+    La Spira di Carcosa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stanza-del-teletrasporto" class="md-nav__link">
+    Stanza del Teletrasporto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strutto-della-verita-di-titus" class="md-nav__link">
+    Strutto della Verità di Titus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#testa-di-ned" class="md-nav__link">
+    Testa di Ned
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Personaggi
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Personaggi" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Personaggi
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pgs/creazione/" class="md-nav__link">
+        Creazione del Personaggio
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pgs/allineamento/" class="md-nav__link">
+        Allineamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pgs/evoluzione/" class="md-nav__link">
+        Evoluzione
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Game Master
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Game Master" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Game Master
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gm/intro/" class="md-nav__link">
+        Introduzione al Ruolo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gm/prima_sessione/" class="md-nav__link">
+        Affronare la Prima Sessione
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gm/fronti/" class="md-nav__link">
+        Gestire i Fronti
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gm/mondo/" class="md-nav__link">
+        Il Mondo
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Classi
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Classi" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Classi
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/classi_base/" class="md-nav__link">
+        Classi Base
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/barbaro/" class="md-nav__link">
+        Barbaro
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/bardo/" class="md-nav__link">
+        Bardo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/chierico/" class="md-nav__link">
+        Chierico
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classi/guerriero/" class="md-nav__link">
+        Guerriero
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/mazzaf01/Italian-Dungeon-World/edit/master/docs/gioco/oggetti_magici.md" title="Modifica" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
 
 <h1 id="oggetti-magici">Oggetti Magici</h1>
 <p>Ci sono cose nel mondo più inconsuete di spade e cuoio. Gli oggetti magici sono degli oggetti straordinari che hanno un potere intrinseco.</p>
@@ -311,81 +1203,82 @@ Il codice dà le sue risposte una sola volta per lettore e richiede due o tre or
 <p>Una candela di strutto color avorio e rame con un lieve tocco d’argento. Quando accesa, nessuno di coloro che sono illuminati dalla sua luce riesce a dire una bugia. Possono restare in silenzio o dissimulare, ma quando gli si fa una domanda diretta, non possono dire altro che la verità.</p>
 <h3 id="testa-di-ned"><strong>Testa di Ned</strong></h3>
 <p>peso 1</p>
-<p>Un vecchio teschio, senza mascella e in pessime condizioni. Il teschio ricorda la follia del suo precedente possessore, un uomo con più onore che buon senso. Una volta a notte, il possessore del teschio può chiedere «Chi ce l’ha con me?» e il teschio risponderà con un nome, detto con voce triste e solitaria. Se il proprietario del teschio muore, esso scompare senza lasciar tracce. Nessuno sa dove potrebbe apparire di nuovo.</p></div>
-            </div>
-        </div>
+<p>Un vecchio teschio, senza mascella e in pessime condizioni. Il teschio ricorda la follia del suo precedente possessore, un uomo con più onore che buon senso. Una volta a notte, il possessore del teschio può chiedere «Chi ce l’ha con me?» e il teschio risponderà con un nome, detto con voce triste e solitaria. Se il proprietario del teschio muore, esso scompare senza lasciar tracce. Nessuno sa dove potrebbe apparire di nuovo.</p>
 
-        <footer class="col-md-12">
-            <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script>
-            var base_url = "../..",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="../../js/base.js" defer></script>
-        <script src="../../search/main.js" defer></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            </div>
-            <div class="modal-body">
-                <p>From here you can search these documents. Enter your search terms below.</p>
-                <form>
-                    <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
+              
+            </article>
+          </div>
         </div>
-    </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Torna su
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Piede">
+      
+        
+        <a href="../equipaggiamento/" class="md-footer__link md-footer__link--prev" aria-label="Precedente: Equipaggiamento" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Precedente
+              </span>
+              Equipaggiamento
             </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="help shortcut"><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td class="next shortcut"><kbd>n</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td class="prev shortcut"><kbd>p</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td class="search shortcut"><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../pgs/creazione/" class="md-footer__link md-footer__link--next" aria-label="Prossimo: Creazione del Personaggio" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Prossimo
+              </span>
+              Creazione del Personaggio
             </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
 </div>
-
-    </body>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tabs", "toc.integrate"], "translations": {"clipboard.copy": "Copia", "clipboard.copied": "Copiato", "search.config.lang": "it", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Cerca", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.term.missing": "Non presente", "select.version.title": "Seleziona la versione"}, "search": "../../assets/javascripts/workers/search.22074ed6.min.js"}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.960e086b.min.js"></script>
+      
+    
+  </body>
 </html>

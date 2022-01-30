@@ -1,0 +1,989 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.9">
+    
+    
+      
+        <title>Chierico - Dungeon World</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2b4465f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chierico" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="../.." title="Dungeon World" class="md-header__button md-logo" aria-label="Dungeon World" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Dungeon World
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chierico
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Cancella" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mazzaf01/Italian-Dungeon-World/" title="Apri repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../gioco/come_giocare/" class="md-tabs__link">
+        Il Gioco
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../pgs/creazione/" class="md-tabs__link">
+        Personaggi
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../gm/intro/" class="md-tabs__link">
+        Game Master
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../classi_base/" class="md-tabs__link md-tabs__link--active">
+        Classi
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Dungeon World" class="md-nav__button md-logo" aria-label="Dungeon World" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Dungeon World
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mazzaf01/Italian-Dungeon-World/" title="Apri repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Il Gioco
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Il Gioco" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Il Gioco
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gioco/come_giocare/" class="md-nav__link">
+        Come giocare
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gioco/danni/" class="md-nav__link">
+        Danni e morte
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gioco/magia/" class="md-nav__link">
+        Magia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gioco/gregari/" class="md-nav__link">
+        Gregari
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gioco/vita_da_avventuriero/" class="md-nav__link">
+        La Vita da Avventuriero
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gioco/equipaggiamento/" class="md-nav__link">
+        Equipaggiamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gioco/oggetti_magici/" class="md-nav__link">
+        Oggetti magici
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Personaggi
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Personaggi" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Personaggi
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pgs/creazione/" class="md-nav__link">
+        Creazione del Personaggio
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pgs/allineamento/" class="md-nav__link">
+        Allineamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pgs/evoluzione/" class="md-nav__link">
+        Evoluzione
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Game Master
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Game Master" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Game Master
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gm/intro/" class="md-nav__link">
+        Introduzione al Ruolo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gm/prima_sessione/" class="md-nav__link">
+        Affronare la Prima Sessione
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gm/fronti/" class="md-nav__link">
+        Gestire i Fronti
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gm/mondo/" class="md-nav__link">
+        Il Mondo
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Classi
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Classi" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Classi
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../classi_base/" class="md-nav__link">
+        Classi Base
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../barbaro/" class="md-nav__link">
+        Barbaro
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bardo/" class="md-nav__link">
+        Bardo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Chierico
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Chierico
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#allineamento" class="md-nav__link">
+    Allineamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#razza" class="md-nav__link">
+    Razza
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mosse-iniziali" class="md-nav__link">
+    Mosse Iniziali
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mosse-avanzate-2-5" class="md-nav__link">
+    Mosse Avanzate (2-5)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mosse-avanzate-6" class="md-nav__link">
+    Mosse Avanzate (6+)
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guerriero/" class="md-nav__link">
+        Guerriero
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/mazzaf01/Italian-Dungeon-World/edit/master/docs/classi/chierico.md" title="Modifica" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+<h1 id="chierico">Chierico</h1>
+<p><strong>Danni:</strong> D6<br />
+<strong>Punti Ferita:</strong> 8 + Costituzione<br />
+<strong>Carico:</strong> 10 + Forza</p>
+<hr>
+
+<h5 id="allineamento"><strong>Allineamento</strong></h5>
+<ul>
+<li><strong>Buono</strong>: Mettiti in pericolo per guarire qualcuno.</li>
+<li><strong>Legale</strong>: Mettiti in pericolo per difendere i precetti della tua chiesa o dio.</li>
+<li><strong>Malvagio</strong>: Fai del male a qualcuno per provare la superiorità della tua chiesa o dio.</li>
+</ul>
+<h5 id="razza"><strong>Razza</strong></h5>
+<ul>
+<li>
+<p><strong>Nano</strong>: Sei una sola cosa con la pietra. Quando entri in comunione ti viene concessa una versione speciale di Voce dei Taciturni come orazione che funziona solo sulla pietra.</p>
+</li>
+<li>
+<p><strong>Umano</strong>: La tua fede è varia: scegli un incantesimo da Mago. Puoi riceverlo dal tuo dio come se fosse un incantesimo da Chierico.</p>
+</li>
+</ul>
+<hr>
+
+<h2 id="mosse-iniziali">Mosse Iniziali</h2>
+<p><strong>Scacciare Non Morti:</strong>
+Quando alzi in alto il tuo simbolo sacro e invochi la tua divinità per proteggerti, tira+Sag. ✴Con un 7+, fintanto che continui a pregare e brandire il tuo simbolo sacro, nessun non morto può avvicinarsi a te. ✴Con un 10+ i non morti intelligenti sono temporaneamente storditi dalla luce del tuo dio e quelli non senzienti fuggono. Se effettui un'azione aggressiva contro un non morto mentre scacci non morti l'effetto termina, e possono agire come di consueto. I non morti intelligenti, i vampiri e simili, riusciranno a trovare comunque modi di farti del male da lontano. Sono abbastanza furbi.</p>
+<p><strong>Divinità:</strong>
+Servi e veneri una divinità o una potenza che ti concede incantesimi. Dai un nome alla tua divinità e scegli il suo dominio:</p>
+<ul>
+<li>Guarigione e Ricostruzione</li>
+<li>Conquista Sanguinaria</li>
+<li>Civiltà</li>
+<li>Conoscenza e Cose Nascoste</li>
+<li>I Reietti e i Dimenticati</li>
+<li>Ciò che Giace Sotto</li>
+</ul>
+<p>Scegli un precetto per la tua religione:</p>
+<ul>
+<li>La tua religione predica la santità della sofferenza, aggiungi Supplica: Sofferenza</li>
+<li>La tua religione è settaria e isolata, aggiungi Supplica: Ottenere Segreti</li>
+<li>La tua religione ha importanti riti sacrificali, aggiungi Supplica: Offerta</li>
+<li>La tua religione crede nel processo per singolar tenzone, aggiungi Supplica: Vittoria Personale</li>
+</ul>
+<p><strong>Assistenza Divina:</strong>
+Quando supplichi la tua divinità in accordo con il precetto della tua religione, ottieni qualche informazione utile o una benedizione relativa al dominio della tua divinità. Il GM ti dirà che cosa.</p>
+<p><strong>Comunione:</strong>
+Quando trascorri del tempo non interrotto (un'ora o più) in quieta comunione con la tua divinità:</p>
+<ul>
+<li>Perdi tutti gli incantesimi che ti erano stati concessi</li>
+<li>La tua divinità ti concede dei nuovi incantesimi a tua scelta il cui livello totale non superi il tuo livello+1.</li>
+<li>Prepara tutte le orazioni, che non contano mai ai fini del limite.</li>
+</ul>
+<p><strong>Lanciare Incantesimi (Sag):</strong>
+Quando lanci un incantesimo concessoti dalla tua divinità, tira+Sag.
+✴Con un 10+, l'incantesimo viene lanciato con successo e la tua divinità non lo revoca: puoi lanciarlo nuovamente in futuro.
+✴Con un 7–9, l'incantesimo viene lanciato, ma scegli un'opzione:</p>
+<ul>
+<li>Attiri attenzioni indesiderate o metti te stesso in difficoltà. Il GM ti dirà come.</li>
+<li>Il lancio ti allontana dalla tua divinità: prendi -1 continuato a lanciare incantesimi fino alla tua prossima comunione.</li>
+<li>Dopo che l'hai lanciato, la tua divinità revoca l'incantesimo. Non puoi più lanciarlo fino alla tua prossima comunione.</li>
+</ul>
+<p>Nota che mantenere attivo un incantesimo con effetti continuati potrebbe causare una penalità al tuo tiro di lanciare incantesimi.</p>
+<hr>
+
+<h2 id="mosse-avanzate-2-5">Mosse Avanzate (2-5)</h2>
+<p><strong>Prescelto:</strong>
+Scegli un incantesimo. Ti viene sempre concesso come fosse di un livello più basso.</p>
+<p><strong>Rinvigorire:</strong>
+Quando guarisci qualcuno questi prende +2 al prossimo tiro di danni.</p>
+<p><strong>Le Bilance della Vita e della Morte:</strong>
+Quando qualcuno esala il suo ultimo respiro in tua presenza, prende +1 al tiro.</p>
+<p><strong>Serenità:</strong>
+Sei in grado di dividere efficacemente il tuo potere. Quando lanci un incantesimo
+ignori la prima penalità di -1 proveniente dagli incantesimi continuati.</p>
+<p><strong>Primo Soccorso:</strong>
+Cura Ferite Leggere è un'orazione per te, e perciò non conta ai fini del tuo limite
+di incantesimi concessi.</p>
+<p><strong>Intervento Divino:</strong>
+Quando entri in comunione prendi 1 e perdi tutta la presa che avevi in precedenza.
+Quando tu o un alleato subite danni, spendi 1 presa per annullare il danno
+invocando la tua divinità, che interviene con una manifestazione appropriata (un
+soffio improvviso di vento, uno scivolone fortuito, un lampo di luce).</p>
+<p><strong>Penitenza:</strong>
+Quando subisci danno e ti immergi nel dolore, puoi subire +1d4 danni (ignora
+l'armatura). Se lo fai, prendi +1 al prossimo tiro di lanciare incantesimi.</p>
+<p><strong>Potenziare:</strong>
+Quando lanci un incantesimo, con un 10+ hai la possibilità di scegliere dalla lista
+del 7–9. Se lo fai, puoi scegliere una di queste opzioni:
+• Gli effetti dell'incantesimo sono massimizzati
+• L'incantesimo ha effetto su un numero doppio di bersagli</p>
+<p><strong>Un'Offerta per un Consiglio:</strong>
+Quando sacrifichi qualcosa di valore alla tua divinità per pregare chiedendogli
+consiglio, la tua divinità ti dirà cosa vorrebbe che tu facessi. Se lo fai, guadagni
+un PE.</p>
+<p><strong>Protezione Divina:</strong>
+Quando non indossi armatura né scudo hai armatura 2.</p>
+<p><strong>Guaritore Devoto:</strong>
+Quando guarisci qualcuno, aggiungi il tuo livello alla quantità di danni guariti.</p>
+<hr>
+
+<h2 id="mosse-avanzate-6">Mosse Avanzate (6+)</h2>
+<p><strong>Benedetto:</strong>
+(richiede <em>Prescelto</em>)
+Scegli un incantesimo in aggiunta a quello che hai scelto per prescelto. Prepari
+sempre l'incantesimo scelto come fosse di un livello più BASSO.</p>
+<p><strong>Apoteosi:</strong>
+Una sola volta, dopo aver preso questa mossa, se trascorri del tempo in preghiera
+in modo appropriato per la tua divinità, scegli una caratteristica associata alla
+tua divinità (artigli dilanianti, ali piumate di zaffiro, un terzo occhio che vede
+tutto, etc.). Al termine della preghiera, acquisisci permanentemente questa
+caratteristica fisica.</p>
+<p><strong>Mietitore:</strong>
+Quando spendi del tempo dopo una battaglia per dedicare la vittoria alla tua
+divinità e occuparti dei morti, prendi +1 al prossimo tiro.</p>
+<p><strong>Provvidenza:</strong>
+(sostituisce <em>Serenità</em>)
+Ignori la penalità di -1 proveniente da due incantesimi che mantieni attivi.</p>
+<p><strong>Primo Soccorso Migliorato:</strong>
+(richiede <em>Primo Soccorso</em>)
+Cura Ferite Moderate è un'orazione per te, e perciò non conta ai fini del tuo
+limite di incantesimi concessi.</p>
+<p><strong>Invincibilità Divina:</strong>
+(richiede <em>Intervento Divino</em>)
+Quando entri in comunione prendi 2 e perdi tutta la presa che avevi in precedenza.
+Quando tu o un alleato subite danni, spendi 1 presa per annullare il danno
+invocando la tua divinità, che interviene con una manifestazione appropriata (un
+soffio improvviso di vento, uno scivolone fortuito, un lampo di luce).</p>
+<p><strong>Martire:</strong>
+(sostituisce <em>Penitenza</em>)
+Quando subisci danno e ti immergi nel dolore, puoi subire +1d4 danni (ignora
+l'armatura). Se lo fai, prendi +1 al prossimo tiro di lanciare incantesimi e aggiungi
+il tuo livello ai danni inflitti o guariti dall'incantesimo.</p>
+<p><strong>Armatura Divina:</strong>
+(sostituisce <em>Protezione Divina</em>)
+Quando non indossi armatura né scudo hai armatura 3.</p>
+<p><strong>Potenziare Migliorato:</strong>
+(sostituisce <em>Potenziare</em>)
+Quando lanci un incantesimo, con un 10-11 hai la possibilità di scegliere dalla
+lista del 7–9. Se lo fai, puoi scegliere una di queste opzioni. Con un 12+ puoi
+sceglierne una automaticamente.</p>
+<ul>
+<li>Gli effetti dell'incantesimo sono raddoppiati</li>
+<li>L'incantesimo ha effetto su un numero doppio di bersagli</li>
+</ul>
+<p><strong>Apprendista Multiclasse:</strong>
+Scegli una mossa di un'altra classe. Considera il tuo livello come inferiore di uno
+ai fini di questa mossa.</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Torna su
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Piede">
+      
+        
+        <a href="../bardo/" class="md-footer__link md-footer__link--prev" aria-label="Precedente: Bardo" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Precedente
+              </span>
+              Bardo
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../guerriero/" class="md-footer__link md-footer__link--next" aria-label="Prossimo: Guerriero" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Prossimo
+              </span>
+              Guerriero
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tabs", "toc.integrate"], "translations": {"clipboard.copy": "Copia", "clipboard.copied": "Copiato", "search.config.lang": "it", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Cerca", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.term.missing": "Non presente", "select.version.title": "Seleziona la versione"}, "search": "../../assets/javascripts/workers/search.22074ed6.min.js"}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.960e086b.min.js"></script>
+      
+    
+  </body>
+</html>
