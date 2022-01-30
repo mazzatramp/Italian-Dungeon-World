@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Allineamento - Dungeon World</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Dungeon World</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Il Gioco <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../gioco/come_giocare/" class="dropdown-item">Come giocare</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/danni/" class="dropdown-item">Danni e morte</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/magia/" class="dropdown-item">Magia</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/gregari/" class="dropdown-item">Gregari</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/vita_da_avventuriero/" class="dropdown-item">La Vita da Avventuriero</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/equipaggiamento/" class="dropdown-item">Equipaggiamento</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/oggetti_magici/" class="dropdown-item">Oggetti magici</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Personaggi <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../creazione/" class="dropdown-item">Creazione del Personaggio</a>
+</li>
+                                    
+<li>
+    <a href="../classi/" class="dropdown-item">Classi</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Allineamento</a>
+</li>
+                                    
+<li>
+    <a href="../evoluzione/" class="dropdown-item">Evoluzione</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Game Master <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../gm/intro/" class="dropdown-item">Introduzione al Ruolo</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/prima_sessione/" class="dropdown-item">Affronare la Prima Sessione</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/fronti/" class="dropdown-item">Gestire i Fronti</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/mondo/" class="dropdown-item">Il Mondo</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../classi/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../evoluzione/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#allineamento" class="nav-link">Allineamento</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#cambiare-allineamento" class="nav-link">Cambiare Allineamento</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="allineamento">Allineamento</h1>
+<p>L’allineamento è la bussola morale e il modo di pensare del tuo personaggio. Per il personaggio questo può essere un ideale etico, regole religiose, o magari solo una reazione d’istinto. È un riflesso delle aspirazioni e delle ambizioni del tuo personaggio, e può farti da guida quando non sei sicuro di ciò che dovresti fare. Alcuni personaggi proclameranno ai quattro venti il proprio allineamento, mentre altri lo potrebbero nascondere. Un personaggio non dirà mai “sono una persona malvagia”, ma invece “metto me stesso per primo”. Finché lo dice a se stesso, va bene, ma il mondo conosce la verità. Sepolto nel profondo di ognuno è il sé ideale che si ambisce a diventare: è il cuore mistico che alcuni incantesimi e capacità percepiscono per individuare l’allineamento di un’altra persona. Ogni creatura senziente in Dungeon World ha un allineamento, che sia un elfo, un umano, o qualcosa di più inconsueto.</p>
+<p>Gli allineamenti sono <strong>Buono</strong>, <strong>Legale</strong>, <strong>Neutrale</strong>, <strong>Caotico</strong> e <strong>Malvagio</strong>. Ciascuno rappresenta l’aspirazione a diventare un diverso tipo di persona.</p>
+<p>Le creature Legali ambiscono a imporre ordine al mondo, sia per il proprio beneficio che per quello degli altri. Le creature Caotiche accolgono in sé il cambiamento e idealizzano l’essenza disordinata del mondo, mettendo la libertà sopra ogni cosa. Le creature Buone cercano di porre gli altri prima di se stessi. Le creature Malvagie pongono se stessi per primi, a discapito degli altri.</p>
+<p>Una creatura Neutrale pensa a se stessa fintanto che ciò non entri in conflitto con la felicità di qualcun altro. I personaggi Neutrali si accontentano di vivere la propria vita e seguire i propri obiettivi e lasciare che gli altri facciano lo stesso.</p>
+<p>La maggior parte delle creature è Neutrale. Non provano piacere nel fare del male agli altri, ma lo faranno se è giustificato dalle circostanze. Coloro che mettono un ideale — che sia Legge, Caos, Bontà o Malvagità — prima di ogni cosa sono più difficili da trovare.</p>
+<p>Anche due creature con lo stesso allineamento possono entrare in conflitto. Aspirare ad aiutare gli altri non rende infallibili, e due creature Buone possono combattere e morire per via delle loro visioni diverse di cosa è giusto.</p>
+<h3 id="legale">Legale</h3>
+<ul>
+<li>Segui la legge alla lettera a scapito delle emozioni</li>
+<li>Onora una promessa importante</li>
+<li>Porta qualcuno davanti alla giustizia</li>
+<li>Scegli l’onore a scapito del guadagno personale</li>
+<li>Riporta un tesoro al suo legittimo proprietario</li>
+</ul>
+<h3 id="buono">Buono</h3>
+<ul>
+<li>Ignora il pericolo per aiutare qualcuno</li>
+<li>Guida gli altri in battaglia per una giusta causa</li>
+<li>Rinuncia al potere o alle ricchezze per il bene superiore</li>
+<li>Rivela una bugia pericolosa</li>
+<li>Mostra pietà e compassione</li>
+</ul>
+<h3 id="neutrale">Neutrale</h3>
+<ul>
+<li>Diventa alleato con qualcuno di potente</li>
+<li>Sconfiggi un avversario personalmente importante</li>
+<li>Scopri un segreto a proposito di un nemico</li>
+<li>Rivela una verità nascosta</li>
+</ul>
+<h3 id="caotico">Caotico</h3>
+<ul>
+<li>Svela la corruzione</li>
+<li>Infrangi una legge ingiusta per aiutare qualcuno</li>
+<li>Sconfiggi un tiranno</li>
+<li>Svela l’ipocrisia</li>
+</ul>
+<h3 id="malvagio">Malvagio</h3>
+<ul>
+<li>Approfitta della fiducia di qualcuno</li>
+<li>Provoca sofferenza per il gusto di farlo</li>
+<li>Distruggi qualcosa di meraviglioso</li>
+<li>Sconvolgi l’ordine naturale</li>
+<li>Fai del male a un innocente</li>
+</ul>
+<h2 id="cambiare-allineamento">Cambiare Allineamento</h2>
+<p>L’allineamento può, e deve, cambiare. Solitamente questo cambiamento avviene in modo graduale, anticipando un momento decisivo. Ogni volta che la visione del mondo di un personaggio cambia drasticamente questi può scegliere un nuovo allineamento. Il giocatore deve trovare una ragione per la modifica che soddisfi gli altri giocatori.</p>
+<p>A volte, un giocatore potrebbe voler cambiare la sua mossa di allineamento senza cambiare allineamento. Ciò rappresenta un cambiamento più piccolo, uno spostamento di priorità invece che un completo ripensamento. Semplicemente, sceglie una nuova mossa dalla lista sotto e spiega perché il suo personaggio adesso ritiene questa cosa importante.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

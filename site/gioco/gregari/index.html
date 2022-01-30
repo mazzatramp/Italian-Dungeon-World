@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Gregari - Dungeon World</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Dungeon World</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Il Gioco <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../come_giocare/" class="dropdown-item">Come giocare</a>
+</li>
+                                    
+<li>
+    <a href="../danni/" class="dropdown-item">Danni e morte</a>
+</li>
+                                    
+<li>
+    <a href="../magia/" class="dropdown-item">Magia</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Gregari</a>
+</li>
+                                    
+<li>
+    <a href="../vita_da_avventuriero/" class="dropdown-item">La Vita da Avventuriero</a>
+</li>
+                                    
+<li>
+    <a href="../equipaggiamento/" class="dropdown-item">Equipaggiamento</a>
+</li>
+                                    
+<li>
+    <a href="../oggetti_magici/" class="dropdown-item">Oggetti magici</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Personaggi <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../pgs/creazione/" class="dropdown-item">Creazione del Personaggio</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/classi/" class="dropdown-item">Classi</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/allineamento/" class="dropdown-item">Allineamento</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/evoluzione/" class="dropdown-item">Evoluzione</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Game Master <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../gm/intro/" class="dropdown-item">Introduzione al Ruolo</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/prima_sessione/" class="dropdown-item">Affronare la Prima Sessione</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/fronti/" class="dropdown-item">Gestire i Fronti</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/mondo/" class="dropdown-item">Il Mondo</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../magia/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../vita_da_avventuriero/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#gregari" class="nav-link">Gregari</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#dare-ordini-a-un-gregario" class="nav-link">Dare Ordini a un Gregario</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#creare-un-gregario" class="nav-link">Creare un Gregario</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#abilita-del-gregario" class="nav-link">Abilità del Gregario</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#adepto" class="nav-link">Adepto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#battitore" class="nav-link">Battitore</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#combattente" class="nav-link">Combattente</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#guardia-del-corpo" class="nav-link">Guardia del Corpo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#menestrello" class="nav-link">Menestrello</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#sacerdote" class="nav-link">Sacerdote</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#scassinatore" class="nav-link">Scassinatore</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="gregari">Gregari</h1>
+<p>I gregari sono quelle povere anime che, per i soldi, la gloria o per altri curiosi bisogni, si avventurano insieme agli avventurieri in luoghi cupi e pericolosi. Sono gente avventata che cerca di farsi un nome come avventuriero.</p>
+<p>I gregari servono ad alcune cose. Per i personaggi, sono un aiuto. Aggiungono le loro capacità agli impegni dei personaggi in cambio della loro paga. Per i giocatori, sono una risorsa. Fanno guadagnare tempo ai personaggi anche quando devono affrontare i pericoli più spaventosi. Sono anche dei personaggi di riserva, che aspettano il momento giusto per farsi avanti come eroe quando un PG cade in battaglia.</p>
+<p>I gregari non sono eroi. Un gregario può diventare un eroe, se rimpiazza un PG, ma fino ad allora è un personaggio del GM. Come tale, sapere esattamente i suoi PF, armatura, e danni non è particolarmente importante. Un gregario è definito dalle sue <strong>Abilità</strong> (una o più), dal suo <strong>Costo</strong> e dal suo punteggio di <strong>Lealtà</strong>.</p>
+<p>Le <strong>abilità</strong> di un gregario sono dei benefici speciali che forniscono ai giocatori. La maggior parte delle abilità è legata ad alcune capacità di classe, permettendo al gregario di svolgere i compiti di quella classe. Un gregario con l’abilità Guardia del Corpo può comunque cercare trappole o trasportare i tuoi bagagli, ma il risultato non è garantito da una regola precisa. Mandare un gregario a fare qualcosa evidentemente fuori dalla sua sfera di competenza significa chiedere guai al GM.</p>
+<p>Il <strong>costo</strong> di un gregario è quanto serve per tenerli insieme ai PG. Se il costo del gregario non è soddisfatto con regolarità (solitamente una volta a sessione) è probabile che si licenzi o che tradisca i propri datori di lavoro.</p>
+<p>Quando i gregari sono in gioco, i giocatori potrebbero dover fare la mossa dare ordini a un gregario. La mossa usa la <strong>lealtà</strong> del gregario coinvolto.</p>
+<h2 id="dare-ordini-a-un-gregario">Dare Ordini a un Gregario</h2>
+<p>I gregari fanno ciò che gli dici, fintanto che non sia evidentemente pericolosa, umiliante o stupida e che il loro costo sia soddisfatto.</p>
+<p><strong>Quando un gregario si trova in una situazione pericolosa, umiliante o semplicemente stupida a causa dei tuoi ordini</strong> tira+lealtà.</p>
+<ul>
+<li>Con un 10+ esegue l’ordine senza remore.</li>
+<li>Con un 7–9 lo fa, per ora, ma esigerà qualcosa di importante più tardi. Concediglielo o ti abbandonerà nel peggior modo possibile.</li>
+</ul>
+<h2 id="creare-un-gregario">Creare un Gregario</h2>
+<p>I gregari sono facili da fare al volo. Quando qualcuno viene assunto dai giocatori scrivi il loro nome e il costo su cui si sono accordati, oltre alle loro eventuali abilità.</p>
+<p>Inizia con un punteggio in base a dove è stato incontrato il gregario. I gregari di villaggio iniziano con 2–5. I gregari di città iniziano con 4–6. I gregari di fortezza iniziano con 5–8. I gregari di una grande città iniziano con 6–10. Distribuisci il punteggio tra la lealtà, un’abilità principale, ed eventuali altre abilità secondarie. Una lealtà iniziale più alta di 2 è rara, così come una lealtà pari a 0. Scegli un costo per il gregario e hai finito.</p>
+<p>Le statistiche di un gregario, specialmente la lealtà, possono cambiare durante il gioco come riflesso delle cose che accadono. Un gesto di gentilezza o una lauta ricompensa da parte dei giocatori vale +1 lealtà al prossimo tiro. Una mancanza di rispetto vale -1 lealtà al prossimo tiro. Se è passato molto tempo dall’ultima volta che il suo costo è stato soddisfatto, hanno -1 lealtà continuato fino a quando il costo non viene pagato. La lealtà di un gregario può aumentare permanentemente quando raggiunge un obiettivo importante insieme ai giocatori. Un fallimento importante o una batosta può invece ridurre permanentemente la lealtà del gregario.</p>
+<p><strong>Costi:</strong></p>
+<ul>
+<li>Il Brivido della Vittoria</li>
+<li>Soldi</li>
+<li>Conoscenza e Scoperte</li>
+<li>Fama e Gloria</li>
+<li>Dissolutezza</li>
+<li>Fare del Bene</li>
+<li>Abilità</li>
+</ul>
+<p>Quando crei un gregario, distribuisci i suoi punti tra una o più di queste abilità.</p>
+<hr>
+
+<h1 id="abilita-del-gregario">Abilità del Gregario</h1>
+<h2 id="adepto"><strong>Adepto</strong></h2>
+<p>Un adepto ha almeno fatto da apprendista a un esperto delle arti arcane, ma non è molto potente da solo. Sono gli studenti universitari del mondo arcano.</p>
+<p><strong>Assistenza Arcana</strong> — Quando un adepto ti aiuta a lanciare un incantesimo di livello inferiore alla sua abilità, gli effetti dell’incantesimo aumentano di portata, durata o potenza. I dettagli dell’effetto stanno al GM e dipendono dalle circostanze e dall’incantesimo usato. Il GM descriverà gli effetti aggiuntivi prima del lancio dell’incantesimo. Il vantaggio più importante di lanciare con un adepto è che qualsiasi effetto negativo del lancio agisce sull’adepto per primo.</p>
+<h2 id="battitore"><strong>Battitore</strong></h2>
+<p>I battitori conoscono l’arte di seguire le tracce, ma non hanno l’esperienza con creature inconsuete e luoghi esotici che ha un grande cacciatore.</p>
+<p><strong>Seguire Tracce</strong> — Quando un battitore passa il tempo a studiare una pista mentre viaccampate, al termine dell’accampamento può seguire la pista fino al prossimo cambiamento rilevante di terreno, tempo atmosferico o luogo.</p>
+<p><strong>Guida</strong> — Quando un battitore cammina per primo hai automaticamente successo su qualunque tiro di viaggio pericoloso per una distanza (in razioni) minore dell’abilità del battitore.</p>
+<h2 id="combattente"><strong>Combattente</strong></h2>
+<p>I combattenti non sono dei maestri delle armi, ma sanno maneggiarne una abbastanza bene.</p>
+<p><strong>Uomo d’Arme</strong> — Quando infliggi danno mentre un combattente ti aiuta, aggiungi la sua abilità ai danni inflitti. Se il tuo attacco ha delle conseguenze (come un contrattacco), il combattente ne subisce la maggior parte.</p>
+<h2 id="guardia-del-corpo"><strong>Guardia del Corpo</strong></h2>
+<p>Una guardia del corpo si frappone tra il suo datore di lavoro e le lame, zanne, denti e magie che ne minacciano la sicurezza.</p>
+<p><strong>Sentinella</strong> — Quando una guardia del corpo si frappone tra te e un attacco aggiungi la sua abilità alla tua armatura, poi riduci la sua abilità di 1 fino a quando viene guarito o ha il tempo di fasciarsi le ferite.</p>
+<p><strong>Intervenire</strong> — Quando una guardia del corpo ti aiuta a sfidare il pericolo puoi prendere +1 grazie al suo aiuto. Se lo fai, non puoi ottenere un risultato di 10+, il risultato di 10+ conta come un 7–9.</p>
+<h2 id="menestrello"><strong>Menestrello</strong></h2>
+<p>Quando serve una faccia sorridente per sistemare le cose o per contrattare un accordo, un menestrello è sempre felice di vendere i propri servizi al giusto prezzo.</p>
+<p>Un Benvenuto da Eroi — Quando entri in un luogo dove si mangia, si beve o ci si diverte con un menestrello sarai trattato amichevolmente da tutti i presenti (sempre che le tue azioni non provino altrimenti). Inoltre, sottrai l’abilità del menestrello da tutti i prezzi in città.</p>
+<h2 id="sacerdote"><strong>Sacerdote</strong></h2>
+<p>I sacerdoti sono il clero di basso rango di una religione, officiano funzioni minori e impartiscono i sacramenti più comuni. Anche se non possono lanciare degli incantesimi loro stessi, possono chiedere aiuto alla loro divinità per questioni minori.</p>
+<p><strong>Sacerdozio</strong> — Quando ti accampi con un sacerdote, tutti gli effetti di guarigione guariscono +abilità PF.</p>
+<p><strong>Primo Soccorso</strong> — Quando un sacerdote ti rammenda le ferite, guarisci 2×abilità PF. Prendi -1 al prossimo tiro essendo la guarigione dolorosa e impacciata.</p>
+<h2 id="scassinatore"><strong>Scassinatore</strong></h2>
+<p>Gli scassinatori sono abili in varie aree, la maggior parte delle quali illegali o pericolose. Sono bravi con i congegni e le trappole, ma non molto sul campo di battaglia.</p>
+<p><strong>Disarmare Trappole Sperimentalmente</strong> — Quando uno scassinatore procede in testa al gruppo può individuare le trappole poco prima che si attivino. Se una trappola viene attivata mentre lo scassinatore procede in testa al gruppo, lo scassinatore subisce tutti gli effetti della trappola, e i giocatori ottengono +abilità contro la trappola e aggiungono l’abilità dello scassinatore alla propria armatura contro la trappola. La maggior parte delle trappole fanno in modo che lo scassinatore abbia bisogno di cure immediate. Se i personaggi siaccampano vicino alla trappola, invece, lo scassinatore può disarmarla mentre si è accampati.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

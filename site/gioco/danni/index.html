@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Danni e morte - Dungeon World</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Dungeon World</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Il Gioco <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../come_giocare/" class="dropdown-item">Come giocare</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Danni e morte</a>
+</li>
+                                    
+<li>
+    <a href="../magia/" class="dropdown-item">Magia</a>
+</li>
+                                    
+<li>
+    <a href="../gregari/" class="dropdown-item">Gregari</a>
+</li>
+                                    
+<li>
+    <a href="../vita_da_avventuriero/" class="dropdown-item">La Vita da Avventuriero</a>
+</li>
+                                    
+<li>
+    <a href="../equipaggiamento/" class="dropdown-item">Equipaggiamento</a>
+</li>
+                                    
+<li>
+    <a href="../oggetti_magici/" class="dropdown-item">Oggetti magici</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Personaggi <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../pgs/creazione/" class="dropdown-item">Creazione del Personaggio</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/classi/" class="dropdown-item">Classi</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/allineamento/" class="dropdown-item">Allineamento</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/evoluzione/" class="dropdown-item">Evoluzione</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Game Master <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../gm/intro/" class="dropdown-item">Introduzione al Ruolo</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/prima_sessione/" class="dropdown-item">Affronare la Prima Sessione</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/fronti/" class="dropdown-item">Gestire i Fronti</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/mondo/" class="dropdown-item">Il Mondo</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../come_giocare/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../magia/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#danni-e-morte" class="nav-link">Danni e morte</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#punti-ferita" class="nav-link">Punti Ferita</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#danni" class="nav-link">Danni</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#danni-da-piu-creature" class="nav-link">Danni da più creature</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#danni-da-stordimento" class="nav-link">Danni da stordimento</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#debilitazioni" class="nav-link">Debilitazioni</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#guarigione" class="nav-link">Guarigione</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#morte" class="nav-link">Morte</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#dopo-la-morte" class="nav-link">Dopo la morte</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="danni-e-morte">Danni e morte</h1>
+<h2 id="punti-ferita">Punti Ferita</h2>
+<p>La salute di un personaggio è misurata in punti ferita (PF). I danni subiti vengono sottratti ai PF. Nelle giuste condizioni, o con l’ausilio di cure mediche o magiche, i danni possono essere guariti e i PF recuperati.
+I PF di un personaggio sono la misura della sua resistenza e salute. Quando un personaggio ha più PF significa che è in grado di combattere più a lungo e di sopportare traumi più gravi prima di dover affrontare il freddo sguardo della Morte.</p>
+<p>La tua classe ti dice quanti sono i tuoi PF massimi. Anche la tua Costituzione (il punteggio, non il modificatore) entra in gioco, quindi più Costituzione significa più PF. Se la tua Costituzione cambia permanentemente durante il gioco dovrai modificare i tuoi PF in relazione al tuo nuovo punteggio di Costituzione. A meno che la tua Costituzione cambi, i tuoi PF massimi rimangono sempre gli stessi.</p>
+<h2 id="danni">Danni</h2>
+<p>Quando un personaggio subisce danni, si sottraggono i danni subiti ai suoi PF attuali. L’armatura riduce i danni. Questo potrebbe significare che un colpo venga completamente assorbito. I danni non possono mai portare un personaggio al di sotto degli 0 PF. </p>
+<p>La quantità di danni è determinata dall’attaccante. I PG infliggono danni a seconda della loro classe, dell’arma che usano, e delle mosse che hanno eseguito.</p>
+<p>Altre fonti di danno sono lasciate al GM da valutare, basandosi su queste opzioni:</p>
+<ul>
+<li>l peggio che può fare sono graffi e lividi: d4 danni</li>
+<li>È probabile che faccia uscire del sangue, ma nulla di devastante: d6 danni</li>
+<li>Potrebbe rompere qualche osso: d8 danni</li>
+<li>Può uccidere una persona normale: d10 danni</li>
+</ul>
+<p>Aggiungi l’etichetta <em>ignora armatura</em> se la fonte è molto grande o se si tratta di magia o veleno.</p>
+<p>L’armatura temporanea o circostanziale funziona allo stesso modo dell’armatura che si indossa: armatura 1 per una copertura parziale, armatura 2 per una copertura integrale.</p>
+<p>Quando il danno è specifico, come per un orco che ti tira un braccio lussandoti la spalla, i PF dovrebbero essere parte dell’effetto ma non tutto quanto. Il problema principale è sistemare il braccio slogato: come farai adesso a impugnare una spada o a lanciare un incantesimo? Allo stesso modo, se vieni decapitato non è una perdita di PF, sei morto e basta.</p>
+<h2 id="danni-da-piu-creature">Danni da più creature</h2>
+<p>È coraggioso il mostro che va in battaglia da solo. La maggior parte delle creature combattono con qualcuno al loro fianco, e magari qualcun altro dietro la schiena, e anche un arciere a coprire la retroguardia. Ciò può fare in modo che più di un mostro alla volta debba infliggere i suoi danni.</p>
+<p>Se molteplici creature attaccano allo stesso momento, tira i danni più elevati tra i loro e aggiungi +1 danno per ciascun mostro oltre il primo.</p>
+<h2 id="danni-da-stordimento">Danni da stordimento</h2>
+<p>I danni da stordimento sono danni non letali. Un PG che subisce danni non letali deve sfidare il pericolo per fare qualunque cosa, dove il pericolo è “sei stordito”. L’effetto dura fintanto che ha senso nella narrazione: sei stordito finché non hai la possibilità di schiarirti le idee o di sistemare qualunque cosa ti renda stordito. Un personaggio del GM che subisce danni da stordimento non li sottrae ai PF ma agirà di conseguenza, vacillando per qualche secondo, barcollando alla cieca, etc.</p>
+<h2 id="debilitazioni">Debilitazioni</h2>
+<p>Perdere PF è un effetto generico, rappresenta lividi, tagli, fatica, e così via. Alcune ferite, però, fanno più male. Si tratta di debilitazioni.
+Ciascuna debilitazione è associata a una capacità e ti da una penalità di -1 al rispettivo modificatore.
+Puoi avere solo una debilitazione di ciascun tipo. Se sei già indisposto e qualcosa ti rende indisposto lo ignori.</p>
+<ul>
+<li>Debole (FOR): Non riesci ad esercitare molta forza. Potrebbe trattarsi della fatica o di una brutta ferita, o forse la tua energia è stata prosciugata da un incantesimo.</li>
+<li>Malfermo (DES): Non riesci a mantenere l’equilibrio e ti tremano le mani.</li>
+<li>Malato (COS): Qualcosa non va dentro di te. Forse sei ammalato o denutrito. O forse hai bevuto troppa birra ieri sera e questi sono i postumi da sbornia.</li>
+<li>Stordito (INT): Quell’ultima botta in testa deve aver mosso qualcosa. Cervello no funzionare bene.</li>
+<li>Confuso (SAG): Le orecchie ti fischiano. La tua vista è annebbiata. Sei abbastanza fuori.</li>
+<li>Sfregiato (CAR): Potrebbe non essere permanente, ma per ora non hai un bell’aspetto.</li>
+</ul>
+<p>Le debilitazioni sono più difficili da guarire dei PF. La magia alta può farlo, certamente, ma la tua miglior possibilità è di trovarti in un posto sicuro e passare qualche giorno in un letto morbido. Ovviamente, le debilitazioni sono sia descrittive che prescrittive: se accade qualcosa nella narrazione che rimuoverebbe la debilitazione, essa effettivamente scompare.</p>
+<h2 id="guarigione">Guarigione</h2>
+<p>Ci sono due modi di guarire in Dungeon World: cure mediche e il passaggio del tempo.</p>
+<p>Le cure mediche, sia quelle magiche che quelle ordinarie, guariscono i danni come descritto dalla mossa o dall’oggetto utilizzato. Alcune mosse ricaricano completamente i PF, altre guariscono quel che basta per tenere qualcuno in piedi per un combattimento.</p>
+<p>Ogni volta che un personaggio passa del tempo a riposare senza fare nulla che possa peggiorare le condizioni delle proprie ferite, guarisce. La velocità della guarigione è descritta nelle mosse accamparsi per le notti in aree pericolose e riprendersi per i soggiorni in aree civilizzate.</p>
+<p>Indipendentemente dal tipo di guarigione, i PF di un personaggio non possono mai superare il loro massimo.</p>
+<h2 id="morte">Morte</h2>
+<p>La morte aleggia tetra sopra ogni campo di battaglia. Un personaggio che viene ridotto a 0 PF immediatamente esala il suo ultimo respiro.</p>
+<p>La morte offre dei patti ad alcuni, dai più semplici ai più costosi. La morte è capricciosa e potrebbe chiedere un futuro favore o esigere un pedaggio. Potrebbe pretendere un sacrificio o chiedere qualcosa di strano e apparentemente innocuo. I desideri della morte sono imprevedibili.</p>
+<p>A seconda del risultato del tiro di ultimo respiro il personaggio potrebbe diventare stabile. Un personaggio stabile resta a 0 PF ma è vivo e privo di sensi. Se viene guarito riprende conoscenza e può tornare a combattere o cercare riparo. Se un personaggio stabile subisce altri danni esala l’ultimo respiro e fronteggia nuovamente la Morte.</p>
+<h2 id="dopo-la-morte">Dopo la morte</h2>
+<p>La morte, in un certo senso, è un’altra sfida da vincere. Anche gli avventurieri morti possono tornare alla vita. Se il tuo personaggio muore puoi chiedere al GM e agli altri giocatori di provare a resuscitarti. Il GM dirà qual’è il prezzo per riportare alla vita il tuo povero personaggio. Se riuscite a soddisfare le condizioni del GM il personaggio torna in vita. L’incantesimo resurrezione è un caso speciale: la magia dell’incantesimo ti fornisce una via più rapida per riavere indietro un compagno di viaggio, ma il GM ha spazio per dire la sua.</p>
+<p>Qualunque siano le tue prospettive di resurrezione, per adesso crea un nuovo personaggio. Magari un gregario diventa un avventuriero a tutti gli effetti degno di una fetta più grossa del bottino ed un vero ruolo nell’azione. Forse durante il loro soggiorno in città i personaggi trovano un nuovo amico desideroso di unirsi a loro. O forse il tuo personaggio aveva un parente vendicativo che ora ha deciso di munirsi di armi e incantesimi e rettificare il torto subìto. In ogni caso, crea il tuo personaggio normalmente, al livello 1.</p>
+<p>Se il tuo personaggio precedente torna in vita puoi giocare entrambi i personaggi, alternando tra i due come desideri (purché abbia senso).</p>
+<p>GM, quando dici ai giocatori che cosa devono fare per resuscitare il loro compagno, non dev’essere per forza qualcosa che devii il corso del gioco. Integra la cosa nella storia appoggiandoti su ciò che già sai. Questa è un’ottima opportunità per spostare il centro dell’attenzione o per introdurre un elemento che non vedevi l’ora di mostrare. D’altro canto, non pensare che debba essere una missione epica e maestosa. Se il personaggio è morto infilzato su una lancia goblin, probabilmente basterà una marcia impacciata verso casa e un migliaio di pezzi d’oro in dono al tempio della zona. Pensa a quali potrebbero essere le conseguenze di un tale atto di carità e come potrebbero influenzare il mondo. Ricorda: la Morte non dimentica mai le anime sottratte al suo regno.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

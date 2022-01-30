@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Introduzione al Ruolo - Dungeon World</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Dungeon World</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Il Gioco <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../gioco/come_giocare/" class="dropdown-item">Come giocare</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/danni/" class="dropdown-item">Danni e morte</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/magia/" class="dropdown-item">Magia</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/gregari/" class="dropdown-item">Gregari</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/vita_da_avventuriero/" class="dropdown-item">La Vita da Avventuriero</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/equipaggiamento/" class="dropdown-item">Equipaggiamento</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/oggetti_magici/" class="dropdown-item">Oggetti magici</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Personaggi <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../pgs/creazione/" class="dropdown-item">Creazione del Personaggio</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/classi/" class="dropdown-item">Classi</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/allineamento/" class="dropdown-item">Allineamento</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/evoluzione/" class="dropdown-item">Evoluzione</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Game Master <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Introduzione al Ruolo</a>
+</li>
+                                    
+<li>
+    <a href="../prima_sessione/" class="dropdown-item">Affronare la Prima Sessione</a>
+</li>
+                                    
+<li>
+    <a href="../fronti/" class="dropdown-item">Gestire i Fronti</a>
+</li>
+                                    
+<li>
+    <a href="../mondo/" class="dropdown-item">Il Mondo</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../pgs/evoluzione/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../prima_sessione/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#il-game-master" class="nav-link">Il Game Master</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#come-fare-il-gm" class="nav-link">Come fare il GM</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#obiettivi" class="nav-link">Obiettivi</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#principi" class="nav-link">Princìpi</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#mosse" class="nav-link">Mosse</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#quando-fare-una-mossa" class="nav-link">Quando Fare una Mossa</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#scegliere-una-mossa" class="nav-link">Scegliere una Mossa</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#fare-la-mossa" class="nav-link">Fare la Mossa</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#mosse-del-dungeon" class="nav-link">Mosse del Dungeon</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#situazioni-comuni" class="nav-link">Situazioni Comuni</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#combattimenti" class="nav-link">Combattimenti</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#trappole" class="nav-link">Trappole</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#persone" class="nav-link">Persone</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="il-game-master">Il Game Master</h1>
+<p>Dirigere una partita di Dungeon World si basa su tre cose: gli <strong>obiettivi</strong>, i <strong>princìpi</strong> e le <strong>mosse del GM</strong>. Gli obiettivi sono ciò che hai intenzione di fare quando ti siedi al tavolo. I princìpi sono le linee guida che ti fanno restare concentrato sugli obiettivi. Le mosse del GM sono le cose concrete che fai.</p>
+<p>Gli obiettivi del GM, i princìpi e le mosse sono regole come lo sono i danni, le capacità o i PF. Devi avere la stessa cautela ad alterarle o ignorarle che avresti con qualunque altra regola.</p>
+<h2 id="come-fare-il-gm">Come fare il GM</h2>
+<p>Quando ti siedi al tavolo come GM fai queste cose:</p>
+<ul>
+<li><strong>Descrivi la situazione</strong> in cui si trovano i giocatori in termini concreti, così inizi una sessioni o fai ripartire il gioco dopo una pausa o una battuta. E concludi sempre con "Che cosa fai?".</li>
+<li><strong>Segui le regole</strong>. Non solo del GM, ma anche quelle dei giocatori tenendo d'occhio le loro mosse, è responsabilità di tutti accorgersi della loro attivazione.</li>
+<li><strong>Fai delle mosse</strong> quando ne hai occasione. Le tue mosse sono azioni specifiche per cambiare il corso del gioco.</li>
+<li><strong>Sfrutta ciò che hai preparato</strong>. A volte saprai qualcosa che i giocatori non sanno ancora, usa queste informazioni per fare delle mosse inaspettate.</li>
+</ul>
+<h1 id="obiettivi">Obiettivi</h1>
+<p>I tuoi obiettivi sono le cose che devi sempre cercare di fare mentre fai il GM a Dungeon World:</p>
+<ul>
+<li>Dipingi un mondo fantastico.</li>
+<li>Riempi di avventura le vite dei personaggi.</li>
+<li>Gioca per scoprire cosa accadrà.</li>
+</ul>
+<p>Il tuo primo obiettivo è di dipingere un mondo fantastico. Dungeon World significa istinto, astuzia e coraggio contro l’oscurità e la sventura. Senza i personaggi giocanti il mondo potrebbe finire nel caos e nella distruzione. Sta a te ritrarre gli elementi fantastici di quel mondo. Mostra ai giocatori le meraviglie del mondo che attraversano e incoraggia le loro risposte.</p>
+<p><em>Riempire di avventura le vite dei personaggi</em> significa lavorare insieme ai giocatori per creare un mondo avvincente e dinamico. Le avventure sono sempre incastrate in qualche pericolo da fine del mondo — incoraggia e promuovi questo tipo di dinamiche nel gioco.</p>
+<p>Le avventure di Dungeon World non presumono mai ciò che faranno i PG. Un’avventura di Dungeon World ritrae un’ambientazione in movimento. Quando i giocatori entrano in conflitto con l’ambientazione e i suoi abitanti, il sorgere dell’azione è inevitabile. È in questo modo che si <em>gioca per scoprire cosa accadrà</em>. Quindi, non fare troppi progetti per il futuro, o le regole ti ostacoleranno. Fidati, è più divertente scoprire le cose mentre accadono.</p>
+<h1 id="principi">Princìpi</h1>
+<ul>
+<li>Disegna mappe, lascia spazi da riempire</li>
+<li>Rivolgiti ai personaggi, non ai giocatori</li>
+<li>Fai tuo ciò che è fantastico</li>
+<li>Fai una mossa che abbia senso</li>
+<li>Non pronunciare mai il nome della tua mossa</li>
+<li>Rendi vivo ogni mostro</li>
+<li>Dai un nome a ogni persona</li>
+<li>Fai domande e usa le risposte</li>
+<li>Sii un fan dei personaggi</li>
+<li>Pensa pericoloso</li>
+<li>Inizia e finisci con la narrazione</li>
+<li>Pensa ai retroscena</li>
+</ul>
+<h1 id="mosse">Mosse</h1>
+<p>Quando tutti ti guardano per sapere cosa succede scegli una di queste. Ogni mossa è qualcosa che accade nella narrazione del gioco — non sono parole in codice o terminologia specifica.</p>
+<ul>
+<li>Usa la mossa di un mostro, un pericolo, o un luogo.</li>
+<li>Rivela una verità sgradita</li>
+<li>Mostra i segni di una minaccia incombente</li>
+<li>Infliggi danno</li>
+<li>Consuma le loro risorse</li>
+<li>Rivoltagli contro le loro mosse</li>
+<li>Separali</li>
+<li>Crea un’opportunità appropriata alle capacità di una classe</li>
+<li>Mostra il lato negativo delle loro classi, razze o oggetti</li>
+<li>Offri un’opportunità, con o senza un costo</li>
+<li>Metti qualcuno in difficoltà</li>
+<li>Spiega le conseguenze o il prezzo da pagare e chiedi di nuovo</li>
+</ul>
+<p><a href="../mosse/">Trovi qui l'elenco delle mosse del GM in dettaglio</a></p>
+<p>Fai in modo che sia una cosa reale che accade ai personaggi: “Mentre schivi la mazza dell’ogre che torreggia su di te, scivoli e cadi sul duro. La tua spada si perde nell’oscurità. Pensi di aver visto dov’è andata a finire ma l’ogre sta avanzando verso di te. Che cosa fai?”.</p>
+<p>Non importa che mossa tu faccia, concludi sempre con “Che cosa fai?”. Le tue mosse sono un modo per perseguire i tuoi obiettivi, uno dei quali è riempire di avventura la vita dei personaggi. Quando un incantesimo impazzisce o il pavimento gli scompare da sotto i piedi, gli avventurieri devono reagire o soffire le conseguenze dell’inazione.</p>
+<h2 id="quando-fare-una-mossa">Quando Fare una Mossa</h2>
+<p>Fai una mossa:</p>
+<ul>
+<li>Quando tutti ti guardano per sapere cosa succede</li>
+<li>Quando i giocatori ti danno un’opportunità d’oro</li>
+<li>Quando tirano un 6-</li>
+</ul>
+<p>Solitamente, quando i giocatori ti guardano per sapere cosa succede fai una mossa morbida, in caso contrario fai una mossa dura.</p>
+<p>Una <strong>mossa morbida</strong> è una mossa che non ha conseguenze immediate e irreversibili. Solitamente significa che è qualcosa di non completamente negativo, ad esempio mostrare ulteriori ricchezze da conquistare oltrepassando un golem (offrire un’opportunità con un costo). Può anche significare che è qualcosa di negativo, ma hanno il tempo di evitarlo, ad esempio far scagliare una raffica di freccie a dei goblin arcieri (mostra i segni di una minaccia incombente) con la possibilità di schivarle e allontanarsi dal pericolo.
+Ignorare una mossa morbida diventa un’opportunità d’oro per fare una mossa dura.</p>
+<p>Le <strong>mosse dure</strong>, al contrario, hanno delle conseguenze immediate. Infliggere danni è quasi sempre una mossa dura, perché si tratta una perdita di PF che non potrà essere colmata senza intervento da parte dei giocatori.</p>
+<h2 id="scegliere-una-mossa">Scegliere una Mossa</h2>
+<p>Per scegliere una mossa, inizia considerando le conseguenze ovvie dell’evento che l’ha attivata. Se hai già un’idea, pensaci un attimo e assicurati che si conformi ai tuoi obiettivi e principi, poi prosegui. Lascia che le tue mosse influenzino le mosse successive. Costruisci sul successo o sul fallimento delle mosse dei personaggi e sulle tue stesse mosse.</p>
+<p>Se il tuo primo istinto è di non fargli del male ora, ma di sorprenderli più tardi, ottimo! È parte dei tuoi principi (pensa ai retroscena). Prendine nota e rivelalo al momento giusto.</p>
+<h2 id="fare-la-mossa">Fare la Mossa</h2>
+<p>Quando fai una mossa, tieni a mente i tuoi principi. In particolare, non pronunciare mai il nome della tua mossa e rivolgiti ai personaggi, non ai giocatori. Le tue mosse non sono azioni meccaniche che avvengono al tavolo. Sono eventi concreti che avvengono ai personaggi nel mondo della narrazione che stai descrivendo.</p>
+<p>È vero che “Infliggi danno” è una mossa, ma anche altre mosse possono comportare l’infliggimento di danni. Quando un ogre ti lancia contro un muro prendi danno come se ti avesse colpito con un pugno.</p>
+<p>Dopo ogni mossa che fai, chiedi sempre “Che cosa fai?”.</p>
+<h2 id="mosse-del-dungeon">Mosse del Dungeon</h2>
+<p>Le mosse del dungeon sono un particolare sottoinsieme che viene usato per creare o modificare un dungeon al volo. Usale se i tuoi giocatori stanno esplorando un’area ostile che non hai ancora progettato per intero.</p>
+<p>Disegna una mappa di quest’area quando fai queste mosse. La maggior parte di esse ti faranno aggiungere una nuova stanza o elemento alla tua mappa.</p>
+<ul>
+<li>Cambia l’ambiente</li>
+<li>Indica una minaccia incombente</li>
+<li>Introduci una nuova fazione o tipo di creatura</li>
+<li>Usa un pericolo di una fazione o di un tipo di creatura già esistente</li>
+<li>Falli tornare sulle proprie tracce</li>
+<li>Offri ricchezze in cambio di qualcosa</li>
+<li>Offri una sfida a uno dei personaggi</li>
+</ul>
+<p><a href="../mosse/">Trovi qui l'elenco delle mosse del GM in dettaglio</a></p>
+<p>Puoi fare queste mosse ogni volta che tutti ti guardano per sapere cosa succede, quando i giocatori ti offrono un’opportunità, o quando i giocatori falliscono un tiro. Il momento perfetto in cui usarle è quando i personaggi vogliono sapere cosa trovano una volta entrati in una nuova stanza o in un nuovo corridoio.</p>
+<h1 id="situazioni-comuni">Situazioni Comuni</h1>
+<p>Ci sono delle situazioni comuni che accadono spesso in Dungeon World. Ecco come gestirle adeguatamente.</p>
+<h2 id="combattimenti">Combattimenti</h2>
+<p>Prima o poi si sguaineranno le spade e si verserà del sangue. Quando questo accade i personaggi probabilmente cominceranno a tagliare e spaccare, fare raffiche e difendere. Pensa oltre al semplice scambio di danni. Forse i mostri stanno cercando di catturare i personaggi o di proteggere qualcosa da loro. Concentrati sull’obiettivo dello scontro; gli obiettivi di ciascuna parte e in che modo potrebbe modificare l’equilibrio della battaglia.</p>
+<p>Nessun mostro che si rispetti sta fermo a farsi picchiare. Il combattimento è una cosa dinamica, con creature che si muovono dentro e fuori portata, si mettono al riparo e si ritirano. A volte è il campo di battaglia stesso a cambiare. Fai in modo che i tuoi mostri facciano delle azioni a cui i giocatori devono rispondere. Fai in modo di non usare solo la mossa infliggi danno, anche in un combattimento.</p>
+<p>Assicurati che ciascuno abbia la possibilità di agire, e di sapere dove ogni giocatore si trova nella foga della battaglia. Se la battaglia è complessa, fai una mappa in modo che tutti sappiano che cosa succede e possano descrivere le proprie azioni al meglio.</p>
+<h2 id="trappole">Trappole</h2>
+<p>Puoi preparare le trappole in anticipo, o puoi improvvisarle basandoti sulle tue mosse. Se niente ha specificato che il luogo è sicuro, le trappole sono sempre un’opzione.</p>
+<p>I giocatori possono trovare le trappole con piani ingegnosi, percependo trappole, o discernendo realtà. Se un personaggio descrive un’azione che non attiva una mossa, ma l’azione svelerebbe una trappola, non nasconderglielo. Le trappole non hanno il permesso di infrangere le regole.</p>
+<h2 id="persone">Persone</h2>
+<p>Fabbri nanici, saggi elfici, umani di tutte le forme e dimensioni abitano il mondo attorno ai personaggi. Non sono dei lacché senza cervello da maltrattare come si vuole, ma non sono nemmeno ciò che vogliamo scoprire quando giochiamo. I PNG sono persone: hanno obiettivi e gli strumenti per impegnarsi a ottenerli. Usali per mostrare com’è il mondo. Mostra ai tuoi giocatori la gente comune che lotta per affrancarsi o le classi nobili che cercano di accontentare il popolo. Alcune avventure potrebbero avvenire per intero in un’ambiente pieno di persone invece che in un dungeon lontano dalla civilità. Alcune classi, il bardo in particolare, sono atte a manipolare e usare le persone come risorse. Non tirarti indietro di fronte a queste situazioni. Sii un fan di questi personaggi, offrigli delle persone interessanti e dettagliate con cui interagire.</p>
+<p>Le persone, come i dungeon, cambiano nel tempo. L’aver incontrato i personaggi durante la loro vita potrebbe affascinarli o adirarli. Le azioni dei personaggi faranno in modo che il mondo cambi, in bene o in male, e le persone che incontrano si ricorderanno di questo cambiamento. Quando i personaggi ritornano a una città in cui si erano comportanti in modo non molto gentile, mostragli come le persone sono diverse da prima. Sono forse più caute? Si sono convertite a una nuova religone? Sono assetate di vendetta?</p>
+<p>Il rapporto tra i personaggi è rappresentato dai legami, ma il rapporto con i PNG è più esile. Se i personaggi vogliono avere dei rapporti veri e duraturi con le persone del mondo, devono passare all’azione. Ricorda, “Che cosa fai?” è una domanda legittima sia quando si affrontano le speranze e le paure di un potenziale alleato o nemico che quando ci si trova dal lato sbagliato di una spada lunga.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

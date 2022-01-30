@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Equipaggiamento - Dungeon World</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Dungeon World</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Il Gioco <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../come_giocare/" class="dropdown-item">Come giocare</a>
+</li>
+                                    
+<li>
+    <a href="../danni/" class="dropdown-item">Danni e morte</a>
+</li>
+                                    
+<li>
+    <a href="../magia/" class="dropdown-item">Magia</a>
+</li>
+                                    
+<li>
+    <a href="../gregari/" class="dropdown-item">Gregari</a>
+</li>
+                                    
+<li>
+    <a href="../vita_da_avventuriero/" class="dropdown-item">La Vita da Avventuriero</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Equipaggiamento</a>
+</li>
+                                    
+<li>
+    <a href="../oggetti_magici/" class="dropdown-item">Oggetti magici</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Personaggi <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../pgs/creazione/" class="dropdown-item">Creazione del Personaggio</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/classi/" class="dropdown-item">Classi</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/allineamento/" class="dropdown-item">Allineamento</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/evoluzione/" class="dropdown-item">Evoluzione</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Game Master <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../gm/intro/" class="dropdown-item">Introduzione al Ruolo</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/prima_sessione/" class="dropdown-item">Affronare la Prima Sessione</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/fronti/" class="dropdown-item">Gestire i Fronti</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/mondo/" class="dropdown-item">Il Mondo</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../vita_da_avventuriero/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../oggetti_magici/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#equipaggiamento" class="nav-link">Equipaggiamento</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#etichette-generali-dellequipaggiamento" class="nav-link">Etichette Generali dell’Equipaggiamento</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#armi" class="nav-link">Armi</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#etichette-delle-armi" class="nav-link">Etichette delle Armi</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#lista-di-armi" class="nav-link">Lista di Armi</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#armature" class="nav-link">Armature</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#etichette-delle-armature" class="nav-link">Etichette delle Armature</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#lista-delle-armature" class="nav-link">Lista delle Armature</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#attrezzatura-da-dungeon" class="nav-link">Attrezzatura da Dungeon</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#veleni" class="nav-link">Veleni</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#altri-costi" class="nav-link">Altri costi</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#servizi" class="nav-link">Servizi</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#pasti" class="nav-link">Pasti</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#trasporti" class="nav-link">Trasporti</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#terre-ed-edifici" class="nav-link">Terre ed Edifici</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#mazzette" class="nav-link">Mazzette</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#regali-e-abiti-eleganti" class="nav-link">Regali e Abiti Eleganti</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#bottino" class="nav-link">Bottino</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="equipaggiamento">Equipaggiamento</h1>
+<p>Le tombe ammuffite e i tesori dimenticati e riscoperti del mondo sono colmi di oggetti utili. Il guerriero potrebbe trovare una spada nuova e affilata, oppure il ladro potrebbe trovare per caso un veleno mortale. La maggior parte degli oggetti sono ordinari: né magici né intrinsecamente unici in alcun modo. Qualunque oggetto che sia magico o unico nel suo genere non è ordinario ai fini delle mosse. L’arma caratteristica del guerriero non è mai ordinaria.</p>
+<p>Ciascuno degli oggetti che compongono l’equipaggiamento avrà un certo numero di etichette. Le etichette spiegano come l’equipaggiamento influenzi il personaggio che lo usa (come +armatura) o indicano il modo in cui devono essere usati (come le etichette di Portata). Come ogni cosa in Dungeon World, le etichette guidano la creazione della narrazione durante il gioco. Se un’arma è scomoda, potrebbe significare che è più probabile che tu la faccia cadere quando fallisci quel tiro di taglia e spacca.</p>
+<p>Questa non è affatto una lista completa: sentitevi liberi di creare le vostre etichette.</p>
+<p><a href="./oggetti_magici">Per gli oggetti magici andare qui</a></p>
+<h2 id="etichette-generali-dellequipaggiamento">Etichette Generali dell’Equipaggiamento</h2>
+<p>Queste sono le etichette generali applicabili a più o meno qualunque oggetto. Le vedrai su armature, armi o altra attrezzatura generica da avventuriero.</p>
+<ul>
+<li><strong>Applicato</strong>: Ha effetto solo quando viene applicata con attenzione a una persona, o a qualcosa da bere o da mangiare.</li>
+<li><strong>Scomodo</strong>: È poco maneggevole e difficile da usare.</li>
+<li><strong>+Bonus</strong>: Modifica la tua efficacia in una determinata situazione. Potrebbe essere «+1 al prossimo tiro di declamare conoscenze» oppure «-1 continuato a taglia e spacca».</li>
+<li><strong>n monete</strong>: Quanto costa comprarlo normalmente. Se il costo include “-Carisma”, negoziando un po’ si può sottrarre il punteggio di Carisma (non il modificatore) dal prezzo.</li>
+<li><strong>Pericoloso</strong>: È facile che ti causi dei problemi. Se ci interagisci senza le opportune precauzioni il GM può invocare liberamente le conseguenze delle tue sciocche azioni.</li>
+<li><strong>Razione</strong>: È commestibile, più o meno.</li>
+<li><strong>Richiede</strong>: È utile solo ad alcune persone. Se non soddisfi i requisiti funziona male, o non funziona affatto.</li>
+<li><strong>Lento</strong>: Ci vogliono minuti o più per usarlo.</li>
+<li><strong>A contatto</strong>: Si usa mettendolo a contatto con la pelle del bersaglio.</li>
+<li><strong>A due mani</strong>: Ci vogliono due mani per usarlo efficacemente.</li>
+<li><strong>Peso n</strong>: Aggiungi il peso indicato al totale da confrontare con il tuo carico massimo quando trasporti l’oggetto. Se non è indicato alcun peso l’oggetto non è fatto per essere trasportato. 100 monete nei tagli più comuni pesano 1. Lo stesso valore in gemme o in opere d’arte potrebbe pesare di più o di meno.</li>
+<li><strong>Indossato</strong>: Per usarlo, devi indossarlo.</li>
+<li><strong>n usi</strong>: Può essere usato solo n volte.</li>
+</ul>
+<hr>
+
+<h1 id="armi">Armi</h1>
+<p>Le armi non uccidono i mostri, lo fanno le persone. È per questo che le armi di Dungeon World non hanno un danno assegnato. Un’arma è usata principalmente per le sue etichette, che descrivono a che cosa è più utile l’arma. Un pugnale non è utile perché fa più danni di una qualche altra arma. È utile perché è piccolo e facile da utilizzare a distanza ravvicinata.</p>
+<h2 id="etichette-delle-armi">Etichette delle Armi</h2>
+<p>Le armi potrebbero avere delle etichette che esistono principalmente per aiutarti a descriverle (come arrugginita <em>o </em>luminescente) ma queste etichette hanno un preciso effetto meccanico.</p>
+<ul>
+<li><strong>n munizioni</strong>: Conta come munizioni per le appropriate armi a distanza. Il numero indicato non rappresenta il numero di singole frecce o pietre, ma un’indicazione generale di quanto hai a portata di mano.</li>
+<li><strong>Possente</strong>: Può spingere qualcuno indietro di un passo, facendolo addirittura cadere.</li>
+<li><strong>+n Danni</strong>: È particolarmente dannosa per i tuoi nemici. Quando infliggi danno, aggiungi ad esso n.</li>
+<li><strong>Ignora Armatura</strong>: Il bersaglio non sottrae l’armatura dai danni ricevuti.</li>
+<li><strong>Devastante</strong>: Infligge danno in modo particolarmente distruttivo, riducendo in brandelli cose e persone.</li>
+<li><strong>n Perforante</strong>: Attraversa completamente l’armatura. Quando infliggi danno n perforante, sottrai n dall’armatura del nemico per questo attacco.</li>
+<li><strong>Precisa</strong>: Premia gli attacchi accurati. Usi DES per tagliare e spaccare con quest’arma, non FOR.</li>
+<li><strong>Ricarica</strong>: Dopo che l’hai usata per attaccare, ci vuole un po’ di tempo per prepararla di nuovo all’uso.</li>
+<li><strong>Stordimento</strong>: Quando la usi per attaccare, infligge danni da stordimento invece che danni normali.</li>
+<li><strong>Da Lancio</strong>: Lanciala a qualcuno per fargli del male. Se usiraffica con quest’arma, non puoi scegliere di spendere un punto di munizioni con un 7–9; una volta lanciata, è persa finché non riesci a recuperarla.</li>
+</ul>
+<p>Le armi hanno delle etichette per indicare la portata alla quale possono essere usate. Dungeon World non infligge penalità o assegna bonus per la «distanza ideale» o cose simili, ma se la tua arma è corta e il nemico è lontano dieci metri, ti sarà difficile spiegare come puoi usare quell’arma contro di lui.</p>
+<ul>
+<li><strong>Corta</strong>: È efficace per attaccare qualcuno che puoi raggiungere con le mani, e non oltre.</li>
+<li><strong>Media</strong>: È efficace per attaccare qualcuno alla distanza di un braccio, più circa mezzo metro.</li>
+<li><strong>Lunga</strong>: È utile per attaccare qualcuno lontano un paio di metri — magari anche tre.</li>
+<li><strong>Vicino</strong>: È efficace per attaccare qualcuno di cui riesci a vedere il bianco degli occhi.</li>
+<li><strong>Lontano</strong>: È efficace per attaccare qualcuno a una distanza a cui ci si può sentir urlare.</li>
+</ul>
+<h2 id="lista-di-armi">Lista di Armi</h2>
+<p>Le statistiche qua sotto sono per gli oggetti più comuni. Possono esserci, ovviamente, delle variazioni sul tema. Una spada lunga poco affilata potrebbe avere -1 danni mentre un pugnale di ottima forgia potrebbe avere +1 danni. Considera i seguenti come gli attributi di un’arma comune di quel tipo — un’arma specifica potrebbe avere delle etichette diverse per rappresentare le sue particolarità.</p>
+<ul>
+<li><strong>Arco Logoro</strong> vicino, 15 monete, peso 2</li>
+<li><strong>Arco Pregiato</strong> vicino, lontano, 60 monete, peso 2</li>
+<li><strong>Arco da Cacciatore</strong> vicino, lontano, 100 monete, peso 1</li>
+<li><strong>Balestra vicino, +1 danni</strong>, ricarica, 35 monete, peso 3</li>
+<li><strong>Fascio di Frecce</strong> munizioni 3, 1 moneta, peso 1</li>
+<li><strong>Frecce Elfiche</strong> munizioni 4, 20 monete, peso 1</li>
+<li><strong>Randello, Shillelagh</strong> media, 1 moneta, peso 2</li>
+<li><strong>Bastone</strong> media, a due mani, 1 moneta, peso 1</li>
+<li><strong>Daga, Coltello, Pugnale</strong> corta, 2 monete, peso 1</li>
+<li><strong>Pugnale da Lancio</strong> vicino, da lancio, 1 moneta, peso 0</li>
+<li><strong>Spada Corta, Ascia, Martello da Guerra, Mazza</strong> media, 8 monete, peso 1</li>
+<li><strong>Lancia lunga</strong>, da lancio, vicino, 5 monete, peso 1</li>
+<li><strong>Spada Lunga, Ascia da Battaglia, Mazzafrusto</strong> media, +1 danni, 15 monete, peso 2</li>
+<li><strong>Alabarda lunga</strong>, +1 danni, a due mani, 9 monete, peso 2</li>
+<li><strong>Spada a Striscia, Fioretto</strong> media, precisa, 25 monete, peso 1</li>
+<li><strong>Spada da Duellante</strong> media, perforante 1, precisa, 50 monete, peso 2</li>
+</ul>
+<hr>
+
+<h1 id="armature">Armature</h1>
+<p>L’armatura è pesante, difficile da indossare e dannatamente scomoda. Alcune classi sono meglio addestrate a ignorare questi inconvenienti, ma chiunque può indossare un’armatura completa e godere dei suoi benefici.</p>
+<h2 id="etichette-delle-armature">Etichette delle Armature</h2>
+<p>Le armature, come le armi, hanno delle etichette, Alcune sono unicamente descrittive, ma quelle qua sotto hanno degli effetti meccanici sul giocatore che le indossa.</p>
+<ul>
+<li><strong>Armatura n</strong>: Ti protegge dalle ferite e assorbe i danni. Quando subisci danni, sottrai la tua armatura dal totale. Se hai più di un oggetto con armatura n, conta solo quello con il valore più alto.</li>
+<li><strong>+n Armatura</strong>: Ti protegge e il suo effetto è cumulativo con il resto dell’armatura. Aggiungi questo valore alla tua armatura totale.</li>
+<li><strong>Ingombrante</strong>: è difficile muoversi con quest’armatura addosso. Prendi -1 continuato fintanto che la usi. Questa penalità è cumulativa.</li>
+</ul>
+<h2 id="lista-delle-armature">Lista delle Armature</h2>
+<p>Cuoio Rigido, Maglia di Ferro armatura 1, indossato, 10 monete, peso 1</p>
+<ul>
+<li><strong>Scaglie</strong> armatura 2, indossato, ingombrante, 50 monete, peso 3</li>
+<li><strong>Piastre</strong> armatura 3, indossato, ingombrante, 350 monete, peso 4</li>
+<li><strong>Scudo +1</strong> armatura, 15 monete, peso 2</li>
+</ul>
+<hr>
+
+<h1 id="attrezzatura-da-dungeon">Attrezzatura da Dungeon</h1>
+<p><strong>Attrezzatura da Avventuriero</strong> 5 utilizzi, 20 monete, peso 1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Gli strumenti da avventuriero sono una raccolta di oggetti comuni e utili, come gesso, aste, spuntoni, corde, etc. Quando frughi nei tuoi strumenti da avventuriero per cercare un oggetto comune e utile, lo trovi e spendi un utilizzo.<br />
+<strong>Bende</strong> 3 utilizzi, lento, 5 monete, peso 0<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Quando hai qualche minuto per bendare le ferite di qualcuno, guarisci 4 danni e spendi un utilizzo.<br />
+<strong>Erbe e Unguenti</strong> 2 utilizzi, lento, 10 monete, peso 1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Quando curi le ferite di qualcuno con erbe e unguenti, guarisci 7 danni e spendi un utilizzo.<br />
+<strong>Pozione Curativa</strong> 50 monete, peso 0<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Quando bevi un’intera pozione curativa, guarisci 10 danni o cancella una debilitazione, a te la scelta.<br />
+<strong>Barile di Birra Scura Nanica</strong> 10 monete, peso 4<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Quando apri un barile di birra scura nanica e lasci che tutti ne bevano a volontà, prendi +1 al tuo tiro di fare baldoria. Se ti bevi una botte da solo, sei molto, molto ubriaco.<br />
+<strong>Borsa di Libri</strong> 5 utilizzi, 10 monete, peso 2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Quando la tua borsa di libri contie  e proprio il libro giusto per l’argomento su cui stai declamando conoscenze, consulta il libro, spendi un utilizzo, e prendi +1 al tuo tiro.<br />
+<strong>Antitossina</strong> 10 monete, peso 0<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Quando bevi una dose di antitossina sei guarito da un veleno che sta avendo effetto su di te.<br />
+<strong>Razioni da Dungeon</strong> razione, 5 utilizzi, 3 monete, peso 1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Non sono buonissime, ma neanche così male.<br />
+<strong>Razioni</strong>: Banchetto Personale 1 utilizzo, 10 monete, peso 1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Fastose è dir poco. 
+<strong>Gallette Naniche</strong> richiede Nano, razione, 7 utilizzi, 3 monete, peso 1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;I Nani dicono che hanno il sapore di casa. Tutti gli altri dicono che hanno il sapore di casa, se per casa intendi un porcile, che va a fuoco.<br />
+<strong>Razioni di Pane Elfico</strong> razione, 7 utilizzi, 10 monete, peso 1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Solo ai migliori amici degli Elfi è concesso assaggiare questa delicatezza rara.<br />
+<strong>Erba Pipa dei Mezzuomini</strong> 6 utilizzi, 5 monete, peso 0<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Quando fumi l’erba pipa dei Mezzuomini con qualcuno, spendi due utilizzi e prendi +1 al prossimo tiro di parlamentare con questa persona.</p>
+<h2 id="veleni">Veleni</h2>
+<p><strong>Olio di Tagete</strong> pericoloso, applicato, 15 monete, peso 0<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Il bersaglio cade in un sonno leggero.<br />
+<strong>Ambrosia Rossa</strong> pericoloso, tocco, 12 monete, peso 0<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Finché non viene curato, quando l’avvelenato tira i danni, tira un d4 aggiuntivo e sottrae lo sottrae dal risultato.<br />
+<strong>Radiola Dorata</strong> pericoloso, applicato, 20 monete, peso 0<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Il bersaglio tratta la prossima creatura che vede come un alleato fidato, finché non ha prova del contrario.<br />
+<strong>Lacrime di Serpente</strong> pericoloso, tocco, 10 monete, peso 0<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Chiunque infligga danno al bersaglio tira due volte e sceglie il miglior risultato.</p>
+<hr>
+
+<h1 id="altri-costi">Altri costi</h1>
+<h2 id="servizi">Servizi</h2>
+<p><strong>Soggiorno di una settimana in una locanda da contadini</strong>: 14-Carisma monete<br />
+<strong>Soggiorno di una settimana in una locanda civilizzata</strong>: 30-Carisma monete<br />
+<strong>Soggiorno di una settimana nella migliore locanda in città</strong>: 43-Carisma monete<br />
+<strong>Manovalanza comune per una settimana</strong>: 10 monete<br />
+<strong>Paga per un soldato dell’esercito</strong>: 30 monete al mese<br />
+<strong>Oggetto su misura da un fabbro</strong>: costo base dell’oggetto + 50 monete<br />
+<strong>«Compagnia» per una notte</strong>: 20-Carisma monete<br />
+<strong>Una serata di canzoni e danze</strong>: 18-Carisma monete<br />
+<strong>Scorta per un giorno lungo una strada infestata da banditi</strong>: 20 monete<br />
+<strong>Scorta per un giorno lungo una strada infestata da mostri</strong>: 54 monete<br />
+<strong>Un comune omicidio</strong>: 5 monete<br />
+<strong>Un assassinio</strong>: 120 monete<br />
+<strong>Cure da un cerusico</strong>: 5 monete<br />
+<strong>Preghiere per un mese per i defunti</strong>: 1 moneta<br />
+<strong>Riparazioni per un oggetto ordinario</strong>: 25% del costo dell’oggetto</p>
+<h2 id="pasti">Pasti</h2>
+<p><strong>Un pasto abbondante per uno</strong>: 1 moneta<br />
+<strong>Un pasto scarso per una famiglia</strong>: 1 moneta<br />
+<strong>Un banchetto</strong>: 15 monete a persona  </p>
+<h2 id="trasporti">Trasporti</h2>
+<p><strong>Asino e Carretto</strong>, pronto a portare il tuo peso 50 monete, carico 20<br />
+<strong>Cavallo</strong> 75 monete, carico 10<br />
+<strong>Cavallo da guerra</strong> 400 monete, carico 12<br />
+<strong>Carro</strong> 150 monete, carico 40<br />
+<strong>Chiatta</strong> 50 monete, carico 15<br />
+<strong>Barca Fluviale</strong> 150 monete, carico 20<br />
+<strong>Nave Mercantile</strong> 5.000 monete, carico 200<br />
+<strong>Nave da Guerra</strong> 20.000 monete, carico 100<br />
+<strong>Pedaggio su una strada sicura</strong> 1 moneta<br />
+<strong>Pedaggio su una strada aspra</strong> 10 monete<br />
+<strong>Pedaggio su una strada pericolosa</strong> 100 monete  </p>
+<h2 id="terre-ed-edifici">Terre ed Edifici</h2>
+<p><strong>Un tugurio</strong> 20 monete<br />
+<strong>Una villetta</strong> 500 monete<br />
+<strong>Una casa</strong> 2.500 monete<br />
+<strong>Una magione</strong> 50.000 monete<br />
+<strong>Una fortezza</strong> 75.000 monete<br />
+<strong>Un castello</strong> 250.000 monete<br />
+<strong>Un grande castello</strong> 1.000.000 monete<br />
+<strong>Costi di mantenimento per un mese</strong> 1% del costo originale  </p>
+<h2 id="mazzette">Mazzette</h2>
+<p><strong>La dote di un contadino</strong> 20-Carisma monete<br />
+<strong>"Protezione" per una piccola impresa</strong> 100-Carisma monete<br />
+<strong>Corrompere un funzionario governativo</strong> 50-Carisma monete<br />
+<strong>Una mazzetta convincente</strong> 80-Carisma monete<br />
+<strong>Un’offerta che non puoi rifiutare</strong> 500-Carisma monete</p>
+<h2 id="regali-e-abiti-eleganti">Regali e Abiti Eleganti</h2>
+<p><strong>Un regalo da contadino</strong> 1 moneta<br />
+<strong>Un regalo pregiato</strong> 55 monete<br />
+<strong>Un regalo nobile</strong> 200 monete<br />
+<strong>Un anello o un quadretto</strong> 75 monete<br />
+<strong>Abiti eleganti</strong> 105 monete<br />
+<strong>Un dipinto raffinato</strong> 350+ monete<br />
+<strong>Una corona degna di un re</strong> 5.000 monete</p>
+<h2 id="bottino">Bottino</h2>
+<p><strong>I risparmi di un goblin</strong> 2 monete<br />
+<strong>I ciondoli di un lucertoloide</strong> 5 monete<br />
+<strong>Una spada «inestimabile»</strong> 80 monete<br />
+<strong>Le razzie di un condottiero orco</strong> 250 monete<br />
+<strong>La montagna di monete e gemme di un drago</strong> 130.000 monete</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

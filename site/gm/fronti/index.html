@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Gestire i Fronti - Dungeon World</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Dungeon World</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Il Gioco <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../gioco/come_giocare/" class="dropdown-item">Come giocare</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/danni/" class="dropdown-item">Danni e morte</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/magia/" class="dropdown-item">Magia</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/gregari/" class="dropdown-item">Gregari</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/vita_da_avventuriero/" class="dropdown-item">La Vita da Avventuriero</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/equipaggiamento/" class="dropdown-item">Equipaggiamento</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/oggetti_magici/" class="dropdown-item">Oggetti magici</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Personaggi <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../pgs/creazione/" class="dropdown-item">Creazione del Personaggio</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/classi/" class="dropdown-item">Classi</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/allineamento/" class="dropdown-item">Allineamento</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/evoluzione/" class="dropdown-item">Evoluzione</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Game Master <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../intro/" class="dropdown-item">Introduzione al Ruolo</a>
+</li>
+                                    
+<li>
+    <a href="../prima_sessione/" class="dropdown-item">Affronare la Prima Sessione</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Gestire i Fronti</a>
+</li>
+                                    
+<li>
+    <a href="../mondo/" class="dropdown-item">Il Mondo</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../prima_sessione/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../mondo/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#gestire-i-fronti" class="nav-link">Gestire i Fronti</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#creare-i-fronti" class="nav-link">Creare i fronti</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#creare-i-pericoli" class="nav-link">Creare i pericoli</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#oscuri-presagi" class="nav-link">Oscuri Presagi</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#disastri-incombenti" class="nav-link">Disastri Incombenti</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#posta-in-gioco" class="nav-link">Posta in gioco</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#risolvere-i-fronti" class="nav-link">Risolvere i fronti</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#fronti-dellavventura-multipli" class="nav-link">Fronti dell'avventura multipli</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="gestire-i-fronti">Gestire i Fronti</h1>
+<p>I fronti sono i tomi segreti delle conoscenze del GM. Ciascuno di essi è costituito da un insieme di pericoli collegati tra loro che minacciano direttamente i personaggi giocanti o le persone, i luoghi e le cose a loro care. Essi includono anche uno o più disastri incombenti, cose orribili che succederanno a meno che i personaggi non intervengano. “Fronti” deriva, ovviamente, da “combattere su più fronti”, che è proprio la situazione in cui vuoi mettere i personaggi: circondati da minacce, pericoli e avventura.</p>
+<p>I Fronti vengono preparati al di fuori delle sessioni. Sono il gioco in solitario che ti aspetta tra una partita e l’altra, quando ti freghi le mani e ridacchi malignamente tra te e te, creando i nemici che sfideranno i PG. Magari capiterà che tu li modifichi un po’ o gli dia una sistemata durante la partita, ma i concetti fondamentali vanno preparati tra una sessione e l’altra.</p>
+<h4 id="quando-preparare-i-fronti">Quando preparare i fronti</h4>
+<p>Creerai il fronte della campagna ed il primo fronte <em>dopo</em> la prima sessione. Va bene se il fronte della campagna non è completo all'inizio, lasciare qualcosa di indefinito ti darà l'opportunità di essere creativo in seguito.</p>
+<p>Dopo la prima sessione creerai qualche fornte dell'avventure. Uno o due di solito è un buon numero.</p>
+<h4 id="fronti-campagna-e-dellavventura">Fronti campagna e dell'avventura</h4>
+<p>Puoi utilizzare du distinti tipi di fronti. I fronti dell'avventura durano qualche sessione e sono legati ad un singolo problema. Il fronte della campagna è ciò che collega tra loto i fronti dell'avventura, è quello che dà coesione a tutte le sessioni della campagna.</p>
+<p>Puoi trasformare pericoli irrisolti di un fronte dell'avventura in fronti campagna, o spostare pericoli dal fronte campagna a un fronte dell'avventura quando se ne cominciano a sentire gli effetti.</p>
+<h2 id="creare-i-fronti">Creare i fronti</h2>
+<ul>
+<li>Scegli se si tratte di un fronte della campagna o dell'avventura</li>
+<li>Crea due o tre pericoli</li>
+<li>Scegli un disastro incombente per ogni pericolo</li>
+<li>Aggiungi gli oscuri presagi (1-2 per i fronti dell'avventura, 3-5 per i fronti campagna)</li>
+<li>Scrivi 1-3 domande sulle poste in gioco</li>
+<li>Elenca i protagonisti principali del fronte</li>
+</ul>
+<h2 id="creare-i-pericoli">Creare i pericoli</h2>
+<p>I pericoli sono divisi in un certo numero di categorie, ciascuna delle quali con il proprio nome e <strong>impulso</strong>, che risponde alla domanda "Cosa lo spinge a realizzare il suo disastro incombente?". Può aiutarti a trasformare il pericolo in azione.</p>
+<p><a href="../pericoli/">Qui i pericoli in dettaglio.</a></p>
+<p>Quando crei i pericoli pensa a come ciascuno di essi interagisca con gli altri, a formare un'unica entità: il fronte. Il modo più facile per iniziare è con la gente e con i mostri: cultisti, capitribù, maestà demoniache sono ottimo pericoli.</p>
+<p>Più in generale anche elementi del mondo meno ovvi possono costituire un pericolo: territori devastati, oggetti magiici intelligenti, antichi incantesimi intessuti nella trama del tempo.</p>
+<p>Tre pericoli per un fronte dell'avventura è un buon numero, anche per lasciar spazio per nuove scoperte e contributi dei giocatori.</p>
+<p>Non tutte le brutte cose che potrebbero succedere meritano di essere trasformate in un pericolo, nel dubbio: i pericoli devono poter sempre peggiorare.</p>
+<h4 id="descrizione-e-cast">Descrizione e Cast</h4>
+<p>Scrivi dqualcosa di corto per descrivere il pericolo che hai scelto. Se il pericolo coinvolge diverse persone dai loro un nome e decidi uno o due dettagli. Lascia un po' di spazio vuoto in questa sezione, dato che durante il gioco aggiungerai altri particolari.</p>
+<h4 id="mosse-personalizzate">Mosse Personalizzate</h4>
+<p>A volte per un perioclo sarà appropriata una mossa non rappresentata da nessuna di quelle esisteni. Puoi scirvere mosse per il GM o per i giocatori personalizzare per colmare eventuali lacune o per aggiungere conseguenza appropriate al pericolo. Per le mosse per i giocatori, non cambiare la strutture di base dei dadi.</p>
+<h2 id="oscuri-presagi">Oscuri Presagi</h2>
+<p>Gli oscuri presagi sono una tetra rappresentazione di ciò che potrebbe accadere se un pericolo venisse lasciato a sè stesso. Pensa a cosa succederebbe se il pericolo esistesse ma i PG noù. Un oscuro presagio può essere un singolo evento di rilievo o una serie di passaggi. Quando sei indeciso sul da farsi, incrementa uno dei pericoli facendo avverare un oscuro presagio.</p>
+<p>Generalmente gli oscuri presagi hanno un ordine logico. Gli orchi fanno a pezzi la città solo dopo che le trattative di pace falliscono, per esempio. Un fronte semplice passerà di male in peggio e in seguito in molto, molto peggio in modo lineare. A volte gli oscuri presagi portano ai disastri incombenti senza essere collegati l’uno all’altro. I primi segni del pericolo potrebbero non essere tutti connessi tra loro. Sta a te decidere quanto vuoi che sia complesso il tuo fronte.</p>
+<p>Prendi in considerazione anche l’entità degli oscuri presagi, non è necessario che siano tutti eventi che fanno tremare il mondo. Possono semplicemente mostrare un cambio di direzione di un pericolo. Un nuovo modo di causare problemi.</p>
+<p>Pensa ai tuoi oscuri presagi come possibili mosse in attesa dietro le quinte. Al momento giusto scatenali sul mondo. Un oscuro presagio che si avvera potrebbe avere conseguenze anche sugli altri fronti quindi, alla prima occasione in cui i giocatori non richiedono la tua attenzione, controllali rapidamente e se necessario sistemali. Un oscuro presagio di poco conto potrebbe avere sottili ripercussioni su tutta la compagna.</p>
+<h2 id="disastri-incombenti">Disastri Incombenti</h2>
+<p>Al capolinea di ogni pericolo c'è un disastro incombente. Quando un oscuro presagio si avvera, il disastro incombente si rafforza, diventa più visibilie e più concreto.</p>
+<ul>
+<li>Tirannia (del forte sul debole, o dei pochi su molti)</li>
+<li>Pestilenza (il diffondersi di malattia e infermità, la fine del benessere)</li>
+<li>Distruzione (apocalissa, rovina e sofferenza)</li>
+<li>Usurpazione (l'oridne costituito si sfalda, un giusto viene destituito)</li>
+<li>Impoverimento (schiavitù, la fine del bene e della giustizia)</li>
+<li>Caos Dilagante (le leggi della realtà, della società, o qualsiasi tipo d'ordine vengono infrante)</li>
+</ul>
+<p>Quando tutti gli oscuri presagi di un pericolo si realizzano, il disastro incombente si concretizza. A questo punto il pericolo si conclude, modificando in modo significativo lo scenario del gioco. Molto probabilmente cambierà anche la struttura del fronte. Assicurati che gli effetti si ripercuotano su tutto il mondo.</p>
+<h2 id="posta-in-gioco">Posta in gioco</h2>
+<p>La posta in gioco consiste in 1-3 domande riguardo persone, luoghi o gruppo. Sono un modo per tenere a mente ciò che ti interessa scoprire durante le partite. Le domande devono essere chiare e concrete, e riguardano fatti importanti che coinvolgono i personaggi e il mondo.</p>
+<p>Una buona posta in gioco è una domanda che, una volta risposta, farà in modo che le cose cambino per sempre.</p>
+<h2 id="risolvere-i-fronti">Risolvere i fronti</h2>
+<p>Spesso un fronte si risolverà in modo semplice e diretto. Un fronte basato su un dungeon potrebbe chiudersi perché i suoi pericoli vengono uccisi, convertiti al bene, o sopraffatti da qualche genere di atto eroico. Magari qualche parte del fronte, pericoli irrisolti o componenti di un pericolo che è stato scongiurato, sono ancora attivi. Magari si sposteranno al fronte della campagna come un pericolo nuovo di zecca?</p>
+<p>Risolvere il fronte della campagna sarà un po’ più laborioso. Continuerà per la sua strada con calma e in modo poco appariscente nel corso delle vostre partite. Non lo presenterai ai giocatori o lo risolverai per intero, ma a pezzi. Alla fine ti renderai conto che il fronte della campagna è risolto quando il Dio Oscuro verrà affrontato, o quando l’infestazione di non morti si sarà diffusa in tutto il mondo e gli eroi emergeranno sanguinanti ma vittoriosi o sconfitti e disperati.</p>
+<p>Quando un fronte viene risolto prenditi un po’ di tempo per riflettere sulle conseguenze. Anche quando un pericolo viene fermato, se anche un solo oscuro presagio accade significa che il mondo subisce un cambiamento, anche se non evidente.</p>
+<p>Quando si chiude un fronte dell’avventura di solito significa che l’avventura stessa si è risolta. È un ottimo momento per prenderti una pausa e riguardare il tuo fronte della campagna. Lascia che ispiri il tuo prossimo fronte dell’avventura. Scrivine uno nuovo o rispolverane uno che ti eri già preparato, disegna qualche mappa da abbinargli e stai pronto per il prossimo grande evento.</p>
+<h2 id="fronti-dellavventura-multipli">Fronti dell'avventura multipli</h2>
+<p>All’inizio del gioco è probabile che ti ritrovi con un fronte della campagna un po’ vago e uno o due fronti dell’avventura ben dettagliati. I personaggi potrebbero scegliere nel bel mezzo di una avventura di prendere un’altra direzione. Potresti ritrovarti con un po’ di fronti dell’avventura parzialmente risolti. Non solo va bene, ma è un ottimo modo per esplorare un mondo che sembri vivo e coerente. Ricorda sempre, i fronti procedono di buon passo per la loro strada a prescindere dal fatto che i personaggi stian li a tenerli d’occhio.</p>
+<p>Quando si giocano due fronti dell’avventura contemporaneamente, questi possono intrecciarsi oppure restare separati. Gli anarchici che stanno corrompendo la città dall’interno sono un fronte distinto dagli orchi che si stanno ammassando fuori dalle mura, ma sono entrambi in gioco nello stesso momento.</p>
+<p>Una situazione giustifica più fronti dell’avventura quando ci sono più disastri incombenti, tutti ugualmente validi ma non necessariamente correlati. Il disastro incombente degli anarchici è trascinare la città nel caos, la distruzione incombente degli orchi consiste nel raderla al suolo. Sono due fronti distinti ciscuno con i propri pericoli. Avranno a che fare l’uno con l’altro, inoltre, il che darà la possibilità ai giocatori di schierarsi o di cercare di rivoltare i pericoli l’uno contro l’altro.</p>
+<p>Quando i giocatori avranno a che fare con fronti dell’avventura multipli, probabilmente stabiliranno delle priorità. Dobbiamo affrontare il culto ora e gli orchi possono aspettare, oppure il contrario. Queste decisioni fanno sì che il fronte trascurato avanzi lentamente, magari causando altri problemi ai personaggi e portando nuove avventure. La cosa può diventare complicata quando si hanno in gioco tre o quattro fronti tutti insieme. Fai attenzione a non esagerare.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

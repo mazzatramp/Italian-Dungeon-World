@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Evoluzione - Dungeon World</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Dungeon World</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Il Gioco <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../gioco/come_giocare/" class="dropdown-item">Come giocare</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/danni/" class="dropdown-item">Danni e morte</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/magia/" class="dropdown-item">Magia</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/gregari/" class="dropdown-item">Gregari</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/vita_da_avventuriero/" class="dropdown-item">La Vita da Avventuriero</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/equipaggiamento/" class="dropdown-item">Equipaggiamento</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/oggetti_magici/" class="dropdown-item">Oggetti magici</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Personaggi <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../creazione/" class="dropdown-item">Creazione del Personaggio</a>
+</li>
+                                    
+<li>
+    <a href="../classi/" class="dropdown-item">Classi</a>
+</li>
+                                    
+<li>
+    <a href="../allineamento/" class="dropdown-item">Allineamento</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Evoluzione</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Game Master <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../gm/intro/" class="dropdown-item">Introduzione al Ruolo</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/prima_sessione/" class="dropdown-item">Affronare la Prima Sessione</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/fronti/" class="dropdown-item">Gestire i Fronti</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/mondo/" class="dropdown-item">Il Mondo</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../allineamento/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../gm/intro/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#evoluzione-dei-personaggi" class="nav-link">Evoluzione dei Personaggi</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#salire-di-livello" class="nav-link">Salire di Livello</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#mosse-multiclasse" class="nav-link">Mosse Multiclasse</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#prerequisiti-e-sostituzioni" class="nav-link">Prerequisiti e sostituzioni</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#oltre-il-decimo-livello" class="nav-link">Oltre il Decimo Livello</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#legami" class="nav-link">Legami</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#risolvere-i-legami" class="nav-link">Risolvere i Legami</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#scrivere-nuovi-legami" class="nav-link">Scrivere nuovi Legami</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="evoluzione-dei-personaggi">Evoluzione dei Personaggi</h1>
+<p>Il mondo di Dungeon World è in continuo cambiamento. Anche i personaggi cambiano. Man mano che la loro avventura procede, i PG ottengono punti esperienza (PE), che gli permettono di salire di livello. Questo li rende pronti per maggiori pericoli, avventure più emozionanti e imprese più importanti.</p>
+<p>La crescita, come qualunque altra cosa in Dungeon World, è sia prescrittiva che descrittiva. Prescrittivo significa che quando un giocatore modifica la scheda del proprio personaggio il personaggio cambia nella narrazione. Descrittivo significa che quando il personaggio cambia nella narrazione il giocatore deve adeguatamente modificare la scheda personaggio.</p>
+<p>Questo non è né un vantaggio né uno svantaggio per i giocatori o per il GM; non è una scusa per ottenere altri poteri o per toglierne. È solo il riflesso della vita in Dungeon World.</p>
+<p>Avon, nonostante sia un mago, è stato notato da Lenoral, la divinità della conoscenza arcana. Dopo essere stato benedetto da un’incarnazione di Lenoral e aver pronunciato il giuramento nella chiesa, Avon è sotto la protezione della divinità. Può Invocare la divinità e ottenere benefici come un chierico.</p>
+<p>Gregor offre la sua arma caratteristica, un’ascia il cui acciaio verde è stato temprato nel sangue di orco, come disperato baratto per salvare Re Auther dalla dannazione eterna. Senza la sua ascia non ottiene i benefici della sua arma caratteristica. Dovesse recuperarla, avrà nuovamente accesso ai benefici.</p>
+<p>I cambiamenti descrittivi avvengono solamente quando il personaggio ha chiaramente ottenuto l’accesso a una capacità. Non spetta a nessun giocatore deciderlo — se pensate che sia giusto che un personaggio ottenga una nuova abilità, discutetene come gruppo.</p>
+<h2 id="salire-di-livello">Salire di Livello</h2>
+<p>Mentre giochi a Dungeon World, farai tre cose principalmente: esplorare, combattere nemici pericolosi, e raccogliere tesori. Per ciascuna di queste cose sarai ricompensato con un PE alla fine della sessione. Anche agire in concordanza con il tuo allineamento e soddisfarne le richieste ti frutterà un PE alla fine di ogni sessione. Se risolvi un legame e ne crei uno nuovo, otterrai un PE anche in questo caso. Ogni volta che tiri e ottieni 6- ottieni un PE subito. Il GM potrebbe avere condizioni speciali che puoi soddisfare per ottenere un PE o cambiare quelle proposte come riflesso del suo mondo. Se è così, te lo farà sapere prima di giocare.</p>
+<p>Quando i vostri personaggi sono al sicuro e hanno il tempo di riposare, possono fare la mossa salire di livello e ottenere nuove mosse.</p>
+<h2 id="mosse-multiclasse">Mosse Multiclasse</h2>
+<p>Le mosse multiclasse ti permettono di ottenere mosse da un’altra classe. Puoi scegliere qualunque mossa del tuo livello o inferiore. Ai fini delle mosse multiclasse, eventuali mosse iniziali che dipendono l’una dall’altra contano come una sola mossa: le mosse lanciare incantesimo, libro degli incantesimi, preparare incantesimi del mago, ad esempio. Se la mossa di un’altra classe fa riferimento al tuo livello, contano i livelli a partire dal livello in cui hai scelto la tua prima mossa di quella classe.</p>
+<h2 id="prerequisiti-e-sostituzioni">Prerequisiti e sostituzioni</h2>
+<p>Alcune mosse che puoi ottenere ai livelli alti dipendono da altre mosse. Se nella descrizione di una mossa un’altra mossa è elencata dopo la parola Prerequisito o Sostituisce puoi scegliere la nuova mossa solo se hai già la mossa elencata.</p>
+<p>Una mossa che ha come prerequisito un’altra mossa può essere scelta soltanto se hai già la mossa richiesta. Dopo, avrai a disposizione entrambe le mosse ed entrambe avranno effetto.</p>
+<p>Una mossa che sostituisce un’altra mossa può essere scelta soltanto se hai già la mossa richiesta. Perderai la mossa sostituita e avrai soltanto quella nuova. La nuova mossa, solitamente, include già tutti i benefici di quella sostituita: ad esempio, potresti rimpiazzare una mossa che ti dà armatura 1 con una che ti dà armatura 2.</p>
+<h2 id="oltre-il-decimo-livello">Oltre il Decimo Livello</h2>
+<p>Quando raggiungi il decimo livello le cose cominciano a cambiare. Quando hai abbastanza PE per raggiungere l’undicesimo livello, scegli un’opzione:</p>
+<p>Ti ritiri dall’avventura in un luogo sicuro
+Prendi con te un apprendista
+Scambi la tua classe con una completamente diversa
+Se ti ritiri dall’avventura, devi creare un nuovo personaggio da giocare e lavorare insieme al GM per decidere il suo posto nel mondo. Se decidi di prendere con te un apprendista giocherai il nuovo personaggio (l’apprendista) insieme al tuo personaggio attuale, che smette di guadagnare PE. Cambiare classe significa mantenere tutti i tuoi punteggi di capacità, razza, PF e qualunque mossa tu e il GM decidiate sia fondamentale per il tuo personaggio. Perdi tutte le altre mosse della classe, sostituendole con le mosse iniziali della nuova classe.</p>
+<h2 id="legami">Legami</h2>
+<p>I legami sono ciò che vi rende un gruppo di avventurieri piuttosto che un assortimento casuale di persone. Sono i sentimenti, i pensieri e la storia condivisa che vi unisce. Avrai sempre almeno un legame, e spesso ne avrai più di uno.</p>
+<p>Ciascun legame è una semplice affermazione che fa riferimento al tuo personaggio e a un altro PG. La tua classe te ne da alcuni per iniziare, eventualmente sostituirai i tuoi legami iniziali e ne guadagnerai di nuovi durante il gioco.</p>
+<h2 id="risolvere-i-legami">Risolvere i Legami</h2>
+<p>Alla fine di ogni sessione puoi risolvere un legame. La risoluzione di un legame dipende sia da te che dal giocatore del personaggio con cui condividi il legame: puoi proporre che il legame sia stato risolto e, se acconsente, viene risolto. Quando risolvi un legame, segna un PE.</p>
+<p>Un legame è risolto quando non descrive più il tuo rapporto con quel personaggio. Potrebbe essere perché le circostanze sono cambiate — Thelian prima ti guardava le spalle, ma ora che ti ha abbandonato ai goblin, non sei più così sicuro. O potrebbe essere un problema che non c’è più — hai fatto da guida a Wesley e ti doveva un favore, ma ha pagato il suo debito quando ti ha salvato la vita con un incantesimo al momento giusto. Ogni volta che leggi un legame e pensi “questa cosa non è più importante per il nostro rapporto” è il momento di risolvere il legame.</p>
+<p>Se hai un legame vuoto sulla scheda personaggio puoi riempirlo quando vuoi. Non ottieni PE se lo fai, ma avrai più legami da risolvere in futuro.</p>
+<h2 id="scrivere-nuovi-legami">Scrivere nuovi Legami</h2>
+<p>Ogni volta che risolvi un legame ne scrivi uno nuovo. Il tuo nuovo legame potrebbe essere con lo stesso personaggio, ma non deve.</p>
+<p>Quando scrivi un nuovo legame scegli un altro personaggio. Scegli qualcosa di attinente all’ultima sessione, magari un posto che avete visitato insieme o un tesoro che avete scoperto. Scegli un pensiero o una convinzione del tuo personaggio a proposito dell’altro e un’azione che indica cosa ha intenzione di fare al riguardo. Otterrai qualcosa come:</p>
+<p>La furbizia di Mouse mi ha salvato dal drago bianco che abbiamo affrontato. Le devo un favore.</p>
+<p>Avon ha provato di essere un codardo nelle segrete di Xax’takar. È un pericoloso ostacolo per il gruppo e dev’essere tenuto sott’occhio.</p>
+<p>La gentilezza di Valeria verso gli Gnomi della Valle mi ha toccato il cuore, voglio provarle che non sono il mostro insensibile che crede io sia.</p>
+<p>Xotoq ha vinto l’ascia delle Ossa Sussurranti con un tranello! Sarà mia, lo giuro.</p>
+<p>Questi legami sono esattamente come quelli vecchi: usali, risolvili, sostituiscili.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
