@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Mosse in dettaglio - Dungeon World</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Dungeon World</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Il Gioco <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../gioco/come_giocare/" class="dropdown-item">Come giocare</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/danni/" class="dropdown-item">Danni e morte</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/magia/" class="dropdown-item">Magia</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/gregari/" class="dropdown-item">Gregari</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/vita_da_avventuriero/" class="dropdown-item">La Vita da Avventuriero</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/equipaggiamento/" class="dropdown-item">Equipaggiamento</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/oggetti_magici/" class="dropdown-item">Oggetti magici</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Personaggi <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../pgs/creazione/" class="dropdown-item">Creazione del Personaggio</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/classi/" class="dropdown-item">Classi</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/allineamento/" class="dropdown-item">Allineamento</a>
+</li>
+                                    
+<li>
+    <a href="../../pgs/evoluzione/" class="dropdown-item">Evoluzione</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Game Master <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../intro/" class="dropdown-item">Introduzione al Ruolo</a>
+</li>
+                                    
+<li>
+    <a href="../prima_sessione/" class="dropdown-item">Affronare la Prima Sessione</a>
+</li>
+                                    
+<li>
+    <a href="../fronti/" class="dropdown-item">Gestire i Fronti</a>
+</li>
+                                    
+<li>
+    <a href="../mondo/" class="dropdown-item">Il Mondo</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#mosse-in-dettaglio" class="nav-link">Mosse in dettaglio</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#usa-una-mossa-specifica" class="nav-link">Usa una mossa specifica</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#rivela-una-verita-sgradita" class="nav-link">Rivela una verità sgradita</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#infliggi-danno" class="nav-link">Infliggi danno</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#consuma-le-loro-risorse" class="nav-link">Consuma le loro risorse</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#contromossa" class="nav-link">Contromossa</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#separali" class="nav-link">Separali</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#crea-unopportunita-specifica" class="nav-link">Crea un’opportunità specifica</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#mostra-un-lato-negativo" class="nav-link">Mostra un lato negativo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#offri-unopportunita" class="nav-link">Offri un’opportunità</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#metti-qualcuno-in-difficolta" class="nav-link">Metti qualcuno in difficoltà</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#spiega-le-conseguenze" class="nav-link">Spiega le conseguenze</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#mosse-del-dungeon" class="nav-link">Mosse del Dungeon</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#cambia-lambiente" class="nav-link">Cambia l’ambiente</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#indica-una-minaccia" class="nav-link">Indica una minaccia</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#introduci-una-nuova-fazione" class="nav-link">Introduci una nuova fazione</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#falli-tornare-indietro" class="nav-link">Falli tornare indietro</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#offri-ricchezze" class="nav-link">Offri ricchezze</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#offri-una-sfida" class="nav-link">Offri una sfida</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="mosse-in-dettaglio">Mosse in dettaglio</h1>
+<p>Quando fai una mossa, tieni a mente i tuoi principi. In particolare, non pronunciare mai il nome della tua mossa e rivolgiti ai personaggi, non ai giocatori. Le tue mosse non sono azioni meccaniche che avvengono al tavolo. Sono eventi concreti che avvengono ai personaggi nel mondo della narrazione che stai descrivendo.</p>
+<p>È vero che “Infliggi danno” è una mossa, ma anche altre mosse possono comportare l’infliggimento di danni. Quando un ogre ti lancia contro un muro prendi danno come se ti avesse colpito con un pugno.</p>
+<p>Dopo ogni mossa che fai, chiedi sempre “Che cosa fai?”.</p>
+<h2 id="usa-una-mossa-specifica">Usa una mossa specifica</h2>
+<p><strong>Usa la mossa di un mostro, un pericolo, o un luogo.</strong>
+Ciascun mostro in un’avventura ha delle mosse ad esso associate, come le hanno molti luoghi. La mossa di un mostro o di un luogo è solo una descrizione di che cosa fa quel mostro o quel luogo, ad esempio “scagliare persone” o “creare un collegamento tra piani”. Se la mossa di un giocatore (ad esempio taglia e spacca) dice che il mostro ha diritto a un attacco, fai una mossa offensiva con quel mostro.</p>
+<p>Anche i pericoli ricorrenti dell’avventura hanno delle mosse a loro associate. Usa queste mosse per mettere quel pericolo in gioco, il che potrebbe voler dire altri mostri.</p>
+<h2 id="rivela-una-verita-sgradita">Rivela una verità sgradita</h2>
+<p><strong>Rivela una verità sgradita</strong>
+Una verità sgradita è un’informazione che i giocatori vorrebbero non fosse vera: ad esempio, che la stanza è piena di trappole, o che il goblin servizievole è in realtà una spia. Fai capire ai giocatori in quali guai si sono cacciati.</p>
+<p>Mostra i segni di una minaccia incombente
+Questa è una delle tue mosse più versatili. Una “minaccia” può essere qualunque cosa brutta che sta per avverarsi. Con questa mossa, mostri ai giocatori che qualcosa accadrà a meno che non facciano qualcosa per evitarlo.</p>
+<h2 id="infliggi-danno">Infliggi danno</h2>
+<p><strong>Infliggi danno</strong>
+Quando infliggi danno, scegli una fonte di danno nella narrazione che minaccia un personaggio e sfruttala. Stai combattendo con un lucertoloide? Ti accoltella. Hai fatto scattare una trappola? Ti cadono dei massi in testa.</p>
+<p>La quantità di danni è decisa dalla fonte. In alcuni casi, questa mossa può comportare uno scambio di danni in entrambe le direzioni, con anche il personaggio che infligge danni.</p>
+<p>La maggior parte dei danni si basa sul tiro di un dado. Quando un personaggio prende danni, digli che cosa tirare. Non devi mai toccare i dadi. Se il giocatore è troppo codardo per scoprire da solo il proprio destino, può chiedere a un altro giocatore di tirare per lui.</p>
+<h2 id="consuma-le-loro-risorse">Consuma le loro risorse</h2>
+<p><strong>Consuma le loro risorse</strong>
+Sopravvivere in un dungeon, o in qualsiasi luogo pericoloso, spesso ha a che vedere con le provviste. Con questa mossa, fai accadere qualcosa che consuma una qualche risorsa: armi, armatura, guarigione, incantesimi attivi. Non devi per forza consumarla permanentemente. Una spada potrebbe semplicemente essere scagliata dall’altra parte di una stanza, senza danneggiarsi.</p>
+<h2 id="contromossa">Contromossa</h2>
+<p><strong>Rivoltagli contro le loro mosse</strong>
+Pensa ai benefici che una mossa accorda a un personaggio e capovolgili in modo negativo. In alternativa, accorda gli stessi benefici a qualcuno che agisce contro i personaggi. Se Ivy ha scoperto che gli uomini del Duca Horst si avvicinano dall’Est, magari anche un loro esploratore è riuscito a individuarla.</p>
+<h2 id="separali">Separali</h2>
+<p><strong>Separali</strong>
+Non ci sono molte cose peggiori di essere nel mezzo di una battaglia furiosa con orsogufi assetati di sangue che incombono da tutti i lati — una di queste cose è trovarsi in quella stessa battaglia con nessuno al tuo fianco.</p>
+<p>Separare i personaggi può voler dire venir spinti via nella foga della battaglia, oppure essere teletrasportati a estremità opposte del dungeon, o qualunque via di mezzo. In qualsiasi modo accada, sarà senz’altro fonte di guai.</p>
+<h2 id="crea-unopportunita-specifica">Crea un’opportunità specifica</h2>
+<p><strong>Crea un'opportunità appropriata alle capacità di una classe.</strong>
+Il ladro disattiva trappole, si muove furtivamente, e scassina serrature. Il chierico si occupa delle divinità e dei morti. Ogni classe ha delle cose in cui brilla—presenta un’opportunità che metta in gioco una di queste cose.</p>
+<p>Non dev’essere per forza una classe attualmente in gioco. A volte una porta chiusa è posta a guardia di un tesoro, e non c’è alcun ladro a disposizione. Questo è un’invito all’inventiva, alla creatività, e al compromesso. Se tutto quello che hai è un’ascia insanguinata ogni problema non è forse un altro cranio da sfondare?</p>
+<h2 id="mostra-un-lato-negativo">Mostra un lato negativo</h2>
+<p><strong>Mostra il lato negativo delle loro classi, razze o oggetti.</strong>
+Allo stesso modo in cui ha modo di brillare, ogni classe ha anche le sue debolezze. Forse gli orchi hanno una particolare sete di sangue elfico. Forse la magia del chierico sta disturbando delle entità pericolose. O ancora, la torcia che illumina la via attira anche l’attenzione degli occhi che si nascondono nell’ombra.</p>
+<h2 id="offri-unopportunita">Offri un’opportunità</h2>
+<p><strong>Offri un'opportunità, con o senza costo</strong>
+Mostragli quello che vogliono: ricchezze, potere, gloria. Se ti va, puoi ovviamente associarvi un prezzo da pagare.</p>
+<p>Ricorda di iniziare con la narrazione. Non dire “Quest’area non è molto pericolosa quindi potete accamparvi qui, se vi fermate per il tempo necessario.”</p>
+<h2 id="metti-qualcuno-in-difficolta">Metti qualcuno in difficoltà</h2>
+<p>Mettere qualcuno in difficoltà significa metterlo in una situazione in cui deve fare scelte difficili. Metti loro, o qualcosa a loro cara, di fronte alla distruzione incombente. Più difficile sarà la scelta, peggiore la situazione.</p>
+<h2 id="spiega-le-conseguenze">Spiega le conseguenze</h2>
+<p><strong>Spiega le conseguenze o il prezzo da pagare e chiedi di nuovo</strong>
+Questa mossa è particolarmente utile quando i giocatori vogliono fare qualcosa che non è previsto da alcuna mossa, oppure quando falliscono una mossa. Possono farlo, certo, ma dovranno pagare un prezzo. Oppure, possono farlo, ma ci saranno delle conseguenze. Ad esempio, potrebbero attraversare il fossato infestato di squali senza venire prima divorati, ma dovranno creare una distrazione. Ovviamente, ciò dev’esser reso chiaro ai personaggi, non solo ai giocatori: gli squali sono affamati e furiosi.</p>
+<h1 id="mosse-del-dungeon">Mosse del Dungeon</h1>
+<h2 id="cambia-lambiente">Cambia l’ambiente</h2>
+<p><strong>Cambia l’ambiente</strong>
+L’ambiente è in generale l’atmosfera dell’area in cui si trovano i giocatori: gallerie scavate, alberi curvi, piste sicure, o qualsiasi altra cosa. Questa è la tua opportunità per presentargli un nuovo ambiente: le gallerie da artificiali diventano naturali, gli alberi sono rinsecchiti e inquietanti, o la pista si perde tra le terre selvagge.</p>
+<h2 id="indica-una-minaccia">Indica una minaccia</h2>
+<p><strong>Indica una minaccia incombente</strong>
+Se sai che qualcosa si nasconde, aspettando solo che i giocatori vi si imbattano, questa mossa ne mostra i segni e gli indizi. Con questa mossa puoi mostrare le impronte del drago nel fango o la scia melmosa del cubo gelatinoso.</p>
+<h2 id="introduci-una-nuova-fazione">Introduci una nuova fazione</h2>
+<p><strong>Introduci una nuova fazione o tipo di creatura</strong>
+Con tipo di creatura s’intende una categoria ampia: orchi, goblin, lucertoloidi, non-morti, etc.</p>
+<p>Una fazione è un gruppo di creature unite per un obiettivo comune. Una volta introdotte nel gioco, puoi usare queste creature e PNG per fare mosse e mettere i giocatori nei guai.</p>
+<p>Introdurre significa dare qualche chiara prova sensoriale o delle informazioni concrete. Non essere timido: i giocatori dovrebbero avere un’idea di ciò di cui stai manifestando la presenza. Puoi, tuttavia, avere un approccio più misurato. Non c’è bisogno che ogni volta il capo supremo dei cultisti agiti un cartello strillando frasi in lingua infernale.</p>
+<p>Usa un pericolo di una fazione o di un tipo di creatura già esistente
+Una volta che i personaggi hanno avvertito la presenza di una fazione o di un tipo di creatura puoi usare le mosse dei mostri di quel tipo.</p>
+<p>Tratta le fazioni e i tipi in senso ampio. Gli orchi sono accompagnati dai loro worg da caccia. Una setta di folli probabilmente avrà dei servitori non-morti o qualche bestia evocata dalle fosse dell’Abisso. Questa è una mossa che spesso farai senza pensarci—si tratta soltanto di utilizzare gli strumenti che ti sei preparato in modo chiaro ed efficace.</p>
+<h2 id="falli-tornare-indietro">Falli tornare indietro</h2>
+<p><strong>Falli tornare sulle proprie tracce</strong>
+Osserva le aree che hai disegnato sulla mappa. C’è qualcosa di utile e non ancora scoperto? Puoi aggiungere un nuovo ostacolo che può essere superato solo tornando indietro? C’è una porta chiusa la cui chiave giace in una stanza precedente?</p>
+<p>Mentre tornano indietro, mostragli gli effetti che il tempo ha avuto sulle aree che si sono lasciati alle spalle. Quali nuove minaccie sono sorte in conseguenza alle loro azioni? Che cosa hanno trascurato e adesso attende il loro ritorno?</p>
+<p>Usa questa mossa per rendere il dungeon un posto vivo e dinamico. Le cose non possono restare immobili dopo il passaggio dei personaggi. Aggiungi rinforzi, abbatti mura, provoca il caos. Il dungeon si evolve in conseguenza alle azioni dei personaggi.</p>
+<h2 id="offri-ricchezze">Offri ricchezze</h2>
+<p><strong>Offri ricchezze in cambio di qualcosa</strong>
+Che cosa vogliono i giocatori? Che cosa sacrificherebbero per averlo?</p>
+<p>Metti qualche oggetto invitante poco fuori dalla loro portata. Trova qualcosa di cui sono a corto: tempo, PF, equipaggiamento, qualsiasi cosa. Trova un modo per dargli ciò che vogliono se rinunciano a ciò che hanno.</p>
+<p>Il modo più semplice per usare questa mossa è offrire dell’oro al di fuori dell’obiettivo principale. Si fermeranno i giocatori a staccare gli occhi di rubino dall’idolo sapendo che il sacrificio incombe sempre più vicino? Usa questa mossa per scoprirlo.</p>
+<h2 id="offri-una-sfida">Offri una sfida</h2>
+<p><strong>Offri una sfida a uno dei personaggi</strong>
+Sfida un personaggio osservando ciò in cui è più bravo. Dai al ladro un lucchetto da scassinare, mostra al chierico dei servitori di un dio nemico da combattere. Dai al mago dei misteri magici su cui indagare. Mostra al guerriero dei crani da spaccare. Dai a qualcuno un’opportunità per brillare.</p>
+<p>In alternativa, sfida un personaggio osservando ciò in cui non è bravo o che ha lasciato in sospeso. Se il bardo ha una bugia complicata sulla coscienza, che cosa farà per nasconderla quando qualcuno lo scopre? Se il mago si è messo a evocare demoni, che cosa succede quando la voce si sparge?</p>
+<p>Questa mossa può mettere un personaggio sotto i riflettori—anche se solo per un momento. Cerca di dare a tutti una possibilità di essere al centro dell’attenzione usando questa mossa da sessione a sessione.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

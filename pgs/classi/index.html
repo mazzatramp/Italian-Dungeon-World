@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Classi - Dungeon World</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Dungeon World</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Il Gioco <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../gioco/come_giocare/" class="dropdown-item">Come giocare</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/danni/" class="dropdown-item">Danni e morte</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/magia/" class="dropdown-item">Magia</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/gregari/" class="dropdown-item">Gregari</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/vita_da_avventuriero/" class="dropdown-item">La Vita da Avventuriero</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/equipaggiamento/" class="dropdown-item">Equipaggiamento</a>
+</li>
+                                    
+<li>
+    <a href="../../gioco/oggetti_magici/" class="dropdown-item">Oggetti magici</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Personaggi <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../creazione/" class="dropdown-item">Creazione del Personaggio</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Classi</a>
+</li>
+                                    
+<li>
+    <a href="../allineamento/" class="dropdown-item">Allineamento</a>
+</li>
+                                    
+<li>
+    <a href="../evoluzione/" class="dropdown-item">Evoluzione</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Game Master <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../gm/intro/" class="dropdown-item">Introduzione al Ruolo</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/prima_sessione/" class="dropdown-item">Affronare la Prima Sessione</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/fronti/" class="dropdown-item">Gestire i Fronti</a>
+</li>
+                                    
+<li>
+    <a href="../../gm/mondo/" class="dropdown-item">Il Mondo</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../creazione/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../allineamento/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#le-classi-base" class="nav-link">Le Classi Base</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#il-barbaro" class="nav-link">Il Barbaro</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#il-bardo" class="nav-link">Il Bardo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#il-chierico" class="nav-link">Il Chierico</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#il-druido" class="nav-link">Il Druido</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#il-guerriero" class="nav-link">Il Guerriero</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#il-ladro" class="nav-link">Il Ladro</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#il-mago" class="nav-link">Il Mago</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#il-paladino" class="nav-link">Il Paladino</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#il-ramingo" class="nav-link">Il Ramingo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#classi-aggiuntive" class="nav-link">Classi Aggiuntive</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="le-classi-base">Le Classi Base</h1>
+<h2 id="il-barbaro">Il Barbaro</h2>
+<p>Guarda questa gente imbellettata. Ti osservano e hanno paura di te. Fanno bene, devono averne. Tu non sei come loro. Vieni da un luogo dove il valore di un uomo si misura dalla forza del suo pugno, non dalla capienza delle sue tasche. Mentre loro sono deboli, si nascondono dietro leggi fragili come le loro ossa; l’unica legge che conosci è quella del più forte. Ce ne sono altre?</p>
+<p>Tu insegui cose più succulente di una casa tranquilla o di una manciata di monete: tu vuoi la gloria, la fama e un mucchio di ricchezze, tante da non poterle contare. Perché tu non sai contare. C’è solo una cosa che sai fare bene: spaccare la testa di chi si mette tra te e i tuoi appetiti. I tuoi compagni d’avventura potranno trattarti come uno straniero rozzo e ignorante. Che lo pensino pure, che ti importa? Quando le cose si metteranno male piangeranno chiedendo il tuo aiuto.</p>
+<p>Perchè nessuno di loro è forte come te. Nessuno.</p>
+<p><a href="barbaro/">Libretto in web</a><br />
+<a href="">Libretto in pdf</a></p>
+<h2 id="il-bardo">Il Bardo</h2>
+<p>I poemi dicono che la vita di un avventuriero è fatta di mille strade aperte e della gloria di battaglie vinte e di ricchezze conquistate. Le storie che si raccontano in ogni taverna affollata di villici e braccianti dovranno pur avere una parvenza di verità, non è vero? Le canzoni che ispirano ugualmente nobili e pezzenti, per placare le bestie selvagge o spingere gli uomini alla furia, dovranno pur avere un’origine.</p>
+<p>È qui che arriva il bardo. Tu, con la tua lingua sciolta e il tuo acume. Tu, che racconti favole e canti canzoni. Un semplice menestrello può ripetere una storia, ma ci vuole un bardo per viverla. Metti gli stivali, nobile oratore. Affila la tua daga celata e rispondi all’appello. Qualcuno dev’essere lì, a lottare fianco a fianco con picchiatori e mercenari e futuri eroi. Chi meglio di te per scrivere la storia del tuo stesso eroismo?</p>
+<p>Nessuno. Dai inizio all’avventura.</p>
+<p><a href="bardo/">Libretto in web</a><br />
+<a href="">Libretto in pdf</a></p>
+<h2 id="il-chierico">Il Chierico</h2>
+<p>Le terre di Dungeon World sono allo sbando, dimenticate dagli dèi. È un mondo orribile, con morti che camminano e bestie di ogni genere che si aggirano contro natura per le zone selvagge tra le città sicure e benedette dai templi. È un mondo senza religione quello là fuori. È per questo che ha bisogno di te.</p>
+<p>Portare la gloria degli dèi ai selvaggi non è solo la tua natura, è la tua missione. Sta a te diffondere il verbo con la spada, la mazza e la magia, fendere dritto nel barbaro cuore dei luoghi senza dio e piantarvi il seme della religione. Alcuni dicono che è meglio tenere gli dèi vicino al cuore. Sciocchezze. Il tuo dio vive sul filo di una lama.</p>
+<p>Mostra al mondo chi è il suo signore.</p>
+<p><a href="chierico/">Libretto in web</a><br />
+<a href="">Libretto in pdf</a></p>
+<h2 id="il-druido">Il Druido</h2>
+<p>Dai uno sguardo attorno al fuoco. Che cosa ti ha portato a viaggiare con questa gente, che puzza della polvere e del sudore della città? È una forma di bontà? Li proteggi forse come una mamma orso difende i suoi cuccioli? Sono loro il tuo branco, ora? Inconsueti sono i fratelli e sorelle che ti sei dato. Qualunque cosa ti abbia spinto ad aiutarli, certamente sarebbero perduti senza i tuoi sensi acuti e i tuoi artigli affilati.</p>
+<p>Tu appartieni agli ampi spazi consacrati, sei nato dalla terra e porti il marchio dei suoi spiriti sulla tua pelle. Forse avevi una vita prima, forse eri un abitante di città come loro, ma adesso non più. Hai rinunciato a quella forma statica. Ascolta i tuoi alleati pregare i loro dèi scolpiti nella pietra e guardali lucidare i loro simulacri d’argento. Parlano della gloria che troveranno in quella città marcia che vi siete lasciati alle spalle.</p>
+<p>I loro dèi sono infanti, il loro acciaio non li proteggerà. Tu segui le vecchie vie, indossi la pelle della terra stessa. Prenderai certo la tua parte del tesoro, ma camminerai mai come uno di loro? Solo il tempo lo dirà.</p>
+<p><a href="./classi/druido.md">Libretto in web</a><br />
+<a href="">Libretto in pdf</a></p>
+<h2 id="il-guerriero">Il Guerriero</h2>
+<p>È un lavoro ingrato: sopravvivere giorno dopo giorno grazie alla tua armatura e alla forza del tuo braccio, tuffandoti con indifferenza nel pericolo. Non suoneranno corni d’oro per quel giorno in cui prendesti per loro una coltellata tra le costole in quella locanda di Bucksberg. Nessun coro d’angeli canterà della volta che li trascinasti, ancora urlanti, dal limitare delle Fosse della Follia, no.</p>
+<p>Loro non contano.</p>
+<p>Tu lo fai per il coraggio e la gloria, per il rumore della battaglia e per il caldo, caldo sangue che ti senti scorrere nelle vene quando vi prendi parte. Sei una bestia di ferro. I tuoi amici impugneranno pure lame d’acciaio temprato ma tu, guerriero, tu sei acciaio. Mentre i tuoi compagni si lamentano delle ferite attorno al focolare nelle terre selvagge, tu porti le tue cicatrici con orgoglio.</p>
+<p>Tu sei la muraglia: lascia che ogni pericolo si sfracelli in polvere scontrandosi con te. Alla fine, sarai l’ultimo a stare in piedi.</p>
+<p><a href="./classi/guerriero.md">Libretto in web</a><br />
+<a href="">Libretto in pdf</a></p>
+<h2 id="il-ladro">Il Ladro</h2>
+<p>Li hai sentiti, seduti attorno al fuoco. Si vantano di questa o quella battaglia, o di come i loro dèi sorridano sulla vostra allegra compagnia. Tu conti le tue monete e sorridi a te stesso — questa è l’emozione più forte. Solo tu conosci il segreto di Dungeon World: sporco, sporco guadagno.</p>
+<p>Certo, ti insulteranno per tutte le volte che te ne sei scappato di nascosto, ma senza di te, ciascuno di loro sarebbe stato diviso in due da una ghigliottina, o avvelenato a morte da qualche antica trappola ad aghi. Perciò, lascia che si lagnino. Quando avrai finito con questa vita di esplorazione e saccheggio brinderai alle loro tombe da eroi.</p>
+<p>Dal tuo castello. Pieno d’oro. Furfante che non sei altro.</p>
+<p><a href="./classi/ladro.md">Libretto in web</a><br />
+<a href="">Libretto in pdf</a></p>
+<h2 id="il-mago">Il Mago</h2>
+<p>Dungeon World ha delle regole. Non sono le leggi degli uomini o la parola di un meschino tiranno. Regole più grandi, migliori. Lasci cadere qualcosa, in pochi attimi è per terra. Non si può creare la materia dal nulla. I morti restano morti, giusto?</p>
+<p>Ah, le cose che ci diciamo per stare meglio durante le lunghe notti buie.</p>
+<p>Hai passato così tanto tempo chino sui tuoi tomi. Hai portato a termine esperimenti che ti hanno fatto quasi impazzire e hai evocato cose che mettevano in pericolo la tua stessa anima. Per cosa? Per il potere. Che altro c’è al mondo? Non si tratta del potere di un Re o di una Nazione, ma del potere di far bruciare il sangue di un uomo nelle sue vene. Di richiamare i fulmini del cielo e le scosse della terra turbolenta. Di ignorare le regole che al mondo sono così care.</p>
+<p>Lascia che ti guardino con occhi biechi. Lascia che ti chiamino stregone o negromante. Chi tra loro può lanciare palle di fuoco dagli occhi?</p>
+<p>Esatto. Non avevo dubbi.</p>
+<p><a href="./classi/mago.md">Libretto in web</a><br />
+<a href="">Libretto in pdf</a></p>
+<h2 id="il-paladino">Il Paladino</h2>
+<p>L’Inferno attende. Un’eternità di tormento nel fuoco o nel gelo o qualunque altra pena meglio rappresenti i peccati commessi dalle orde di dannati di Dungeon World. Sei l’unica cosa che si frappone tra la salvezza dell’anima e le cupe fosse della tortura. Sant’uomo, macchina da guerra in armatura, templare del Bene e della Luce, giusto? Il chierico potrà pregare di notte agli dei che abitano il cielo. Il guerriero potrà impugnare la sua spada affilata nel nome del “bene” ma tu sai. Solo tu sai.</p>
+<p>Tu sei gli occhi, le mani degli dèi, pietoso esecutore del loro giudizio di morte. Tuo è il dono della rettitudine e della virtù, della giustizia, anche della Vista. Una purezza d’intenti che ai tuoi compagni manca.</p>
+<p>Perciò guida questi sciocchi, paladino. Imbraccia le armi per la tua nobile causa e porta la salvezza a questo mondo scellerato.</p>
+<p>Vae victis, giusto?</p>
+<p><a href="./classi/paladino.md">Libretto in web</a><br />
+<a href="">Libretto in pdf</a></p>
+<h2 id="il-ramingo">Il Ramingo</h2>
+<p>Questa gente di città con cui viaggi. Hanno udito loro il richiamo del lupo? Hanno sentito i venti ululare nei tetri deserti dell’Est? Hanno cacciato la preda con l’arco e il coltello come te? Certo che no. È per questo che hanno bisogno di te.</p>
+<p>Guida. Cacciatore. Creatura selvaggia. Sei tutte queste cose e anche più. Hai vissuto nelle terre selvagge da solo fino a ora, ma il richiamo di qualcosa più grande, chiamalo destino se vuoi, ti ha unito a questa gente. Coraggiosi, certamente. Possenti e forti, anche. Ma solo tu conosci i segreti degli spazi inesplorati.</p>
+<p>Senza di te, sarebbero persi. Fai strada tra il sangue e l’oscurità, grampasso.</p>
+<p><a href="./classi/ramingo.md">Libretto in web</a><br />
+<a href="">Libretto in pdf</a></p>
+<hr>
+
+<h1 id="classi-aggiuntive">Classi Aggiuntive</h1></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
