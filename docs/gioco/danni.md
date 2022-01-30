@@ -24,15 +24,15 @@ L’armatura temporanea o circostanziale funziona allo stesso modo dell’armatu
 
 Quando il danno è specifico, come per un orco che ti tira un braccio lussandoti la spalla, i PF dovrebbero essere parte dell’effetto ma non tutto quanto. Il problema principale è sistemare il braccio slogato: come farai adesso a impugnare una spada o a lanciare un incantesimo? Allo stesso modo, se vieni decapitato non è una perdita di PF, sei morto e basta.
 
-## Danni da più creature
+### Danni da più creature
 È coraggioso il mostro che va in battaglia da solo. La maggior parte delle creature combattono con qualcuno al loro fianco, e magari qualcun altro dietro la schiena, e anche un arciere a coprire la retroguardia. Ciò può fare in modo che più di un mostro alla volta debba infliggere i suoi danni.
 
 Se molteplici creature attaccano allo stesso momento, tira i danni più elevati tra i loro e aggiungi +1 danno per ciascun mostro oltre il primo.
 
-## Danni da stordimento
+### Danni da stordimento
 I danni da stordimento sono danni non letali. Un PG che subisce danni non letali deve sfidare il pericolo per fare qualunque cosa, dove il pericolo è “sei stordito”. L’effetto dura fintanto che ha senso nella narrazione: sei stordito finché non hai la possibilità di schiarirti le idee o di sistemare qualunque cosa ti renda stordito. Un personaggio del GM che subisce danni da stordimento non li sottrae ai PF ma agirà di conseguenza, vacillando per qualche secondo, barcollando alla cieca, etc.
 
-## Debilitazioni
+### Debilitazioni
 Perdere PF è un effetto generico, rappresenta lividi, tagli, fatica, e così via. Alcune ferite, però, fanno più male. Si tratta di debilitazioni.
 Ciascuna debilitazione è associata a una capacità e ti da una penalità di -1 al rispettivo modificatore.
 Puoi avere solo una debilitazione di ciascun tipo. Se sei già indisposto e qualcosa ti rende indisposto lo ignori.

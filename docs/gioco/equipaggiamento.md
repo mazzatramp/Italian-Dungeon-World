@@ -7,7 +7,7 @@ Questa non è affatto una lista completa: sentitevi liberi di creare le vostre e
 
 [Per gli oggetti magici andare qui](./oggetti_magici)
 
-## Etichette Generali dell’Equipaggiamento
+## Etichette Generali
 Queste sono le etichette generali applicabili a più o meno qualunque oggetto. Le vedrai su armature, armi o altra attrezzatura generica da avventuriero.
 
 * **Applicato**: Ha effetto solo quando viene applicata con attenzione a una persona, o a qualcosa da bere o da mangiare.
@@ -26,10 +26,10 @@ Queste sono le etichette generali applicabili a più o meno qualunque oggetto. L
 
 <hr>
 
-# Armi
+## Armi
 Le armi non uccidono i mostri, lo fanno le persone. È per questo che le armi di Dungeon World non hanno un danno assegnato. Un’arma è usata principalmente per le sue etichette, che descrivono a che cosa è più utile l’arma. Un pugnale non è utile perché fa più danni di una qualche altra arma. È utile perché è piccolo e facile da utilizzare a distanza ravvicinata.
 
-## Etichette delle Armi
+### Etichette delle Armi
 Le armi potrebbero avere delle etichette che esistono principalmente per aiutarti a descriverle (come arrugginita *o *luminescente) ma queste etichette hanno un preciso effetto meccanico.
 
 * **n munizioni**: Conta come munizioni per le appropriate armi a distanza. Il numero indicato non rappresenta il numero di singole frecce o pietre, ma un’indicazione generale di quanto hai a portata di mano.
@@ -51,7 +51,7 @@ Le armi hanno delle etichette per indicare la portata alla quale possono essere 
 * **Vicino**: È efficace per attaccare qualcuno di cui riesci a vedere il bianco degli occhi.
 * **Lontano**: È efficace per attaccare qualcuno a una distanza a cui ci si può sentir urlare.
 
-## Lista di Armi
+### Lista di Armi
 Le statistiche qua sotto sono per gli oggetti più comuni. Possono esserci, ovviamente, delle variazioni sul tema. Una spada lunga poco affilata potrebbe avere -1 danni mentre un pugnale di ottima forgia potrebbe avere +1 danni. Considera i seguenti come gli attributi di un’arma comune di quel tipo — un’arma specifica potrebbe avere delle etichette diverse per rappresentare le sue particolarità.
 
 * **Arco Logoro** vicino, 15 monete, peso 2
@@ -73,17 +73,17 @@ Le statistiche qua sotto sono per gli oggetti più comuni. Possono esserci, ovvi
 
 <hr>
 
-# Armature
+## Armature
 L’armatura è pesante, difficile da indossare e dannatamente scomoda. Alcune classi sono meglio addestrate a ignorare questi inconvenienti, ma chiunque può indossare un’armatura completa e godere dei suoi benefici.
 
-## Etichette delle Armature
+### Etichette delle Armature
 Le armature, come le armi, hanno delle etichette, Alcune sono unicamente descrittive, ma quelle qua sotto hanno degli effetti meccanici sul giocatore che le indossa.
 
 * **Armatura n**: Ti protegge dalle ferite e assorbe i danni. Quando subisci danni, sottrai la tua armatura dal totale. Se hai più di un oggetto con armatura n, conta solo quello con il valore più alto.
 * **+n Armatura**: Ti protegge e il suo effetto è cumulativo con il resto dell’armatura. Aggiungi questo valore alla tua armatura totale.
 * **Ingombrante**: è difficile muoversi con quest’armatura addosso. Prendi -1 continuato fintanto che la usi. Questa penalità è cumulativa.
 
-## Lista delle Armature
+### Lista delle Armature
 Cuoio Rigido, Maglia di Ferro armatura 1, indossato, 10 monete, peso 1
 
 * **Scaglie** armatura 2, indossato, ingombrante, 50 monete, peso 3
@@ -92,7 +92,7 @@ Cuoio Rigido, Maglia di Ferro armatura 1, indossato, 10 monete, peso 1
 
 <hr>
 
-# Attrezzatura da Dungeon
+## Attrezzatura da Dungeon
 
 **Attrezzatura da Avventuriero** 5 utilizzi, 20 monete, peso 1  
 &nbsp;&nbsp;&nbsp;&nbsp;Gli strumenti da avventuriero sono una raccolta di oggetti comuni e utili, come gesso, aste, spuntoni, corde, etc. Quando frughi nei tuoi strumenti da avventuriero per cercare un oggetto comune e utile, lo trovi e spendi un utilizzo.  
@@ -119,7 +119,7 @@ Cuoio Rigido, Maglia di Ferro armatura 1, indossato, 10 monete, peso 1
 **Erba Pipa dei Mezzuomini** 6 utilizzi, 5 monete, peso 0  
 &nbsp;&nbsp;&nbsp;&nbsp;Quando fumi l’erba pipa dei Mezzuomini con qualcuno, spendi due utilizzi e prendi +1 al prossimo tiro di parlamentare con questa persona.
 
-## Veleni
+### Veleni
 
 **Olio di Tagete** pericoloso, applicato, 15 monete, peso 0  
 &nbsp;&nbsp;&nbsp;&nbsp;Il bersaglio cade in un sonno leggero.  
@@ -132,9 +132,9 @@ Cuoio Rigido, Maglia di Ferro armatura 1, indossato, 10 monete, peso 1
 
 <hr>
 
-# Altri costi
+## Altri costi
 
-## Servizi
+### Servizi
 **Soggiorno di una settimana in una locanda da contadini**: 14-Carisma monete  
 **Soggiorno di una settimana in una locanda civilizzata**: 30-Carisma monete  
 **Soggiorno di una settimana nella migliore locanda in città**: 43-Carisma monete  
@@ -151,12 +151,12 @@ Cuoio Rigido, Maglia di Ferro armatura 1, indossato, 10 monete, peso 1
 **Preghiere per un mese per i defunti**: 1 moneta  
 **Riparazioni per un oggetto ordinario**: 25% del costo dell’oggetto
 
-## Pasti
+### Pasti
 **Un pasto abbondante per uno**: 1 moneta  
 **Un pasto scarso per una famiglia**: 1 moneta  
 **Un banchetto**: 15 monete a persona  
 
-## Trasporti
+### Trasporti
 **Asino e Carretto**, pronto a portare il tuo peso 50 monete, carico 20  
 **Cavallo** 75 monete, carico 10  
 **Cavallo da guerra** 400 monete, carico 12  
@@ -169,7 +169,7 @@ Cuoio Rigido, Maglia di Ferro armatura 1, indossato, 10 monete, peso 1
 **Pedaggio su una strada aspra** 10 monete  
 **Pedaggio su una strada pericolosa** 100 monete  
 
-## Terre ed Edifici
+### Terre ed Edifici
 **Un tugurio** 20 monete  
 **Una villetta** 500 monete  
 **Una casa** 2.500 monete  
@@ -179,14 +179,14 @@ Cuoio Rigido, Maglia di Ferro armatura 1, indossato, 10 monete, peso 1
 **Un grande castello** 1.000.000 monete  
 **Costi di mantenimento per un mese** 1% del costo originale  
 
-## Mazzette
+### Mazzette
 **La dote di un contadino** 20-Carisma monete  
 **"Protezione" per una piccola impresa** 100-Carisma monete  
 **Corrompere un funzionario governativo** 50-Carisma monete  
 **Una mazzetta convincente** 80-Carisma monete  
 **Un’offerta che non puoi rifiutare** 500-Carisma monete
 
-## Regali e Abiti Eleganti
+### Regali e Abiti Eleganti
 **Un regalo da contadino** 1 moneta  
 **Un regalo pregiato** 55 monete  
 **Un regalo nobile** 200 monete  
@@ -195,7 +195,7 @@ Cuoio Rigido, Maglia di Ferro armatura 1, indossato, 10 monete, peso 1
 **Un dipinto raffinato** 350+ monete  
 **Una corona degna di un re** 5.000 monete
 
-## Bottino
+### Bottino
 **I risparmi di un goblin** 2 monete  
 **I ciondoli di un lucertoloide** 5 monete  
 **Una spada «inestimabile»** 80 monete  

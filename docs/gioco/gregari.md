@@ -40,45 +40,45 @@ Quando crei un gregario, distribuisci i suoi punti tra una o più di queste abil
 
 <hr>
 
-# Abilità del Gregario
+## Abilità del Gregario
 
-## **Adepto**
+### **Adepto**
 Un adepto ha almeno fatto da apprendista a un esperto delle arti arcane, ma non è molto potente da solo. Sono gli studenti universitari del mondo arcano.
 
 **Assistenza Arcana** — Quando un adepto ti aiuta a lanciare un incantesimo di livello inferiore alla sua abilità, gli effetti dell’incantesimo aumentano di portata, durata o potenza. I dettagli dell’effetto stanno al GM e dipendono dalle circostanze e dall’incantesimo usato. Il GM descriverà gli effetti aggiuntivi prima del lancio dell’incantesimo. Il vantaggio più importante di lanciare con un adepto è che qualsiasi effetto negativo del lancio agisce sull’adepto per primo.
 
-## **Battitore**
+### **Battitore**
 I battitori conoscono l’arte di seguire le tracce, ma non hanno l’esperienza con creature inconsuete e luoghi esotici che ha un grande cacciatore.
 
 **Seguire Tracce** — Quando un battitore passa il tempo a studiare una pista mentre viaccampate, al termine dell’accampamento può seguire la pista fino al prossimo cambiamento rilevante di terreno, tempo atmosferico o luogo.
 
 **Guida** — Quando un battitore cammina per primo hai automaticamente successo su qualunque tiro di viaggio pericoloso per una distanza (in razioni) minore dell’abilità del battitore.
 
-## **Combattente**
+### **Combattente**
 I combattenti non sono dei maestri delle armi, ma sanno maneggiarne una abbastanza bene.
 
 **Uomo d’Arme** — Quando infliggi danno mentre un combattente ti aiuta, aggiungi la sua abilità ai danni inflitti. Se il tuo attacco ha delle conseguenze (come un contrattacco), il combattente ne subisce la maggior parte.
 
-## **Guardia del Corpo**
+### **Guardia del Corpo**
 Una guardia del corpo si frappone tra il suo datore di lavoro e le lame, zanne, denti e magie che ne minacciano la sicurezza.
 
 **Sentinella** — Quando una guardia del corpo si frappone tra te e un attacco aggiungi la sua abilità alla tua armatura, poi riduci la sua abilità di 1 fino a quando viene guarito o ha il tempo di fasciarsi le ferite.
 
 **Intervenire** — Quando una guardia del corpo ti aiuta a sfidare il pericolo puoi prendere +1 grazie al suo aiuto. Se lo fai, non puoi ottenere un risultato di 10+, il risultato di 10+ conta come un 7–9.
 
-## **Menestrello**
+### **Menestrello**
 Quando serve una faccia sorridente per sistemare le cose o per contrattare un accordo, un menestrello è sempre felice di vendere i propri servizi al giusto prezzo.
 
 Un Benvenuto da Eroi — Quando entri in un luogo dove si mangia, si beve o ci si diverte con un menestrello sarai trattato amichevolmente da tutti i presenti (sempre che le tue azioni non provino altrimenti). Inoltre, sottrai l’abilità del menestrello da tutti i prezzi in città.
 
-## **Sacerdote**
+### **Sacerdote**
 I sacerdoti sono il clero di basso rango di una religione, officiano funzioni minori e impartiscono i sacramenti più comuni. Anche se non possono lanciare degli incantesimi loro stessi, possono chiedere aiuto alla loro divinità per questioni minori.
 
 **Sacerdozio** — Quando ti accampi con un sacerdote, tutti gli effetti di guarigione guariscono +abilità PF.
 
 **Primo Soccorso** — Quando un sacerdote ti rammenda le ferite, guarisci 2×abilità PF. Prendi -1 al prossimo tiro essendo la guarigione dolorosa e impacciata.
 
-## **Scassinatore**
+### **Scassinatore**
 Gli scassinatori sono abili in varie aree, la maggior parte delle quali illegali o pericolose. Sono bravi con i congegni e le trappole, ma non molto sul campo di battaglia.
 
 **Disarmare Trappole Sperimentalmente** — Quando uno scassinatore procede in testa al gruppo può individuare le trappole poco prima che si attivino. Se una trappola viene attivata mentre lo scassinatore procede in testa al gruppo, lo scassinatore subisce tutti gli effetti della trappola, e i giocatori ottengono +abilità contro la trappola e aggiungono l’abilità dello scassinatore alla propria armatura contro la trappola. La maggior parte delle trappole fanno in modo che lo scassinatore abbia bisogno di cure immediate. Se i personaggi siaccampano vicino alla trappola, invece, lo scassinatore può disarmarla mentre si è accampati.

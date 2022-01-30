@@ -4,7 +4,7 @@ Dirigere una partita di Dungeon World si basa su tre cose: gli **obiettivi**, i 
 
 Gli obiettivi del GM, i princìpi e le mosse sono regole come lo sono i danni, le capacità o i PF. Devi avere la stessa cautela ad alterarle o ignorarle che avresti con qualunque altra regola.
 
-## Come fare il GM
+### Come fare il GM
 Quando ti siedi al tavolo come GM fai queste cose:
 
 * **Descrivi la situazione** in cui si trovano i giocatori in termini concreti, così inizi una sessioni o fai ripartire il gioco dopo una pausa o una battuta. E concludi sempre con "Che cosa fai?".
@@ -12,7 +12,7 @@ Quando ti siedi al tavolo come GM fai queste cose:
 * **Fai delle mosse** quando ne hai occasione. Le tue mosse sono azioni specifiche per cambiare il corso del gioco.
 * **Sfrutta ciò che hai preparato**. A volte saprai qualcosa che i giocatori non sanno ancora, usa queste informazioni per fare delle mosse inaspettate.
 
-# Obiettivi
+## Obiettivi
 I tuoi obiettivi sono le cose che devi sempre cercare di fare mentre fai il GM a Dungeon World:
 
 * Dipingi un mondo fantastico.
@@ -25,7 +25,7 @@ Il tuo primo obiettivo è di dipingere un mondo fantastico. Dungeon World signif
 
 Le avventure di Dungeon World non presumono mai ciò che faranno i PG. Un’avventura di Dungeon World ritrae un’ambientazione in movimento. Quando i giocatori entrano in conflitto con l’ambientazione e i suoi abitanti, il sorgere dell’azione è inevitabile. È in questo modo che si *gioca per scoprire cosa accadrà*. Quindi, non fare troppi progetti per il futuro, o le regole ti ostacoleranno. Fidati, è più divertente scoprire le cose mentre accadono.
 
-# Princìpi
+## Princìpi
 * Disegna mappe, lascia spazi da riempire
 * Rivolgiti ai personaggi, non ai giocatori
 * Fai tuo ciò che è fantastico
@@ -39,7 +39,7 @@ Le avventure di Dungeon World non presumono mai ciò che faranno i PG. Un’avve
 * Inizia e finisci con la narrazione
 * Pensa ai retroscena
 
-# Mosse
+## Mosse
 Quando tutti ti guardano per sapere cosa succede scegli una di queste. Ogni mossa è qualcosa che accade nella narrazione del gioco — non sono parole in codice o terminologia specifica.
 
 * Usa la mossa di un mostro, un pericolo, o un luogo.
@@ -61,7 +61,7 @@ Fai in modo che sia una cosa reale che accade ai personaggi: “Mentre schivi la
 
 Non importa che mossa tu faccia, concludi sempre con “Che cosa fai?”. Le tue mosse sono un modo per perseguire i tuoi obiettivi, uno dei quali è riempire di avventura la vita dei personaggi. Quando un incantesimo impazzisce o il pavimento gli scompare da sotto i piedi, gli avventurieri devono reagire o soffire le conseguenze dell’inazione.
 
-## Quando Fare una Mossa
+### Quando Fare una Mossa
 Fai una mossa:
 
 * Quando tutti ti guardano per sapere cosa succede
@@ -75,19 +75,19 @@ Ignorare una mossa morbida diventa un’opportunità d’oro per fare una mossa 
 
 Le **mosse dure**, al contrario, hanno delle conseguenze immediate. Infliggere danni è quasi sempre una mossa dura, perché si tratta una perdita di PF che non potrà essere colmata senza intervento da parte dei giocatori.
 
-## Scegliere una Mossa
+### Scegliere una Mossa
 Per scegliere una mossa, inizia considerando le conseguenze ovvie dell’evento che l’ha attivata. Se hai già un’idea, pensaci un attimo e assicurati che si conformi ai tuoi obiettivi e principi, poi prosegui. Lascia che le tue mosse influenzino le mosse successive. Costruisci sul successo o sul fallimento delle mosse dei personaggi e sulle tue stesse mosse.
 
 Se il tuo primo istinto è di non fargli del male ora, ma di sorprenderli più tardi, ottimo! È parte dei tuoi principi (pensa ai retroscena). Prendine nota e rivelalo al momento giusto.
 
-## Fare la Mossa
+### Fare la Mossa
 Quando fai una mossa, tieni a mente i tuoi principi. In particolare, non pronunciare mai il nome della tua mossa e rivolgiti ai personaggi, non ai giocatori. Le tue mosse non sono azioni meccaniche che avvengono al tavolo. Sono eventi concreti che avvengono ai personaggi nel mondo della narrazione che stai descrivendo.
 
 È vero che “Infliggi danno” è una mossa, ma anche altre mosse possono comportare l’infliggimento di danni. Quando un ogre ti lancia contro un muro prendi danno come se ti avesse colpito con un pugno.
 
 Dopo ogni mossa che fai, chiedi sempre “Che cosa fai?”.
 
-## Mosse del Dungeon
+### Mosse del Dungeon
 Le mosse del dungeon sono un particolare sottoinsieme che viene usato per creare o modificare un dungeon al volo. Usale se i tuoi giocatori stanno esplorando un’area ostile che non hai ancora progettato per intero.
 
 Disegna una mappa di quest’area quando fai queste mosse. La maggior parte di esse ti faranno aggiungere una nuova stanza o elemento alla tua mappa.
@@ -104,22 +104,22 @@ Disegna una mappa di quest’area quando fai queste mosse. La maggior parte di e
 
 Puoi fare queste mosse ogni volta che tutti ti guardano per sapere cosa succede, quando i giocatori ti offrono un’opportunità, o quando i giocatori falliscono un tiro. Il momento perfetto in cui usarle è quando i personaggi vogliono sapere cosa trovano una volta entrati in una nuova stanza o in un nuovo corridoio.
 
-# Situazioni Comuni
+## Situazioni Comuni
 Ci sono delle situazioni comuni che accadono spesso in Dungeon World. Ecco come gestirle adeguatamente.
 
-## Combattimenti
+### Combattimenti
 Prima o poi si sguaineranno le spade e si verserà del sangue. Quando questo accade i personaggi probabilmente cominceranno a tagliare e spaccare, fare raffiche e difendere. Pensa oltre al semplice scambio di danni. Forse i mostri stanno cercando di catturare i personaggi o di proteggere qualcosa da loro. Concentrati sull’obiettivo dello scontro; gli obiettivi di ciascuna parte e in che modo potrebbe modificare l’equilibrio della battaglia.
 
 Nessun mostro che si rispetti sta fermo a farsi picchiare. Il combattimento è una cosa dinamica, con creature che si muovono dentro e fuori portata, si mettono al riparo e si ritirano. A volte è il campo di battaglia stesso a cambiare. Fai in modo che i tuoi mostri facciano delle azioni a cui i giocatori devono rispondere. Fai in modo di non usare solo la mossa infliggi danno, anche in un combattimento.
 
 Assicurati che ciascuno abbia la possibilità di agire, e di sapere dove ogni giocatore si trova nella foga della battaglia. Se la battaglia è complessa, fai una mappa in modo che tutti sappiano che cosa succede e possano descrivere le proprie azioni al meglio.
 
-## Trappole
+### Trappole
 Puoi preparare le trappole in anticipo, o puoi improvvisarle basandoti sulle tue mosse. Se niente ha specificato che il luogo è sicuro, le trappole sono sempre un’opzione.
 
 I giocatori possono trovare le trappole con piani ingegnosi, percependo trappole, o discernendo realtà. Se un personaggio descrive un’azione che non attiva una mossa, ma l’azione svelerebbe una trappola, non nasconderglielo. Le trappole non hanno il permesso di infrangere le regole.
 
-## Persone
+### Persone
 Fabbri nanici, saggi elfici, umani di tutte le forme e dimensioni abitano il mondo attorno ai personaggi. Non sono dei lacché senza cervello da maltrattare come si vuole, ma non sono nemmeno ciò che vogliamo scoprire quando giochiamo. I PNG sono persone: hanno obiettivi e gli strumenti per impegnarsi a ottenerli. Usali per mostrare com’è il mondo. Mostra ai tuoi giocatori la gente comune che lotta per affrancarsi o le classi nobili che cercano di accontentare il popolo. Alcune avventure potrebbero avvenire per intero in un’ambiente pieno di persone invece che in un dungeon lontano dalla civilità. Alcune classi, il bardo in particolare, sono atte a manipolare e usare le persone come risorse. Non tirarti indietro di fronte a queste situazioni. Sii un fan di questi personaggi, offrigli delle persone interessanti e dettagliate con cui interagire.
 
 Le persone, come i dungeon, cambiano nel tempo. L’aver incontrato i personaggi durante la loro vita potrebbe affascinarli o adirarli. Le azioni dei personaggi faranno in modo che il mondo cambi, in bene o in male, e le persone che incontrano si ricorderanno di questo cambiamento. Quando i personaggi ritornano a una città in cui si erano comportanti in modo non molto gentile, mostragli come le persone sono diverse da prima. Sono forse più caute? Si sono convertite a una nuova religone? Sono assetate di vendetta?

@@ -1,19 +1,28 @@
 theme:
   name: material
+  language: it
+
   features:
     - navigation.top
     - navigation.tabs
+    - navigation.sections
+    - navigation.instant
     - toc.integrate
-  language: it
+
 
 markdown_extensions:
+  - meta
   - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 site_name: Dungeon World
+
 repo_url: https://github.com/mazzaf01/Italian-Dungeon-World
 
 nav:
-  - Il Gioco:
+  - Gioco:
     - Come giocare: gioco/come_giocare.md
     - Danni e morte: gioco/danni.md
     - Magia: gioco/magia.md
@@ -25,14 +34,16 @@ nav:
     - Creazione del Personaggio: pgs/creazione.md
     - Allineamento: pgs/allineamento.md
     - Evoluzione: pgs/evoluzione.md
+    - Legami: pgs/legami.md
   - Game Master:
     - Introduzione al Ruolo: gm/intro.md
     - Affronare la Prima Sessione: gm/prima_sessione.md
     - Gestire i Fronti: gm/fronti.md
     - Il Mondo: gm/mondo.md
   - Classi:
-    - Classi Base: classi/classi_base.md
+    - Panoramica: classi/panoramica.md
     - Barbaro: classi/barbaro.md
     - Bardo: classi/bardo.md
     - Chierico: classi/chierico.md
     - Guerriero: classi/guerriero.md
+    - Classi Aggiuntive: classi/aggiuntive.md
