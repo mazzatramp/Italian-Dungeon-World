@@ -41,7 +41,7 @@
 
 <hr>
 
-## Nemici Arcani
+## **Nemici Arcani**
 - **Signore dei Non-morti** (impulso: ricercare la vera immortalità)
 - **Mago Ossessionato dal Potere** (impulso: ricercare potere magico)
 - **Artefatto Senziente** (impulso: trovare un degno possessore)
@@ -60,7 +60,7 @@
 
 <hr>
 
-## Orde
+## **Orde**
 - **Barbari Nomadi** (impulso: Rinforzarsi, inseguire i nemici mentre fuggono)
 - **Parassiti Umanoidi** (impulso: riprodursi, moltiplicarsi e consumare risorse)
 - **Abitanti del Sottosuolo** (impulso: difendere le proprie strutture dagli estranei)
@@ -79,7 +79,7 @@
 
 <hr>
 
-## Luoghi Maledetti
+## **Luoghi Maledetti**
 - **Torre Abbandonata** (impulso: attirare i deboli di volontà)
 - **Terreno Profanato** (impulso: generare il male)
 - **Vortice Elementale** (impulso: ingrandirsi, annientare la realtà)

@@ -6,12 +6,12 @@
 
 <hr>
 
-##### **Allineamento**
+### **Allineamento**
 - **Buono**: Mettiti in pericolo per guarire qualcuno.
 - **Legale**: Mettiti in pericolo per difendere i precetti della tua chiesa o dio.
 - **Malvagio**: Fai del male a qualcuno per provare la superiorità della tua chiesa o dio.
 
-##### **Razza**
+### **Razza**
 - **Nano**: Sei una sola cosa con la pietra. Quando entri in comunione ti viene concessa una versione speciale di Voce dei Taciturni come orazione che funziona solo sulla pietra.
 
 - **Umano**: La tua fede è varia: scegli un incantesimo da Mago. Puoi riceverlo dal tuo dio come se fosse un incantesimo da Chierico.

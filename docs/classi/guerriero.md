@@ -6,12 +6,12 @@
 
 <hr>
 
-##### **Allineamento**
+### **Allineamento**
 - **Buono**: Difendi coloro che sono più deboli di te.
 - **Neutrale**: Sconfiggi un degno avversario.
 - **Malvagio**: Uccidi un nemico indifeso o arreso.
 
-##### **Razza**
+### **Razza**
 - **Nano**: Quando bevi insieme a qualcuno, puoi parlamentare con lui usando Cos invece di Car.
 - **Elfo**: Scegli un'arma: puoi sempre considerare le armi di quel tipo come se avessero l'etichetta preciso.
 - **Mezzuomo**: Quando *sfidi il pericolo* e usi la tua piccola taglia a tuo vantaggi, prendi +1.

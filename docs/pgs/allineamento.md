@@ -11,33 +11,33 @@ La maggior parte delle creature è Neutrale. Non provano piacere nel fare del ma
 
 Anche due creature con lo stesso allineamento possono entrare in conflitto. Aspirare ad aiutare gli altri non rende infallibili, e due creature Buone possono combattere e morire per via delle loro visioni diverse di cosa è giusto.
 
-## Legale
+### **Legale**
 * Segui la legge alla lettera a scapito delle emozioni
 * Onora una promessa importante
 * Porta qualcuno davanti alla giustizia
 * Scegli l’onore a scapito del guadagno personale
 * Riporta un tesoro al suo legittimo proprietario
 
-## Buono
+### **Buono**
 * Ignora il pericolo per aiutare qualcuno
 * Guida gli altri in battaglia per una giusta causa
 * Rinuncia al potere o alle ricchezze per il bene superiore
 * Rivela una bugia pericolosa
 * Mostra pietà e compassione
 
-## Neutrale
+### **Neutrale**
 * Diventa alleato con qualcuno di potente
 * Sconfiggi un avversario personalmente importante
 * Scopri un segreto a proposito di un nemico
 * Rivela una verità nascosta
 
-## Caotico
+### **Caotico**
 * Svela la corruzione
 * Infrangi una legge ingiusta per aiutare qualcuno
 * Sconfiggi un tiranno
 * Svela l’ipocrisia
 
-## Malvagio
+### **Malvagio**
 * Approfitta della fiducia di qualcuno
 * Provoca sofferenza per il gusto di farlo
 * Distruggi qualcosa di meraviglioso

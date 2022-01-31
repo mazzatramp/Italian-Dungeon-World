@@ -25,7 +25,7 @@ La maggior parte di ciò che ti serve per creare un personaggio potrai trovarlo 
 
     Successivamente devi calcolare i **modificatori** per le tue capacità. I modificatori sono ciò che usi quando una mossa dice +Des o +Car. Se stai usando le schede del personaggio standard i modificatori sono già elencati con ogni punteggio.
 
-    ??? summary "Modificatori"
+    ??? summary "Tabella dei modificatori"
 
         | Punteggio | Modificatore |
         | :-------: | :----------: |

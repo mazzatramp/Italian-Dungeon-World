@@ -55,11 +55,6 @@ Quando tutti ti guardano per sapere cosa succede scegli una di queste. Ogni moss
 * Metti qualcuno in difficoltà
 * Spiega le conseguenze o il prezzo da pagare e chiedi di nuovo
 
-[Trovi qui l'elenco delle mosse del GM in dettaglio](./mosse.md)
-
-Fai in modo che sia una cosa reale che accade ai personaggi: “Mentre schivi la mazza dell’ogre che torreggia su di te, scivoli e cadi sul duro. La tua spada si perde nell’oscurità. Pensi di aver visto dov’è andata a finire ma l’ogre sta avanzando verso di te. Che cosa fai?”.
-
-Non importa che mossa tu faccia, concludi sempre con “Che cosa fai?”. Le tue mosse sono un modo per perseguire i tuoi obiettivi, uno dei quali è riempire di avventura la vita dei personaggi. Quando un incantesimo impazzisce o il pavimento gli scompare da sotto i piedi, gli avventurieri devono reagire o soffire le conseguenze dell’inazione.
 
 ### Quando Fare una Mossa
 Fai una mossa:
@@ -86,23 +81,6 @@ Quando fai una mossa, tieni a mente i tuoi principi. In particolare, non pronunc
 È vero che “Infliggi danno” è una mossa, ma anche altre mosse possono comportare l’infliggimento di danni. Quando un ogre ti lancia contro un muro prendi danno come se ti avesse colpito con un pugno.
 
 Dopo ogni mossa che fai, chiedi sempre “Che cosa fai?”.
-
-### Mosse del Dungeon
-Le mosse del dungeon sono un particolare sottoinsieme che viene usato per creare o modificare un dungeon al volo. Usale se i tuoi giocatori stanno esplorando un’area ostile che non hai ancora progettato per intero.
-
-Disegna una mappa di quest’area quando fai queste mosse. La maggior parte di esse ti faranno aggiungere una nuova stanza o elemento alla tua mappa.
-
-* Cambia l’ambiente
-* Indica una minaccia incombente
-* Introduci una nuova fazione o tipo di creatura
-* Usa un pericolo di una fazione o di un tipo di creatura già esistente
-* Falli tornare sulle proprie tracce
-* Offri ricchezze in cambio di qualcosa
-* Offri una sfida a uno dei personaggi
-
-[Trovi qui l'elenco delle mosse del GM in dettaglio](./mosse.md)
-
-Puoi fare queste mosse ogni volta che tutti ti guardano per sapere cosa succede, quando i giocatori ti offrono un’opportunità, o quando i giocatori falliscono un tiro. Il momento perfetto in cui usarle è quando i personaggi vogliono sapere cosa trovano una volta entrati in una nuova stanza o in un nuovo corridoio.
 
 ## Situazioni Comuni
 Ci sono delle situazioni comuni che accadono spesso in Dungeon World. Ecco come gestirle adeguatamente.

@@ -6,12 +6,12 @@
 
 <hr>
 
-##### **Allineamento**
+### **Allineamento**
 - **Buono**: Esibisciti nella tua arte per aiutare qualcuno.
 - **Neutrale**: Evita il conflitto o calma una situazione tesa.
 - **Caotico**: Sprona qualcuno a compiere un'azione importante, non pianificata e decisiva.
 
-##### **Razza**
+### **Razza**
 - **Elfo**: Quando entri in un luogo importante (a tua discrezione) puoi chiedere al GM un dettaglio della storia di quel luogo.
 - **Umano**: Quando entri in un insediamento civilizzato, sarai accolto in casa da qualcuno che rispetta l'usanza dell'ospitalità verso i menestrelli.
 

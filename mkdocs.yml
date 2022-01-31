@@ -22,7 +22,7 @@ site_name: Dungeon World
 repo_url: https://github.com/mazzaf01/Italian-Dungeon-World
 
 nav:
-  - Gioco:
+  - Regole:
     - Come giocare: gioco/come_giocare.md
     - Danni e morte: gioco/danni.md
     - Magia: gioco/magia.md
@@ -30,20 +30,24 @@ nav:
     - La Vita da Avventuriero: gioco/vita_da_avventuriero.md
     - Equipaggiamento: gioco/equipaggiamento.md
     - Oggetti magici: gioco/oggetti_magici.md
+  - Game Master:
+    - Introduzione al Ruolo: gm/intro.md
+    - Mosse del GM: gm/mosse_gm.md
+    - Mosse del Dungeon: gm/mosse_dungeon.md
+    - Affronare la Prima Sessione: gm/prima_sessione.md
+    - Gestire i Fronti: gm/fronti.md
+    - Il Mondo: gm/mondo.md
   - Personaggi:
     - Creazione del Personaggio: pgs/creazione.md
     - Allineamento: pgs/allineamento.md
     - Evoluzione: pgs/evoluzione.md
     - Legami: pgs/legami.md
-  - Game Master:
-    - Introduzione al Ruolo: gm/intro.md
-    - Affronare la Prima Sessione: gm/prima_sessione.md
-    - Gestire i Fronti: gm/fronti.md
-    - Il Mondo: gm/mondo.md
+    - Mosse: pgs/mosse_pg.md
   - Classi:
-    - Panoramica: classi/panoramica.md
+    - Lista: classi/lista.md
     - Barbaro: classi/barbaro.md
     - Bardo: classi/bardo.md
     - Chierico: classi/chierico.md
     - Guerriero: classi/guerriero.md
-    - Classi Aggiuntive: classi/aggiuntive.md
+  - Mostri:
+    - Panoramica: mostri/panoramica.md

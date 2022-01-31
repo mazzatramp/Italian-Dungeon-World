@@ -6,11 +6,11 @@
 
 <hr>
 
-##### **Allineamento**
+### **Allineamento**
 - **Caotico**: Ignora una convenzione del mondo civilizzato.
 - **Neutrale**: Insegna a qualcuno le vie del tuo popolo
 
-##### **Razza**
+### **Razza**
 - **Estraneo**: Sarai elfo, nano, mezzuomo o umano, ma tu e la tua gente non siete di queste parti. All'inizio di ogni sessione ti farà una domanda a proposito della tua terra madre, di perché te ne sei andato o di cosa ti sei lasciato indietro. Se rispondi guadangi un PE.
 
 <hr>
