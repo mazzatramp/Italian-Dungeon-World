@@ -1,4 +1,4 @@
-# Guerriero
+# Il Guerriero
 
 **Danni:** D10  
 **Punti Ferita:** 10 + Costituzione  

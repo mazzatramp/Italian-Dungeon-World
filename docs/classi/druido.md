@@ -1,4 +1,4 @@
-# Druido
+# Il Druido
 
 **Danni:** D6  
 **Punti Ferita:** 6 + Costituzione  

@@ -1,4 +1,4 @@
-# Barbaro
+# Il Barbaro
 
 **Danni:** D10  
 **Punti Ferita:** 8 + Costituzione  

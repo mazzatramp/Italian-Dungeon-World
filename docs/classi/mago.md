@@ -1,4 +1,4 @@
-# Nome
+# Il Mago
 
 **Danni:** D4  
 **Punti Ferita:** 4 + Costituzione  
@@ -94,30 +94,30 @@ Quando vedi gli effetti di un incantesimo arcano, chiedi al GM il nome dell'inca
 ## Mosse Avanzate (6+)
 
 **Maestro.**
-(richiede Prodigio)
+(richiede *Prodigio*)
 Scegli un incantesimo in aggiunta a quello che hai scelto per prodigio. Prepari sempre l'incantesimo scelto come fosse di un livello più basso.
 
 **Magia Potenziata Superiore.**
-(sostituisce Magia Potenziata)
+(sostituisce *Magia Potenziata*)
 Quando lanci un incantesimo, con un 10-11 hai la possibilità di scegliere dalla lista del 7–9. Se lo fai, puoi scegliere una di queste opzioni. Con un 12+ puoi sceglierne una automaticamente.
 
 - Gli effetti dell'incantesimo sono raddoppiati
 - L'incantesimo ha effetto su un numero doppio di bersagli
 
 **Anima dell'Incantatore.**
-(richiede Incantatore)
+(richiede *Incantatore*)
 Quando hai il tempo e la sicurezza ncessaria per studiare un oggetto magico in un luogo di potere, puoi potenziare quell'oggetto in modo che la prossima volta che lo usi i suoi effetti siano amplificati, il GM ti dirà come.
 
 **Estremamente Logico.**
-(sostituisce Logico)
+(sostituisce *Logico*)
 Quando usi le deduzioni logiche per analizzare ciò che ti circonda, puoi discernere realtà con Int invece che con Sag. Con un 12+ puoi fare tre domande qualsiasi al GM, anche se non sono sulla lista.
 
 **Armatura Arcana.**
-(sostituisce Protezione Arcana)
+(sostituisce *Protezione Arcana*)
 Fintanto che hai un incantesimo preparato di primo livello o superiore, hai +4 armatura.
 
 **Controincantesimo Protettivo.**
-(richiede Controincantesimo)
+(richiede *Controincantesimo*)
 Quando un alleato che puoi vedere subisce gli effetti di un incantesimo arcano, puoi contrastarlo come se fossi tu al suo posto. Se l'incantesimo ha più di un bersaglio, devi contrastare separatamente per ogni bersaglio.
 
 **Catena Astrale.**

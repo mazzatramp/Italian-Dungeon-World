@@ -54,5 +54,8 @@ nav:
     - Guerriero: classi/guerriero.md
     - Ladro: classi/ladro.md
     - Mago: classi/mago.md
+    - Incantesimi del Mago: classi/incantesimi/mago.md
+    - Paladino: classi/paladino.md
+    - Ramingo: classi/ramingo.md
   - Mostri:
     - Panoramica: mostri/panoramica.md

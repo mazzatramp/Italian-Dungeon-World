@@ -1,4 +1,4 @@
-# Ladro
+# Il Ladro
 
 **Danni:** D8  
 **Punti Ferita:** 6 + Costituzione  

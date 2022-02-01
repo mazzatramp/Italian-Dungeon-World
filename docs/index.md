@@ -4,21 +4,9 @@
     Il sito è in via di sviluppo.  
     Questa versione è aggiornata al 1 Febbraio 2022  
     
-    Qui le pagine mancanti:
-
-    **Classi**
-
-    - Incantesimi del Mago
-    - Paladino
-    - Ramingo
-
-    **Sezione Game Master**
-
-    - Il Mondo
-    
-    **Mostri**
-
-    - Tutto
+    Manca:
+    - Tutta la sezione mostri
+    - Nella sezione del GM, La pagina dedicata al mondo
  
 # Benvenuto in Dungeon World
 

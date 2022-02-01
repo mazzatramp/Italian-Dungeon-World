@@ -1,4 +1,4 @@
-# Bardo
+# Il Bardo
 
 **Danni:** D6  
 **Punti Ferita:** 6 + Costituzione  

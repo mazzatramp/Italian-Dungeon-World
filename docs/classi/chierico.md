@@ -1,4 +1,4 @@
-# Chierico
+# Il Chierico
 
 **Danni:** D6  
 **Punti Ferita:** 8 + Costituzione  
