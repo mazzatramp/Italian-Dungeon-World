@@ -1,4 +1,29 @@
-# Dungeon World
+???+ info "Sviluppo"
+
+    Benvenuto!  
+    Il sito è in via di sviluppo.  
+    Questa versione è aggiornata al 1 Febbraio 2022  
+    
+    Qui le pagine mancanti:
+
+    **Classi**
+
+    - Ladro
+    - Mago
+        - e Incantesimi
+    - Paladino
+    - Ramingo
+
+    **Sezione Game Master**
+
+    - Il Mondo
+    
+    **Mostri**
+
+    - Tutto
+ 
+# Benvenuto in Dungeon World
+
 Dungeon World è un mondo di avventure fantastiche. 
 Un mondo di magia, dèi e demoni, di bene e male, legge e caos. 
 Coraggiosi eroi si avventurano nei più pericolosi angoli della terra in cerca di oro e gloria.
@@ -33,7 +58,7 @@ Perché giocare a Dungeon World?
 
 * Terzo, **perché il mondo ha ancora tantissimi luoghi da esplorare**. Ci sono tombe non saccheggiate e tesori draconici che punteggiano la campagna pronti per essere scoperti da avventurieri dalle dita svelte e dalle braccia forti. Gioca per vedere che cosa sono e come cambieranno la vita dei tuoi personaggi.
 
-## Come Usare Questo Libro
+## Come Usare Questo Sito
 Questo libro ti insegnerà a giocare a Dungeon World. Se hai intenzione di essere il GM, dovrai leggerlo tutto, anche se puoi semplicemente sfogliare le pagine dei mostri e leggere il capitolo Avventure Avanzate più tardi, quando ne avrai bisogno. Stampa gli aiuti di gioco, ti aiuteranno a vedere a colpo d’occhio le cose più importanti. Se sei un giocatore, dovrai leggere soltanto Come Giocare: la maggior parte delle regole che ti troverai a usare saranno scritte nella scheda personaggio che usi mentre giochi. Tornerai a leggere il libro occasionalmente per fare riferimento ad alcune regole, ma dovrebbe essere un evento raro.
 
 ## Preparazione

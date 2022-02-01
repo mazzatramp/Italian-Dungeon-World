@@ -16,10 +16,13 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 site_name: Dungeon World
 
 repo_url: https://github.com/mazzaf01/Italian-Dungeon-World
+edit_uri: ""
 
 nav:
   - Regole:
@@ -42,12 +45,14 @@ nav:
     - Allineamento: pgs/allineamento.md
     - Evoluzione: pgs/evoluzione.md
     - Legami: pgs/legami.md
-    - Mosse: pgs/mosse_pg.md
+    - Lista delle mosse: pgs/mosse_pg.md
   - Classi:
-    - Lista: classi/lista.md
+    - Panoramica delle Classi: classi/panoramica.md
     - Barbaro: classi/barbaro.md
     - Bardo: classi/bardo.md
     - Chierico: classi/chierico.md
+    - Incantesimi del Chierico: classi/incantesimi/chierico.md
+    - Druido: classi/druido.md
     - Guerriero: classi/guerriero.md
   - Mostri:
     - Panoramica: mostri/panoramica.md

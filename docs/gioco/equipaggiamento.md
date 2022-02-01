@@ -5,8 +5,6 @@ Ciascuno degli oggetti che compongono l’equipaggiamento avrà un certo numero 
 
 Questa non è affatto una lista completa: sentitevi liberi di creare le vostre etichette.
 
-[Per gli oggetti magici andare qui](./oggetti_magici)
-
 ## Etichette Generali
 Queste sono le etichette generali applicabili a più o meno qualunque oggetto. Le vedrai su armature, armi o altra attrezzatura generica da avventuriero.
 
