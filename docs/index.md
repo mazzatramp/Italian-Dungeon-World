@@ -8,9 +8,7 @@
 
     **Classi**
 
-    - Ladro
-    - Mago
-        - e Incantesimi
+    - Incantesimi del Mago
     - Paladino
     - Ramingo
 

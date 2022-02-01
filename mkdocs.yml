@@ -16,8 +16,6 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
 
 site_name: Dungeon World
 
@@ -54,5 +52,7 @@ nav:
     - Incantesimi del Chierico: classi/incantesimi/chierico.md
     - Druido: classi/druido.md
     - Guerriero: classi/guerriero.md
+    - Ladro: classi/ladro.md
+    - Mago: classi/mago.md
   - Mostri:
     - Panoramica: mostri/panoramica.md
