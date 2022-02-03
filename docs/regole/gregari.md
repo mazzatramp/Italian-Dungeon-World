@@ -3,21 +3,15 @@ I gregari sono quelle povere anime che, per i soldi, la gloria o per altri curio
 
 I gregari servono ad alcune cose. Per i personaggi, sono un aiuto. Aggiungono le loro capacità agli impegni dei personaggi in cambio della loro paga. Per i giocatori, sono una risorsa. Fanno guadagnare tempo ai personaggi anche quando devono affrontare i pericoli più spaventosi. Sono anche dei personaggi di riserva, che aspettano il momento giusto per farsi avanti come eroe quando un PG cade in battaglia.
 
-I gregari non sono eroi. Un gregario può diventare un eroe, se rimpiazza un PG, ma fino ad allora è un personaggio del GM. Come tale, sapere esattamente i suoi PF, armatura, e danni non è particolarmente importante. Un gregario è definito dalle sue **Abilità** (una o più), dal suo **Costo** e dal suo punteggio di **Lealtà**.
+I gregari non sono eroi. Un gregario può diventare un eroe, se rimpiazza un PG, ma fino ad allora è un personaggio del GM. Come tale, sapere esattamente i suoi PF, armatura, e danni non è particolarmente importante. Un gregario è definito dalle sue **abilità**, dal suo **costo** e dal suo punteggio di **lealtà**.
 
-Le **abilità** di un gregario sono dei benefici speciali che forniscono ai giocatori. La maggior parte delle abilità è legata ad alcune capacità di classe, permettendo al gregario di svolgere i compiti di quella classe. Un gregario con l’abilità Guardia del Corpo può comunque cercare trappole o trasportare i tuoi bagagli, ma il risultato non è garantito da una regola precisa. Mandare un gregario a fare qualcosa evidentemente fuori dalla sua sfera di competenza significa chiedere guai al GM.
+- Le **abilità** di un gregario sono dei benefici speciali che forniscono ai giocatori.
+- Il **costo** di un gregario è quanto serve per tenerli insieme ai PG. Se il costo del gregario non è soddisfatto con regolarità (solitamente una volta a sessione) è probabile che si licenzi o che tradisca i propri datori di lavoro.
+- La **lealtà** viene usata come modificatore quando i giocatori fanno la mossa *dare ordini*.
 
-Il **costo** di un gregario è quanto serve per tenerli insieme ai PG. Se il costo del gregario non è soddisfatto con regolarità (solitamente una volta a sessione) è probabile che si licenzi o che tradisca i propri datori di lavoro.
-
-Quando i gregari sono in gioco, i giocatori potrebbero dover fare la mossa dare ordini a un gregario. La mossa usa la **lealtà** del gregario coinvolto.
-
-## Dare Ordini a un Gregario
-I gregari fanno ciò che gli dici, fintanto che non sia evidentemente pericolosa, umiliante o stupida e che il loro costo sia soddisfatto.
-
+### Mossa: Dare Ordini
 **Quando un gregario si trova in una situazione pericolosa, umiliante o semplicemente stupida a causa dei tuoi ordini** tira+lealtà.
-
-* Con un 10+ esegue l’ordine senza remore.
-* Con un 7–9 lo fa, per ora, ma esigerà qualcosa di importante più tardi. Concediglielo o ti abbandonerà nel peggior modo possibile.
+✴ Con un 10+ esegue l’ordine senza remore. ✴ Con un 7–9 lo fa, per ora, ma esigerà qualcosa di importante più tardi. Concediglielo o ti abbandonerà nel peggior modo possibile.
 
 ## Creare un Gregario
 I gregari sono facili da fare al volo. Quando qualcuno viene assunto dai giocatori scrivi il loro nome e il costo su cui si sono accordati, oltre alle loro eventuali abilità.
@@ -69,7 +63,7 @@ Una guardia del corpo si frappone tra il suo datore di lavoro e le lame, zanne, 
 ### **Menestrello**
 Quando serve una faccia sorridente per sistemare le cose o per contrattare un accordo, un menestrello è sempre felice di vendere i propri servizi al giusto prezzo.
 
-Un Benvenuto da Eroi — Quando entri in un luogo dove si mangia, si beve o ci si diverte con un menestrello sarai trattato amichevolmente da tutti i presenti (sempre che le tue azioni non provino altrimenti). Inoltre, sottrai l’abilità del menestrello da tutti i prezzi in città.
+**Un Benvenuto da Eroi** — Quando entri in un luogo dove si mangia, si beve o ci si diverte con un menestrello sarai trattato amichevolmente da tutti i presenti (sempre che le tue azioni non provino altrimenti). Inoltre, sottrai l’abilità del menestrello da tutti i prezzi in città.
 
 ### **Sacerdote**
 I sacerdoti sono il clero di basso rango di una religione, officiano funzioni minori e impartiscono i sacramenti più comuni. Anche se non possono lanciare degli incantesimi loro stessi, possono chiedere aiuto alla loro divinità per questioni minori.
@@ -81,4 +75,4 @@ I sacerdoti sono il clero di basso rango di una religione, officiano funzioni mi
 ### **Scassinatore**
 Gli scassinatori sono abili in varie aree, la maggior parte delle quali illegali o pericolose. Sono bravi con i congegni e le trappole, ma non molto sul campo di battaglia.
 
-**Disarmare Trappole Sperimentalmente** — Quando uno scassinatore procede in testa al gruppo può individuare le trappole poco prima che si attivino. Se una trappola viene attivata mentre lo scassinatore procede in testa al gruppo, lo scassinatore subisce tutti gli effetti della trappola, e i giocatori ottengono +abilità contro la trappola e aggiungono l’abilità dello scassinatore alla propria armatura contro la trappola. La maggior parte delle trappole fanno in modo che lo scassinatore abbia bisogno di cure immediate. Se i personaggi siaccampano vicino alla trappola, invece, lo scassinatore può disarmarla mentre si è accampati.
+**Disarmare Trappole Sperimentalmente** — Quando uno scassinatore procede in testa al gruppo può individuare le trappole poco prima che si attivino. Se una trappola viene attivata mentre lo scassinatore procede in testa al gruppo, lo scassinatore subisce tutti gli effetti della trappola, e i giocatori ottengono +abilità contro la trappola e aggiungono l’abilità dello scassinatore alla propria armatura contro la trappola. La maggior parte delle trappole fanno in modo che lo scassinatore abbia bisogno di cure immediate. Se i personaggi si accampano vicino alla trappola, invece, lo scassinatore può disarmarla mentre si è accampati.

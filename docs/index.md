@@ -1,6 +1,5 @@
 ???+ info "Sviluppo"
 
-    Benvenuto!  
     Il sito è in via di sviluppo.  
     Questa versione è aggiornata al 1 Febbraio 2022  
     
@@ -11,63 +10,36 @@
  
 # Benvenuto in Dungeon World
 
-Dungeon World è un mondo di avventure fantastiche. 
-Un mondo di magia, dèi e demoni, di bene e male, legge e caos. 
-Coraggiosi eroi si avventurano nei più pericolosi angoli della terra in cerca di oro e gloria.
+Dungeon World è un mondo di avventure fantastiche, di magia, di dèi e demoni, di bene e male, di legge e caos. È un mondo in cerca di eroi che si avventurino nei più pericolosi angoli della terra. Tu e i tuoi amici siete quegli eroi. Voi andate dove gli altri non possono o non vogliono. Ci sono cose mostruose che si aggirano per il mondo. Siete pronti ad affrontarle?
 
-Un avventuriero può avere molte forme in Dungeon World.
-Le razze degli elfi, uomini, nani e mezzuomini hanno tutte i loro eroi.
-Alcuni sono bestie da guerra quasi invincibili, ingabbiate in un’armatura d’acciaio.
-Altri sono più misteriosi, evocatori e manipolatori delle potenti forze della magia.
-Che siano sacri chierici, scaltri furfanti, o possenti paladini, tutti ambiscono alle ricchezze e alla gloria.
+## Il gioco in breve
 
-Non è solo una questione di gesta eroiche e nobili dimostrazioni di coraggio, però.
-Ogni volta che il ramingo guida i suoi compagni attraverso un’antica foresta,
-mille esseri sono lì in attesa di staccargli la testa a morsi.
-Bavose orde di truppe goblin, forse. Oppure questo è il Bosco Maledetto,
-dimora della Strega Grigia? Oppure qui risiedono le moltitudini dei morti accecati dall’odio,
-desiderosi di trascinare un succulento corpo nella loro tana? Tutto ciò è certamente terrificante,
-ma ci sono anche i tesori. Oro e gioielli e magie dimenticate dall’uomo sono scomparsi
-nelle crepe oscure del mondo, più di quanti se ne possano immaginare.
-Chi meglio di una compagnia di impavidi eroi per ritrovarli?
+Giocare a Dungeon World significa scoprire che cosa succede quando i tuoi personaggi incontrano mostri pericolosi ed emozionanti, strane rovine e persone inconsuete durante la loro ricerca di oro e ricchezza. È una **conversazione** tra i giocatori e il GM: il GM dice ai giocatori ciò che vedono e sentono nel mondo attorno a loro e i giocatori dicono quello che i loro personaggi pensano, fanno e le emozioni che provano. A volte queste descrizioni attiveranno una **mossa**, nel qual caso tutti si fermeranno per tirare i dadi e vedere cosa succede. L’esito è sempre carico di tensione ed euforia, a prescindere dal risultato dei dadi.
 
-Tu e i tuoi amici siete quegli eroi.
-Voi andate dove gli altri non possono o non vogliono.
-Ci sono cose mostruose che si aggirano per il mondo.
-Siete pronti ad affrontarle?
+## Perché giocare a DW?
 
-## Perché?
-Perché giocare a Dungeon World?
+* **Per vedere i personaggi fare cose straordinarie.** Per vederli esplorare l’inesplorato, uccidere ciò che non vuole essere ucciso, e andare dalle più profonde viscere della terra alle più alte vette del cielo. Per vederli coinvolti in eventi epocali e in magnifiche tragedie.
 
-* Primo, **per vedere i personaggi fare cose straordinarie**. Per vederli esplorare l’inesplorato, uccidere ciò che non vuole morire, e andare dalle più profonde viscere della terra alle più alte vette del cielo. Per vederli coinvolti in eventi epocali e in magnifiche tragedie.
+* **Per vederli lottare per stare insieme.** Fare gruppo nonostante le differenze, restare uniti contro i nemici, ma anche litigare sul tesoro, discutere i piani di battaglia, e festeggiare una vittoria conquistata con fatica e sudore.
 
-* Secondo, **per vederli lottare per stare insieme**. Raccogliersi in un gruppo nonostante le differenze e restare uniti contro i nemici, litigare sul tesoro, discutere i piani di battaglia, e unirsi nel meritato festeggiamento di una vittoria conquistata con fatica e sudore.
+* **Perché il mondo ha ancora tantissimi luoghi da esplorare**. Ci sono tombe non saccheggiate e tesori di antichi draghi sparsi per tutto il mondo, pronti per essere scoperti da avventurieri forti, arguti e veloci. Giocate per trovarli e vedere come cambieranno la vita dei vostri personaggi.
 
-* Terzo, **perché il mondo ha ancora tantissimi luoghi da esplorare**. Ci sono tombe non saccheggiate e tesori draconici che punteggiano la campagna pronti per essere scoperti da avventurieri dalle dita svelte e dalle braccia forti. Gioca per vedere che cosa sono e come cambieranno la vita dei tuoi personaggi.
+## Come usare questo sito
+Questo sito è una raccolta di regole per giocare a Dungeon World. Potete trovare tutte le regole in inglese sul sito ufficiale, e in italiano sul [sito in italiano](dungeonworld.it), a cui questa raccolta deve molto.
 
-## Come Usare Questo Sito
-Questo libro ti insegnerà a giocare a Dungeon World. Se hai intenzione di essere il GM, dovrai leggerlo tutto, anche se puoi semplicemente sfogliare le pagine dei mostri e leggere il capitolo Avventure Avanzate più tardi, quando ne avrai bisogno. Stampa gli aiuti di gioco, ti aiuteranno a vedere a colpo d’occhio le cose più importanti. Se sei un giocatore, dovrai leggere soltanto Come Giocare: la maggior parte delle regole che ti troverai a usare saranno scritte nella scheda personaggio che usi mentre giochi. Tornerai a leggere il libro occasionalmente per fare riferimento ad alcune regole, ma dovrebbe essere un evento raro.
+Se hai intenzione di essere il GM, dovrai leggere tutte le regole e capire il senso del gioco, potrebbe bastare questo sito, ma ti avviso che taglia corto su vari argomenti. Stampa gli aiuti di gioco, ti aiuteranno a vedere a colpo d’occhio le cose più importanti.
+
+Se sei un giocatore dovrai leggere le pagine *Come Giocare*, *Danni e Morte*, nella sezione *Regole* e e la sezione *Personaggi*. La maggior parte delle regole di cui avrai bisogno sono scritte sulla scheda personaggio.
 
 ## Preparazione
-Per giocare a Dungeon World, basti tu e altri 2–5 amici. Insomma, un gruppo da 4 a 6 persone, incluso te, è la scelta migliore. Scegliete una persona che dovrà essere il Game Master (GM). Tutti gli altri saranno i giocatori e interpreteranno il ruolo dei personaggi principali del gioco (li chiameremo Personaggi Giocanti o PG). Durante il gioco, i giocatori dicono quello che i loro personaggi dicono, pensano e fanno. Il GM descrive tutto il resto di ciò che accade nel mondo.
+Idealmente un gruppo da 4 a 6 persone, incluso il Game Master (GM). Potete giocare una sola sessione o concatenarne per formare una campagna.
 
-Puoi giocare una sola sessione o concatenare più sessioni in una campagna. Organizzati in modo adeguato se vuoi giocare una campagna, magari scegliendo una sera a settimana per giocare. Ogni sessione solitamente dura qualche ora e sarete in grado di giocare già dalla prima sessione senza problemi.
+Prima di iniziare a giocare abbiate a portata di mano (almeno):
 
-Dovrai stampare alcune cose. Prima di iniziare a giocare, trova o stampa almeno:
-
-* Qualche copia delle mosse basilari e di quelle speciali
+* Qualche copia delle [mosse basilari](./pgs/mosse_pg.md) e di quelle [speciali](./pgs/mosse_pg/#mosse-speciali).
 * Una copia della scheda di ciascuna classe.
-* Una copia delle schede degli incantesimi del Mago e del Chierico
-* Una copia della scheda avventura e delle mosse del GM
+* Una copia delle schede degli incantesimi del Mago e del Chierico.
+* Una copia della scheda avventura e delle mosse del GM.
 * Materiali vari come penne, matite, carta per mappe e appunti e al massimo qualche foglietto bianco.
-
-Ciascuna persona al tavolo avrà bisogno di uno strumento per scrivere e di qualche dado a sei facce. Due dadi è il minimo ma è meglio averne due per giocatore.
-
-Avrai anche bisogno di alcuni dadi speciali: a quattro facce, a otto facce, a dieci facce e a dodici facce. Uno di ciascuno solitamente basta ma è meglio averne di più: non dovrete passarveli ogni volta che servono.
-
-## Com’è Giocare a Dungeon World?
-Giocare a Dungeon World significa scoprire che cosa succede quando i tuoi personaggi incontrano mostri pericolosi ed emozionanti, strane rovine e persone inconsuete durante la loro ricerca di oro e ricchezza. È una conversazione tra i giocatori e il GM: il GM dice ai giocatori ciò che vedono e sentono nel mondo attorno a loro e i giocatori dicono quello che i loro personaggi pensano, fanno e le emozioni che provano. A volte queste descrizioni attiveranno una mossa, nel qual caso tutti si fermeranno per tirare i dadi e vedere cosa succede. Per un momento tutti trattengono il fiato, osservando i dadi che rotolano e si fermano. L’esito è sempre carico di tensione ed euforia, a prescindere dal risultato dei dadi.
-
-Mentre giochi i tuoi personaggi cambieranno a seguito delle loro avventure e diventeranno più esperti mentre imparano cose nuove sul mondo, sconfiggono mostri e raccolgono ricchezze. Scoprirai che cosa provano l’uno per l’altro e dove punta la loro bussola morale. Quando accumuleranno abbastanza esperienza otterrano dei livelli, che li renderanno più potenti e li doteranno di nuove opzioni tra cui scegliere.
-
-Puoi giocare a Dungeon World con lo stesso gruppo, sessione per sessione, lungo una serie concatenata di avventure, mentre guardi i tuoi personaggi cambiare e crescere insieme. Puoi giocarlo in una sola sessione, come gioco autocontenuto. Che sia una lunga campagna o una partita singola, le regole di Dungeon World sono qui per guidarti e aiutarti a creare un mondo di avventura fantasy. È ora di andare là fuori a esplorare!
+* Due dadi a 6 facce, meglio se a testa.
+* Altri dadi poliedrici (d4, d8, d10, d12)

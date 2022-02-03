@@ -23,14 +23,16 @@ repo_url: https://github.com/mazzaf01/Italian-Dungeon-World
 edit_uri: ""
 
 nav:
+  - Benvenuto:
+    - Dungeon World: index.md
   - Regole:
-    - Come giocare: gioco/come_giocare.md
-    - Danni e morte: gioco/danni.md
-    - Magia: gioco/magia.md
-    - Gregari: gioco/gregari.md
-    - La Vita da Avventuriero: gioco/vita_da_avventuriero.md
-    - Equipaggiamento: gioco/equipaggiamento.md
-    - Oggetti magici: gioco/oggetti_magici.md
+    - Come giocare: regole/come_giocare.md
+    - Danni e morte: regole/danni.md
+    - Magia: regole/magia.md
+    - Gregari: regole/gregari.md
+    - La Vita da Avventuriero: regole/vita_da_avventuriero.md
+    - Equipaggiamento: regole/equipaggiamento.md
+    - Oggetti magici: regole/oggetti_magici.md
   - Game Master:
     - Introduzione al Ruolo: gm/intro.md
     - Mosse del GM: gm/mosse_gm.md
@@ -38,7 +40,7 @@ nav:
     - Affronare la Prima Sessione: gm/prima_sessione.md
     - Gestire i Fronti: gm/fronti.md
     - Il Mondo: gm/mondo.md
-  - Personaggi:
+  - Giocatori:
     - Creazione del Personaggio: pgs/creazione.md
     - Allineamento: pgs/allineamento.md
     - Evoluzione: pgs/evoluzione.md
